@@ -49,7 +49,7 @@ def parse_args():
     parser.add_argument(
         "--source",
         type=str,
-        default="./assets/in_video.mp4",
+        default="./assets/855564-hd_1920_1080_24fps.mp4",
         help="Video file or video camera source. i.e 0 - webcam"
     )
     parser.add_argument(
@@ -159,7 +159,9 @@ def main(params):
     targets = build_targets(detector, recognizer, params)
     colors = {name: (random.randint(0, 256), random.randint(0, 256), random.randint(0, 256)) for _, name in targets}
 
-    cap = cv2.VideoCapture(params.source)
+    # cap = cv2.VideoCapture(params.source)
+    cap = cv2.VideoCapture(0)
+
     if not cap.isOpened():
         raise Exception("Could not open video or webcam")
 
@@ -167,7 +169,7 @@ def main(params):
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fps = cap.get(cv2.CAP_PROP_FPS)
 
-    out = cv2.VideoWriter("output_video.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, (width, height))
+    out = cv2.VideoWriter("855564-hd_1920_1080_24fps.mp4", cv2.VideoWriter_fourcc(*"mp4v"), fps, (width, height))
 
     while True:
         ret, frame = cap.read()

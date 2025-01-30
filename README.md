@@ -8,14 +8,6 @@
 
 This repository implements face re-identification using SCRFD for face detection and ArcFace for face recognition. It supports inference from webcam or video sources.
 
-## Features (Updated on: 2024.07.29)
-
-- [x] Smaller versions of SCFRD face detection model has been added
-- [x] **Face Detection**: Utilizes [Sample and Computation Redistribution for Efficient Face Detection](https://arxiv.org/abs/2105.04714) (SCRFD) for efficient and accurate face detection. (Updated on: 2024.07.29)
-  - Added models: SCRFD 500M (2.41 MB), SCRFD 2.5G (3.14 MB)
-- [x] **Face Recognition**: Employs [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698) for robust face recognition. (Updated on: 2024.07.29)
-  - Added models: ArcFace MobileFace (12.99 MB)
-- [x] **Real-Time Inference**: Supports both webcam and video file input for real-time processing.
 
 Project folder structure:
 

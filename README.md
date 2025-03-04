@@ -37,9 +37,8 @@ Project folder structure:
 ## Installation
 
 1. Clone the repository:
-
+https://github.com/Kumar2421/scrfd_arcface_facerecognition/edit/main
 ```bash
-git clone https://github.com/yakyo/face-reidentification.git
 cd face-reidentification
 ```
 

@@ -1,0 +1,2964 @@
+{
+  "job_id": "951a8d2a-d54a-4dee-9de2-8b89c16bd573",
+  "status": "finished",
+  "timestamp": "2025-10-09T09:31:15.915729Z",
+  "total_processed": 128,
+  "total_groups": 128,
+  "results": {
+    "processed": 128,
+    "recognized": 49,
+    "new_persons": 79,
+    "no_faces": 20,
+    "low_quality": 0,
+    "download_failed": 0,
+    "duplicate_faces": 1,
+    "low_similarity": 0
+  },
+  "message": "Processing completed. Created 128 groups from 128 images",
+  "groups": [
+    {
+      "group_id": "visitor-133347",
+      "person_id": 1900,
+      "person_name": "Person_visitor-133347_1760002265",
+      "timestamp": "2025-09-26T02:34:07.442Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "0d89e368-1a6a-4ed3-8b4b-da8108763413-9262025-80438AM.jpg",
+      "age": 27,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334679,
+          "customer_id": "visitor-133347",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0d89e368-1a6a-4ed3-8b4b-da8108763413-9262025-80438AM.jpg",
+          "entry_time": "2025-09-26T02:34:07.442Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110472",
+      "person_id": 1902,
+      "person_name": "Person_visitor-110472_1760002265",
+      "timestamp": "2025-09-26T02:32:50.703Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "3fe822b1-5b6e-498c-98a7-388e9edb3e64-9262025-80258AM.jpg",
+      "age": 41,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334676,
+          "customer_id": "visitor-110472",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3fe822b1-5b6e-498c-98a7-388e9edb3e64-9262025-80258AM.jpg",
+          "entry_time": "2025-09-26T02:32:50.703Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-109984",
+      "person_id": 1901,
+      "person_name": "Person_visitor-109984_1760002265",
+      "timestamp": "2025-09-26T03:04:40.389Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "fcdfb304-effe-4e2d-85e2-75ef5cc49814-9262025-83446AM.jpg",
+      "age": 56,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334765,
+          "customer_id": "visitor-109984",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/fcdfb304-effe-4e2d-85e2-75ef5cc49814-9262025-83446AM.jpg",
+          "entry_time": "2025-09-26T03:04:40.389Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110641",
+      "person_id": 1903,
+      "person_name": "Person_visitor-110641_1760002265",
+      "timestamp": "2025-09-26T02:56:30.741Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "896c49da-98b9-4263-9349-851cc11efd0d-9262025-82638AM.jpg",
+      "age": 16,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334704,
+          "customer_id": "visitor-110641",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/896c49da-98b9-4263-9349-851cc11efd0d-9262025-82638AM.jpg",
+          "entry_time": "2025-09-26T02:56:30.741Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-128665",
+      "person_id": 1900,
+      "person_name": "Person_visitor-133347_1760002265",
+      "timestamp": "2025-09-26T02:56:07.421Z",
+      "group_score": 0.592,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "cc593e49-9362-4f58-95db-fb8f212f4a2a-9262025-82615AM.jpg",
+      "age": 64,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334701,
+          "customer_id": "visitor-128665",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/cc593e49-9362-4f58-95db-fb8f212f4a2a-9262025-82615AM.jpg",
+          "entry_time": "2025-09-26T02:56:07.421Z",
+          "similarity": 0.5922858715057373
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133254",
+      "person_id": 1900,
+      "person_name": "Person_visitor-133347_1760002265",
+      "timestamp": "2025-09-26T02:34:03.448Z",
+      "group_score": 0.767,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "107df347-fe59-41db-8224-f35b11e38555-9262025-80412AM.jpg",
+      "age": 36,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334677,
+          "customer_id": "visitor-133254",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/17fa6c40-0c83-4757-a705-548f4317eb0a-9262025-80411AM.jpg",
+          "entry_time": "2025-09-26T02:34:03.448Z",
+          "similarity": 0.7665737867355347
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-119323",
+      "person_id": 1900,
+      "person_name": "Person_visitor-133347_1760002265",
+      "timestamp": "2025-09-26T02:34:18.514Z",
+      "group_score": 0.632,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "2cb0bde6-8f0b-4670-bc2e-ce086361e12d-9262025-80450AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334680,
+          "customer_id": "visitor-119323",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2cb0bde6-8f0b-4670-bc2e-ce086361e12d-9262025-80450AM.jpg",
+          "entry_time": "2025-09-26T02:34:18.514Z",
+          "similarity": 0.6318860054016113
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-123888",
+      "person_id": 1904,
+      "person_name": "Person_visitor-123888_1760002266",
+      "timestamp": "2025-09-26T03:02:00.000Z",
+      "group_score": 0.144,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "bd89c1fd-3d55-4795-b3d7-79ea7216bf24-9262025-83210AM.jpg",
+      "age": 40,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334758,
+          "customer_id": "visitor-123888",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/412b7eba-2ad8-4273-aaed-5d40d6d9e9b9-9262025-83214AM.jpg",
+          "entry_time": "2025-09-26T03:02:00.000Z",
+          "similarity": 0.14408111572265625
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-113074",
+      "person_id": 1901,
+      "person_name": "Person_visitor-109984_1760002265",
+      "timestamp": "2025-09-26T03:23:34.295Z",
+      "group_score": 0.581,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "89607dcf-71ce-468d-ad17-8ff3fd620425-9262025-85339AM.jpg",
+      "age": 24,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334800,
+          "customer_id": "visitor-113074",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/89607dcf-71ce-468d-ad17-8ff3fd620425-9262025-85339AM.jpg",
+          "entry_time": "2025-09-26T03:23:34.295Z",
+          "similarity": 0.5808216333389282
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117950",
+      "person_id": 1905,
+      "person_name": "Person_visitor-117950_1760002266",
+      "timestamp": "2025-09-26T02:37:41.089Z",
+      "group_score": 0.146,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "5d8c6c1c-390f-4537-b611-a1286f4d1d7a-9262025-80747AM.jpg",
+      "age": 62,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334688,
+          "customer_id": "visitor-117950",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5d8c6c1c-390f-4537-b611-a1286f4d1d7a-9262025-80747AM.jpg",
+          "entry_time": "2025-09-26T02:37:41.089Z",
+          "similarity": 0.14612440764904022
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-130471",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T02:58:52.035Z",
+      "group_score": 0.125,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "66639d1b-c33f-49bc-83cf-6a3bec624881-9262025-82858AM.jpg",
+      "age": 77,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334717,
+          "customer_id": "visitor-130471",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/66639d1b-c33f-49bc-83cf-6a3bec624881-9262025-82858AM.jpg",
+          "entry_time": "2025-09-26T02:58:52.035Z",
+          "similarity": 0.1245642751455307
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-123543",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T03:01:48.250Z",
+      "group_score": 0.536,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "6ccc2bc3-63b5-40c8-b18f-dd7befb796f8-9262025-83157AM.jpg",
+      "age": 25,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334754,
+          "customer_id": "visitor-123543",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6ccc2bc3-63b5-40c8-b18f-dd7befb796f8-9262025-83157AM.jpg",
+          "entry_time": "2025-09-26T03:01:48.250Z",
+          "similarity": 0.5356507301330566
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-116290",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T03:01:52.328Z",
+      "group_score": 0.615,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "a2c56d12-6939-4ae9-a168-d567b6838ea4-9262025-83200AM.jpg",
+      "age": 37,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334755,
+          "customer_id": "visitor-116290",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a2c56d12-6939-4ae9-a168-d567b6838ea4-9262025-83200AM.jpg",
+          "entry_time": "2025-09-26T03:01:52.328Z",
+          "similarity": 0.6152024269104004
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-120600",
+      "person_id": 1907,
+      "person_name": "Person_visitor-120600_1760002266",
+      "timestamp": "2025-09-26T03:13:47.924Z",
+      "group_score": 0.233,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "8613017b-3a56-404e-b553-8eb53a451d4f-9262025-84353AM.jpg",
+      "age": 25,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334778,
+          "customer_id": "visitor-120600",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9532635a-fd1e-4261-921e-b9146516fc78-9262025-84353AM.jpg",
+          "entry_time": "2025-09-26T03:13:47.924Z",
+          "similarity": 0.23257988691329956
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117378",
+      "person_id": 1908,
+      "person_name": "Person_visitor-117378_1760002266",
+      "timestamp": "2025-09-26T02:37:13.814Z",
+      "group_score": 0.463,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "d65f5bbb-a0b8-4383-8a94-2ef831a32337-9262025-80720AM.jpg",
+      "age": 41,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334686,
+          "customer_id": "visitor-117378",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d65f5bbb-a0b8-4383-8a94-2ef831a32337-9262025-80720AM.jpg",
+          "entry_time": "2025-09-26T02:37:13.814Z",
+          "similarity": 0.46335721015930176
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133725",
+      "person_id": 1900,
+      "person_name": "Person_visitor-133347_1760002265",
+      "timestamp": "2025-09-26T02:35:01.570Z",
+      "group_score": 0.771,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "e1085451-50c0-4228-9609-35e9541cc901-9262025-80507AM.jpg",
+      "age": 26,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334681,
+          "customer_id": "visitor-133725",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e1085451-50c0-4228-9609-35e9541cc901-9262025-80507AM.jpg",
+          "entry_time": "2025-09-26T02:35:01.570Z",
+          "similarity": 0.7714930176734924
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110453",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T02:37:14.548Z",
+      "group_score": 0.631,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "b3bbe73e-7f9b-4bd2-a30c-8f12d29d063a-9262025-80720AM.jpg",
+      "age": 32,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334687,
+          "customer_id": "visitor-110453",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b3bbe73e-7f9b-4bd2-a30c-8f12d29d063a-9262025-80720AM.jpg",
+          "entry_time": "2025-09-26T02:37:14.548Z",
+          "similarity": 0.6312994956970215
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133804",
+      "person_id": 1909,
+      "person_name": "Person_visitor-133804_1760002267",
+      "timestamp": "2025-09-26T02:35:50.942Z",
+      "group_score": 0.224,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "002f6845-1f70-4c24-a145-2093321d9efe-9262025-80601AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334683,
+          "customer_id": "visitor-133804",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/002f6845-1f70-4c24-a145-2093321d9efe-9262025-80601AM.jpg",
+          "entry_time": "2025-09-26T02:35:50.942Z",
+          "similarity": 0.22378131747245789
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133893",
+      "person_id": 1910,
+      "person_name": "Person_visitor-133893_1760002267",
+      "timestamp": "2025-09-26T03:34:31.344Z",
+      "group_score": 0.25,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "c6e38ff7-eba4-45cd-a9bf-42d321cf6804-9262025-90443AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334834,
+          "customer_id": "visitor-133893",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c6e38ff7-eba4-45cd-a9bf-42d321cf6804-9262025-90443AM.jpg",
+          "entry_time": "2025-09-26T03:34:31.344Z",
+          "similarity": 0.25043243169784546
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-115556",
+      "person_id": 1905,
+      "person_name": "Person_visitor-117950_1760002266",
+      "timestamp": "2025-09-26T02:50:37.003Z",
+      "group_score": 0.538,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "666bdc9b-868d-4cd8-be89-4f09ffaacdb2-9262025-82042AM.jpg",
+      "age": 49,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334695,
+          "customer_id": "visitor-115556",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/666bdc9b-868d-4cd8-be89-4f09ffaacdb2-9262025-82042AM.jpg",
+          "entry_time": "2025-09-26T02:50:37.003Z",
+          "similarity": 0.5384581089019775
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-113871",
+      "person_id": 1905,
+      "person_name": "Person_visitor-117950_1760002266",
+      "timestamp": "2025-09-26T03:36:13.175Z",
+      "group_score": 0.57,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "e218b088-7c8d-4f4a-a6f5-3b1df270d117-9262025-90623AM.jpg",
+      "age": 35,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334833,
+          "customer_id": "visitor-113871",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e218b088-7c8d-4f4a-a6f5-3b1df270d117-9262025-90623AM.jpg",
+          "entry_time": "2025-09-26T03:36:13.175Z",
+          "similarity": 0.5704039335250854
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-115337",
+      "person_id": 1911,
+      "person_name": "Person_visitor-115337_1760002267",
+      "timestamp": "2025-09-26T03:31:20.732Z",
+      "group_score": 0.262,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "40f97a4f-ec5e-4ac6-a2ea-b402ba3540e5-9262025-90128AM.jpg",
+      "age": 48,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334819,
+          "customer_id": "visitor-115337",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c8b25f0a-359e-4196-8528-103f18ec8293-9262025-90140AM.jpg",
+          "entry_time": "2025-09-26T03:31:20.732Z",
+          "similarity": 0.26176175475120544
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-131155",
+      "person_id": 1905,
+      "person_name": "Person_visitor-117950_1760002266",
+      "timestamp": "2025-09-26T03:36:12.139Z",
+      "group_score": 0.663,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "5f2fe9e5-8dd0-4cbc-ae78-7f6ac119a88f-9262025-90620AM.jpg",
+      "age": 24,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334831,
+          "customer_id": "visitor-131155",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0fbc33a6-99bd-42c9-a7b2-b6d0b6bcc19e-9262025-90618AM.jpg",
+          "entry_time": "2025-09-26T03:36:12.139Z",
+          "similarity": 0.6626266241073608
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133876",
+      "person_id": 1912,
+      "person_name": "Person_visitor-133876_1760002267",
+      "timestamp": "2025-09-26T03:36:13.175Z",
+      "group_score": 0.27,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "71caf359-1359-4416-ac06-70a9b1a80025-9262025-90624AM.jpg",
+      "age": 33,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334832,
+          "customer_id": "visitor-133876",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/71caf359-1359-4416-ac06-70a9b1a80025-9262025-90624AM.jpg",
+          "entry_time": "2025-09-26T03:36:13.175Z",
+          "similarity": 0.26953035593032837
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-121623",
+      "person_id": 1913,
+      "person_name": "Person_visitor-121623_1760002267",
+      "timestamp": "2025-09-26T03:34:54.924Z",
+      "group_score": 0.46,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "af8afca7-c1a1-4a8c-9066-0f3e9902c724-9262025-90500AM.jpg",
+      "age": 28,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334830,
+          "customer_id": "visitor-121623",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/af8afca7-c1a1-4a8c-9066-0f3e9902c724-9262025-90500AM.jpg",
+          "entry_time": "2025-09-26T03:34:54.924Z",
+          "similarity": 0.4599623680114746
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-131343",
+      "person_id": 1910,
+      "person_name": "Person_visitor-133893_1760002267",
+      "timestamp": "2025-09-26T03:34:55.495Z",
+      "group_score": 0.502,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "8f946282-25fb-4f29-8da5-2a63a73f3ca6-9262025-90502AM.jpg",
+      "age": 17,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334829,
+          "customer_id": "visitor-131343",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8f946282-25fb-4f29-8da5-2a63a73f3ca6-9262025-90502AM.jpg",
+          "entry_time": "2025-09-26T03:34:55.495Z",
+          "similarity": 0.5024417638778687
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-121628",
+      "person_id": 1914,
+      "person_name": "Person_visitor-121628_1760002267",
+      "timestamp": "2025-09-26T03:16:11.143Z",
+      "group_score": 0.406,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "08e55fad-22c4-4ab7-a73d-10d8912c8480-9262025-84617AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334782,
+          "customer_id": "visitor-121628",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/08e55fad-22c4-4ab7-a73d-10d8912c8480-9262025-84617AM.jpg",
+          "entry_time": "2025-09-26T03:16:11.143Z",
+          "similarity": 0.40618133544921875
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110462",
+      "person_id": 1915,
+      "person_name": "Person_visitor-110462_1760002267",
+      "timestamp": "2025-09-26T03:34:34.482Z",
+      "group_score": 0.164,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "0aeb8389-1638-42c7-98de-de59c7f58831-9262025-90443AM.jpg",
+      "age": 32,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334751,
+          "customer_id": "visitor-110462",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/67de7610-2f7b-4844-840b-8c9bb075cfee-9262025-83150AM.jpg",
+          "entry_time": "2025-09-26T03:34:34.482Z",
+          "similarity": 0.16404248774051666
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-132512",
+      "person_id": 1916,
+      "person_name": "Person_visitor-132512_1760002267",
+      "timestamp": "2025-09-26T03:34:38.644Z",
+      "group_score": 0.203,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "2bbc018b-d45d-4686-92c9-f1ce51b0213a-9262025-90445AM.jpg",
+      "age": 22,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334737,
+          "customer_id": "visitor-132512",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/948255b0-5aba-46c2-a5e2-d785664f3b48-9262025-83026AM.jpg",
+          "entry_time": "2025-09-26T03:34:38.644Z",
+          "similarity": 0.20314426720142365
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-124338",
+      "person_id": 1916,
+      "person_name": "Person_visitor-132512_1760002267",
+      "timestamp": "2025-09-26T03:33:35.940Z",
+      "group_score": 0.573,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "be1250fe-b078-4169-8f51-55760ed0c82b-9262025-90342AM.jpg",
+      "age": 25,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334825,
+          "customer_id": "visitor-124338",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/be1250fe-b078-4169-8f51-55760ed0c82b-9262025-90342AM.jpg",
+          "entry_time": "2025-09-26T03:33:35.940Z",
+          "similarity": 0.5727335214614868
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117296",
+      "person_id": 1909,
+      "person_name": "Person_visitor-133804_1760002267",
+      "timestamp": "2025-09-26T03:30:58.272Z",
+      "group_score": 0.692,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "5c1897e8-28e7-4138-8c18-58a49a8cf27c-9262025-90105AM.jpg",
+      "age": 27,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334817,
+          "customer_id": "visitor-117296",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5c1897e8-28e7-4138-8c18-58a49a8cf27c-9262025-90105AM.jpg",
+          "entry_time": "2025-09-26T03:30:58.272Z",
+          "similarity": 0.6921961307525635
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133460",
+      "person_id": 1917,
+      "person_name": "Person_visitor-133460_1760002267",
+      "timestamp": "2025-09-26T03:17:33.375Z",
+      "group_score": 0.25,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "26dd2eab-6fb0-489c-ac40-a2cfa9d10eae-9262025-84800AM.jpg",
+      "age": 39,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334787,
+          "customer_id": "visitor-133460",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/26dd2eab-6fb0-489c-ac40-a2cfa9d10eae-9262025-84800AM.jpg",
+          "entry_time": "2025-09-26T03:17:33.375Z",
+          "similarity": 0.24969448149204254
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-122027",
+      "person_id": 1918,
+      "person_name": "Person_visitor-122027_1760002267",
+      "timestamp": "2025-09-26T03:32:47.302Z",
+      "group_score": 0.465,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "06b196c3-7005-4570-b2c8-cf0f15c2799b-9262025-90257AM.jpg",
+      "age": 26,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334822,
+          "customer_id": "visitor-122027",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/06b196c3-7005-4570-b2c8-cf0f15c2799b-9262025-90257AM.jpg",
+          "entry_time": "2025-09-26T03:32:47.302Z",
+          "similarity": 0.4652070701122284
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117249",
+      "person_id": 1901,
+      "person_name": "Person_visitor-109984_1760002265",
+      "timestamp": "2025-09-26T02:57:07.100Z",
+      "group_score": 0.585,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "d27e1396-2c92-489d-8f99-4aa8778ae0da-9262025-82712AM.jpg",
+      "age": 40,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334707,
+          "customer_id": "visitor-117249",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d27e1396-2c92-489d-8f99-4aa8778ae0da-9262025-82712AM.jpg",
+          "entry_time": "2025-09-26T02:57:07.100Z",
+          "similarity": 0.5847227573394775
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-115920",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T02:58:52.650Z",
+      "group_score": 0.739,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "766346d2-52fd-495b-83ed-808468990f8e-9262025-82900AM.jpg",
+      "age": 26,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334719,
+          "customer_id": "visitor-115920",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/766346d2-52fd-495b-83ed-808468990f8e-9262025-82900AM.jpg",
+          "entry_time": "2025-09-26T02:58:52.650Z",
+          "similarity": 0.7391631603240967
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110505",
+      "person_id": 1919,
+      "person_name": "Person_visitor-110505_1760002268",
+      "timestamp": "2025-09-26T02:44:48.321Z",
+      "group_score": 0.217,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "5166d343-d2d7-4c9c-8a0a-84da42c6aa8e-9262025-81453AM.jpg",
+      "age": 34,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334691,
+          "customer_id": "visitor-110505",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/83da8d66-967c-4f29-b845-8cf1871166c5-9262025-81454AM.jpg",
+          "entry_time": "2025-09-26T02:44:48.321Z",
+          "similarity": 0.21703338623046875
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-113125",
+      "person_id": 1911,
+      "person_name": "Person_visitor-115337_1760002267",
+      "timestamp": "2025-09-26T03:31:31.113Z",
+      "group_score": 0.878,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "a0735bec-a271-4ac9-93d8-bec38d3fdf06-9262025-90140AM.jpg",
+      "age": 61,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334820,
+          "customer_id": "visitor-113125",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a0735bec-a271-4ac9-93d8-bec38d3fdf06-9262025-90140AM.jpg",
+          "entry_time": "2025-09-26T03:31:31.113Z",
+          "similarity": 0.8783555030822754
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-112847",
+      "person_id": 1920,
+      "person_name": "Person_visitor-112847_1760002268",
+      "timestamp": "2025-09-26T03:31:15.604Z",
+      "group_score": 0.234,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "4ebc61be-94f2-4933-b176-82aadde2c9e2-9262025-90124AM.jpg",
+      "age": 28,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334818,
+          "customer_id": "visitor-112847",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4ebc61be-94f2-4933-b176-82aadde2c9e2-9262025-90124AM.jpg",
+          "entry_time": "2025-09-26T03:31:15.604Z",
+          "similarity": 0.23444928228855133
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117712",
+      "person_id": 1921,
+      "person_name": "Person_visitor-117712_1760002268",
+      "timestamp": "2025-09-26T03:30:48.251Z",
+      "group_score": 0.154,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "f700746b-90a5-4093-88d0-63ff22ee2198-9262025-90055AM.jpg",
+      "age": 37,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334815,
+          "customer_id": "visitor-117712",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f700746b-90a5-4093-88d0-63ff22ee2198-9262025-90055AM.jpg",
+          "entry_time": "2025-09-26T03:30:48.251Z",
+          "similarity": 0.1542818248271942
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110476",
+      "person_id": 1922,
+      "person_name": "Person_visitor-110476_1760002268",
+      "timestamp": "2025-09-26T02:59:15.799Z",
+      "group_score": 0.21,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "31773c95-89ce-424a-8cc7-a8a4f0c1aeda-9262025-83024AM.jpg",
+      "age": 27,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334723,
+          "customer_id": "visitor-110476",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a9d45beb-2109-4e3e-b5a0-29611da2d7f7-9262025-82922AM.jpg",
+          "entry_time": "2025-09-26T02:59:15.799Z",
+          "similarity": 0.20980797708034515
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-120497",
+      "person_id": 1922,
+      "person_name": "Person_visitor-110476_1760002268",
+      "timestamp": "2025-09-26T03:20:12.358Z",
+      "group_score": 0.58,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "d961715d-7a57-4760-a5a5-ad0bfe3bc381-9262025-85018AM.jpg",
+      "age": 27,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334795,
+          "customer_id": "visitor-120497",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/22608e17-5a6d-435b-9ccb-9bed6348be51-9262025-85019AM.jpg",
+          "entry_time": "2025-09-26T03:20:12.358Z",
+          "similarity": 0.5795615911483765
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-125324",
+      "person_id": 1924,
+      "person_name": "Person_visitor-125324_1760002268",
+      "timestamp": "2025-09-26T03:27:22.372Z",
+      "group_score": 0.205,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "084e0520-a343-4938-b4e8-fb273bb2f088-9262025-85728AM.jpg",
+      "age": 36,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334809,
+          "customer_id": "visitor-125324",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/997fb802-a0f8-4898-8ce8-7b9317dacaea-9262025-85731AM.jpg",
+          "entry_time": "2025-09-26T03:27:22.372Z",
+          "similarity": 0.20455299317836761
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110492",
+      "person_id": 1923,
+      "person_name": "Person_visitor-110492_1760002268",
+      "timestamp": "2025-09-26T03:30:46.364Z",
+      "group_score": 0.133,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "c830258e-a455-425b-abc3-04ccca78c7c4-9262025-90053AM.jpg",
+      "age": 37,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334814,
+          "customer_id": "visitor-110492",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c830258e-a455-425b-abc3-04ccca78c7c4-9262025-90053AM.jpg",
+          "entry_time": "2025-09-26T03:30:46.364Z",
+          "similarity": 0.13329772651195526
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-129833",
+      "person_id": 1925,
+      "person_name": "Person_visitor-129833_1760002268",
+      "timestamp": "2025-09-26T03:28:02.925Z",
+      "group_score": 0.242,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "4c5f1c7d-b665-4f66-9c30-f31a3e2a205b-9262025-85810AM.jpg",
+      "age": 26,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334667,
+          "customer_id": "visitor-129833",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b2cc053f-29c9-4a9b-b9ef-4b64924a140d-9262025-75458AM.jpg",
+          "entry_time": "2025-09-26T03:28:02.925Z",
+          "similarity": 0.24186648428440094
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-132130",
+      "person_id": 1926,
+      "person_name": "Person_visitor-132130_1760002269",
+      "timestamp": "2025-09-26T03:28:20.142Z",
+      "group_score": 0.224,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "9d19a91a-dc8a-422f-ac61-6d6c749150a6-9262025-85825AM.jpg",
+      "age": 25,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334812,
+          "customer_id": "visitor-132130",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9d19a91a-dc8a-422f-ac61-6d6c749150a6-9262025-85825AM.jpg",
+          "entry_time": "2025-09-26T03:28:20.142Z",
+          "similarity": 0.22418679296970367
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110495",
+      "person_id": 1927,
+      "person_name": "Person_visitor-110495_1760002269",
+      "timestamp": "2025-09-26T02:56:37.829Z",
+      "group_score": 0.238,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "234ba44f-d803-4f9d-acd9-3f058c8b460a-9262025-82644AM.jpg",
+      "age": 24,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334705,
+          "customer_id": "visitor-110495",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/234ba44f-d803-4f9d-acd9-3f058c8b460a-9262025-82644AM.jpg",
+          "entry_time": "2025-09-26T02:56:37.829Z",
+          "similarity": 0.23791304230690002
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-115534",
+      "person_id": 1927,
+      "person_name": "Person_visitor-110495_1760002269",
+      "timestamp": "2025-09-26T03:27:54.864Z",
+      "group_score": 0.582,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "2e14dfa5-fa8f-4a40-89f5-f17287405cd7-9262025-85800AM.jpg",
+      "age": 23,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334811,
+          "customer_id": "visitor-115534",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2e14dfa5-fa8f-4a40-89f5-f17287405cd7-9262025-85800AM.jpg",
+          "entry_time": "2025-09-26T03:27:54.864Z",
+          "similarity": 0.5824893712997437
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-118584",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T03:17:58.319Z",
+      "group_score": 0.66,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "150bf8fe-780b-40b8-9105-a09f5f881ead-9262025-84806AM.jpg",
+      "age": 28,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334786,
+          "customer_id": "visitor-118584",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/150bf8fe-780b-40b8-9105-a09f5f881ead-9262025-84806AM.jpg",
+          "entry_time": "2025-09-26T03:17:58.319Z",
+          "similarity": 0.6597138047218323
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133642",
+      "person_id": 1928,
+      "person_name": "Person_visitor-133642_1760002269",
+      "timestamp": "2025-09-26T03:26:02.429Z",
+      "group_score": 0.204,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "d00fe6f0-300b-4a17-9325-e8205eb371a9-9262025-85613AM.jpg",
+      "age": 46,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334806,
+          "customer_id": "visitor-133642",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d00fe6f0-300b-4a17-9325-e8205eb371a9-9262025-85613AM.jpg",
+          "entry_time": "2025-09-26T03:26:02.429Z",
+          "similarity": 0.2041584551334381
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-127629",
+      "person_id": 1929,
+      "person_name": "Person_visitor-127629_1760002269",
+      "timestamp": "2025-09-26T03:27:02.245Z",
+      "group_score": 0.19,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "2243b40d-edbb-4266-8002-7d4f036b9e36-9262025-85708AM.jpg",
+      "age": 60,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334803,
+          "customer_id": "visitor-127629",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a230794c-8faa-4a95-969f-3be0f7a87ece-9262025-85513AM.jpg",
+          "entry_time": "2025-09-26T03:27:02.245Z",
+          "similarity": 0.18991249799728394
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-130245",
+      "person_id": 1924,
+      "person_name": "Person_visitor-125324_1760002268",
+      "timestamp": "2025-09-26T03:27:23.660Z",
+      "group_score": 0.82,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "d83e4b1d-c0f8-419d-a856-a529558d0a3b-9262025-85731AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334810,
+          "customer_id": "visitor-130245",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d83e4b1d-c0f8-419d-a856-a529558d0a3b-9262025-85731AM.jpg",
+          "entry_time": "2025-09-26T03:27:23.660Z",
+          "similarity": 0.8195367455482483
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-132235",
+      "person_id": 1928,
+      "person_name": "Person_visitor-133642_1760002269",
+      "timestamp": "2025-09-26T03:25:49.570Z",
+      "group_score": 0.763,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "1854e88f-fa21-4d33-bf94-b06fd35fea22-9262025-85619AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334807,
+          "customer_id": "visitor-132235",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/63fd723f-c8ac-4309-bd70-a7a58d451f20-9262025-85614AM.jpg",
+          "entry_time": "2025-09-26T03:25:49.570Z",
+          "similarity": 0.7625864744186401
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-111601",
+      "person_id": 1915,
+      "person_name": "Person_visitor-110462_1760002267",
+      "timestamp": "2025-09-26T03:01:41.644Z",
+      "group_score": 0.678,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "abeae97b-266a-4072-987e-a4ef25dc1f73-9262025-83148AM.jpg",
+      "age": 25,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334750,
+          "customer_id": "visitor-111601",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3974dd4c-bdc8-4fc4-93be-3fc2290465c8-9262025-83148AM.jpg",
+          "entry_time": "2025-09-26T03:01:41.644Z",
+          "similarity": 0.6777765154838562
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-125669",
+      "person_id": 1915,
+      "person_name": "Person_visitor-110462_1760002267",
+      "timestamp": "2025-09-26T03:26:02.429Z",
+      "group_score": 0.651,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "7bb59dad-9099-40b0-a96b-3387491e31ab-9262025-85614AM.jpg",
+      "age": 36,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334808,
+          "customer_id": "visitor-125669",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7bb59dad-9099-40b0-a96b-3387491e31ab-9262025-85614AM.jpg",
+          "entry_time": "2025-09-26T03:26:02.429Z",
+          "similarity": 0.650597095489502
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-116539",
+      "person_id": 1929,
+      "person_name": "Person_visitor-127629_1760002269",
+      "timestamp": "2025-09-26T03:25:09.542Z",
+      "group_score": 0.571,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "c8271ee5-1162-4046-8dec-447797cb6cf7-9262025-85514AM.jpg",
+      "age": 50,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334804,
+          "customer_id": "visitor-116539",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c8271ee5-1162-4046-8dec-447797cb6cf7-9262025-85514AM.jpg",
+          "entry_time": "2025-09-26T03:25:09.542Z",
+          "similarity": 0.5705991983413696
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-114082",
+      "person_id": 1901,
+      "person_name": "Person_visitor-109984_1760002265",
+      "timestamp": "2025-09-26T02:56:12.175Z",
+      "group_score": 0.673,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "2cbadc15-a3fa-4573-8090-f46bfc8c6b92-9262025-82619AM.jpg",
+      "age": 40,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334702,
+          "customer_id": "visitor-114082",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2cbadc15-a3fa-4573-8090-f46bfc8c6b92-9262025-82619AM.jpg",
+          "entry_time": "2025-09-26T02:56:12.175Z",
+          "similarity": 0.6732856035232544
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110859",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T02:56:50.189Z",
+      "group_score": 0.657,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "bff64de1-56df-4f16-94a5-264e7d5830d2-9262025-82700AM.jpg",
+      "age": 54,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334706,
+          "customer_id": "visitor-110859",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/bff64de1-56df-4f16-94a5-264e7d5830d2-9262025-82700AM.jpg",
+          "entry_time": "2025-09-26T02:56:50.189Z",
+          "similarity": 0.6566305160522461
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-116384",
+      "person_id": 1930,
+      "person_name": "Person_visitor-116384_1760002269",
+      "timestamp": "2025-09-26T03:21:42.303Z",
+      "group_score": 0.269,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "e32744ed-6184-4a61-979c-76b507d001c7-9262025-85236AM.jpg",
+      "age": 23,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334799,
+          "customer_id": "visitor-116384",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d099148f-f13c-41ee-9809-060a60803942-9262025-85202AM.jpg",
+          "entry_time": "2025-09-26T03:21:42.303Z",
+          "similarity": 0.26935794949531555
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-111435",
+      "person_id": 1931,
+      "person_name": "Person_visitor-111435_1760002270",
+      "timestamp": "2025-09-26T03:19:09.033Z",
+      "group_score": 0.221,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "cc7bc233-2245-4b43-9873-12ac0c57e4b9-9262025-84916AM.jpg",
+      "age": 47,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334790,
+          "customer_id": "visitor-111435",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/cc7bc233-2245-4b43-9873-12ac0c57e4b9-9262025-84916AM.jpg",
+          "entry_time": "2025-09-26T03:19:09.033Z",
+          "similarity": 0.2209511697292328
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-111561",
+      "person_id": 1932,
+      "person_name": "Person_visitor-111561_1760002270",
+      "timestamp": "2025-09-26T03:20:50.093Z",
+      "group_score": 0.224,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "72d0d75c-5066-4247-bbb5-16fc39dcf782-9262025-85100AM.jpg",
+      "age": 30,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334720,
+          "customer_id": "visitor-111561",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e2cfcf8c-6c6c-42dc-bf36-d4e4b09cffd0-9262025-82921AM.jpg",
+          "entry_time": "2025-09-26T03:20:50.093Z",
+          "similarity": 0.2235160768032074
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-128315",
+      "person_id": 1933,
+      "person_name": "Person_visitor-128315_1760002270",
+      "timestamp": "2025-09-26T03:21:49.483Z",
+      "group_score": 0.285,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "951c22c5-2d87-4a5a-b778-1956d4563d58-9262025-85200AM.jpg",
+      "age": 35,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334798,
+          "customer_id": "visitor-128315",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/951c22c5-2d87-4a5a-b778-1956d4563d58-9262025-85200AM.jpg",
+          "entry_time": "2025-09-26T03:21:49.483Z",
+          "similarity": 0.28520137071609497
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-121625",
+      "person_id": 1934,
+      "person_name": "Person_visitor-121625_1760002270",
+      "timestamp": "2025-09-26T02:58:14.362Z",
+      "group_score": 0.454,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "d21a8568-1b03-4248-9b1f-7845013fafda-9262025-82820AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334712,
+          "customer_id": "visitor-121625",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d21a8568-1b03-4248-9b1f-7845013fafda-9262025-82820AM.jpg",
+          "entry_time": "2025-09-26T02:58:14.362Z",
+          "similarity": 0.4537387490272522
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-124987",
+      "person_id": 1932,
+      "person_name": "Person_visitor-111561_1760002270",
+      "timestamp": "2025-09-26T03:20:50.600Z",
+      "group_score": 0.553,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "987bf9aa-a238-4fca-a4bc-37d74e4f3426-9262025-85058AM.jpg",
+      "age": 33,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334756,
+          "customer_id": "visitor-124987",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/08d4a5bc-fa4a-4728-9397-053fd6df7dee-9262025-83201AM.jpg",
+          "entry_time": "2025-09-26T03:20:50.600Z",
+          "similarity": 0.553430438041687
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133150",
+      "person_id": 1914,
+      "person_name": "Person_visitor-121628_1760002267",
+      "timestamp": "2025-09-26T03:16:11.413Z",
+      "group_score": 0.831,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "70da9922-2755-41e2-8c9a-5b2cef0e5791-9262025-84616AM.jpg",
+      "age": 11,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334783,
+          "customer_id": "visitor-133150",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/70da9922-2755-41e2-8c9a-5b2cef0e5791-9262025-84616AM.jpg",
+          "entry_time": "2025-09-26T03:16:11.413Z",
+          "similarity": 0.8311522006988525
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133157",
+      "person_id": 1918,
+      "person_name": "Person_visitor-122027_1760002267",
+      "timestamp": "2025-09-26T03:20:16.623Z",
+      "group_score": 0.504,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "84924ed0-a41a-4efd-9cc3-7ec6129f604d-9262025-85026AM.jpg",
+      "age": 38,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334797,
+          "customer_id": "visitor-133157",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/84924ed0-a41a-4efd-9cc3-7ec6129f604d-9262025-85026AM.jpg",
+          "entry_time": "2025-09-26T03:20:16.623Z",
+          "similarity": 0.5037933588027954
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133177",
+      "person_id": 1931,
+      "person_name": "Person_visitor-111435_1760002270",
+      "timestamp": "2025-09-26T03:19:17.031Z",
+      "group_score": 0.892,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "03ab21c2-3964-4f03-8a7b-d193011dc3af-9262025-84944AM.jpg",
+      "age": 27,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334792,
+          "customer_id": "visitor-133177",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/03ab21c2-3964-4f03-8a7b-d193011dc3af-9262025-84944AM.jpg",
+          "entry_time": "2025-09-26T03:19:17.031Z",
+          "similarity": 0.8917883634567261
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-119702",
+      "person_id": 1935,
+      "person_name": "Person_visitor-119702_1760002270",
+      "timestamp": "2025-09-26T03:18:54.118Z",
+      "group_score": 0.2,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "25933093-5089-4e62-9a04-0ed861a74736-9262025-84859AM.jpg",
+      "age": 32,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334789,
+          "customer_id": "visitor-119702",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/25933093-5089-4e62-9a04-0ed861a74736-9262025-84859AM.jpg",
+          "entry_time": "2025-09-26T03:18:54.118Z",
+          "similarity": 0.20014092326164246
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110520",
+      "person_id": 1936,
+      "person_name": "Person_visitor-110520_1760002270",
+      "timestamp": "2025-09-26T02:41:45.055Z",
+      "group_score": 0.333,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "af1c3dea-be75-4c52-a7b0-6d282b196131-9262025-81150AM.jpg",
+      "age": 37,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334690,
+          "customer_id": "visitor-110520",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c91d4d93-7893-48e7-994f-74ce5e88f44d-9262025-81151AM.jpg",
+          "entry_time": "2025-09-26T02:41:45.055Z",
+          "similarity": 0.3328395187854767
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-123542",
+      "person_id": 1908,
+      "person_name": "Person_visitor-117378_1760002266",
+      "timestamp": "2025-09-26T03:14:30.850Z",
+      "group_score": 0.655,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "eee8e60f-ca90-4bcd-867c-f5350639d72c-9262025-84453AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334779,
+          "customer_id": "visitor-123542",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/eee8e60f-ca90-4bcd-867c-f5350639d72c-9262025-84453AM.jpg",
+          "entry_time": "2025-09-26T03:14:30.850Z",
+          "similarity": 0.6547849178314209
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-114299",
+      "person_id": 1937,
+      "person_name": "Person_visitor-114299_1760002271",
+      "timestamp": "2025-09-26T03:14:30.204Z",
+      "group_score": 0.442,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "791c1494-ec0a-4f94-807b-e24d75b25356-9262025-84437AM.jpg",
+      "age": 23,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334780,
+          "customer_id": "visitor-114299",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/791c1494-ec0a-4f94-807b-e24d75b25356-9262025-84437AM.jpg",
+          "entry_time": "2025-09-26T03:14:30.204Z",
+          "similarity": 0.44191694259643555
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-132179",
+      "person_id": 1938,
+      "person_name": "Person_visitor-132179_1760002271",
+      "timestamp": "2025-09-26T03:13:47.924Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "859be5a5-4951-456a-9e44-83c40802bcb6-9262025-84355AM.jpg",
+      "age": 47,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334777,
+          "customer_id": "visitor-132179",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/859be5a5-4951-456a-9e44-83c40802bcb6-9262025-84355AM.jpg",
+          "entry_time": "2025-09-26T03:13:47.924Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110718",
+      "person_id": 1939,
+      "person_name": "Person_visitor-110718_1760002271",
+      "timestamp": "2025-09-26T03:12:30.352Z",
+      "group_score": 0.112,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "adf2527d-18b5-43ea-b065-8a15fdc4d9b6-9262025-84235AM.jpg",
+      "age": 54,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334776,
+          "customer_id": "visitor-110718",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/adf2527d-18b5-43ea-b065-8a15fdc4d9b6-9262025-84235AM.jpg",
+          "entry_time": "2025-09-26T03:12:30.352Z",
+          "similarity": 0.11221358925104141
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110466",
+      "person_id": 1940,
+      "person_name": "Person_visitor-110466_1760002271",
+      "timestamp": "2025-09-26T02:59:55.529Z",
+      "group_score": 0.226,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "8f08e65b-1add-4ff3-ad6f-e1f0a43044b9-9262025-83003AM.jpg",
+      "age": 46,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334733,
+          "customer_id": "visitor-110466",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8f08e65b-1add-4ff3-ad6f-e1f0a43044b9-9262025-83003AM.jpg",
+          "entry_time": "2025-09-26T02:59:55.529Z",
+          "similarity": 0.22566241025924683
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-118519",
+      "person_id": 1941,
+      "person_name": "Person_visitor-118519_1760002271",
+      "timestamp": "2025-09-26T03:09:15.319Z",
+      "group_score": 0.204,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "3a6ea71d-bb28-43b4-ba0a-1637f498f4bf-9262025-83921AM.jpg",
+      "age": 48,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334772,
+          "customer_id": "visitor-118519",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3a6ea71d-bb28-43b4-ba0a-1637f498f4bf-9262025-83921AM.jpg",
+          "entry_time": "2025-09-26T03:09:15.319Z",
+          "similarity": 0.204458087682724
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133148",
+      "person_id": 1943,
+      "person_name": "Person_visitor-133148_1760002271",
+      "timestamp": "2025-09-26T03:08:57.273Z",
+      "group_score": 0.278,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "0187e8ea-5392-4fd0-8c76-99cef33d2ee8-9262025-83904AM.jpg",
+      "age": 38,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334770,
+          "customer_id": "visitor-133148",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0187e8ea-5392-4fd0-8c76-99cef33d2ee8-9262025-83904AM.jpg",
+          "entry_time": "2025-09-26T03:08:57.273Z",
+          "similarity": 0.2776378393173218
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-116085",
+      "person_id": 1942,
+      "person_name": "Person_visitor-116085_1760002271",
+      "timestamp": "2025-09-26T02:59:32.050Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "5035a1c1-0589-4c25-b9c4-0dbc01570fb1-9262025-82943AM.jpg",
+      "age": 22,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334729,
+          "customer_id": "visitor-116085",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5035a1c1-0589-4c25-b9c4-0dbc01570fb1-9262025-82943AM.jpg",
+          "entry_time": "2025-09-26T02:59:32.050Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-129317",
+      "person_id": 1944,
+      "person_name": "Person_visitor-129317_1760002271",
+      "timestamp": "2025-09-26T03:01:17.491Z",
+      "group_score": 0.19,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "ec7051e3-5529-49bb-a3f7-2b83b3bdb840-9262025-83129AM.jpg",
+      "age": 60,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334749,
+          "customer_id": "visitor-129317",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ec7051e3-5529-49bb-a3f7-2b83b3bdb840-9262025-83129AM.jpg",
+          "entry_time": "2025-09-26T03:01:17.491Z",
+          "similarity": 0.19045180082321167
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110479",
+      "person_id": 1944,
+      "person_name": "Person_visitor-129317_1760002271",
+      "timestamp": "2025-09-26T03:07:39.324Z",
+      "group_score": 0.732,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "127915eb-6585-445e-b676-7fe75e66c8d4-9262025-83750AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334747,
+          "customer_id": "visitor-110479",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dc465c17-317f-4343-a1cd-fa4138f22859-9262025-83128AM.jpg",
+          "entry_time": "2025-09-26T03:07:39.324Z",
+          "similarity": 0.73160320520401
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-128740",
+      "person_id": 1945,
+      "person_name": "Person_visitor-128740_1760002272",
+      "timestamp": "2025-09-26T03:08:12.871Z",
+      "group_score": 0.403,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "9780f549-da19-42cb-be13-a014bb3e2331-9262025-83816AM.jpg",
+      "age": 24,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334768,
+          "customer_id": "visitor-128740",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9780f549-da19-42cb-be13-a014bb3e2331-9262025-83816AM.jpg",
+          "entry_time": "2025-09-26T03:08:12.871Z",
+          "similarity": 0.40335381031036377
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110532",
+      "person_id": 1946,
+      "person_name": "Person_visitor-110532_1760002272",
+      "timestamp": "2025-09-26T03:06:14.283Z",
+      "group_score": 0.355,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "5f230e1a-7b67-4fac-a9d4-45e1e499f8d7-9262025-83623AM.jpg",
+      "age": 30,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334766,
+          "customer_id": "visitor-110532",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5f230e1a-7b67-4fac-a9d4-45e1e499f8d7-9262025-83623AM.jpg",
+          "entry_time": "2025-09-26T03:06:14.283Z",
+          "similarity": 0.3548232614994049
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-131180",
+      "person_id": 1947,
+      "person_name": "Person_visitor-131180_1760002272",
+      "timestamp": "2025-09-26T02:57:51.871Z",
+      "group_score": 0.298,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "efedf01b-ccb3-48d7-8c2a-84cd3013b611-9262025-82759AM.jpg",
+      "age": 29,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334710,
+          "customer_id": "visitor-131180",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/170fb180-3790-4078-9b10-a63b13559897-9262025-82758AM.jpg",
+          "entry_time": "2025-09-26T02:57:51.871Z",
+          "similarity": 0.2976580560207367
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-120933",
+      "person_id": 1948,
+      "person_name": "Person_visitor-120933_1760002272",
+      "timestamp": "2025-09-26T03:05:50.374Z",
+      "group_score": 0.26,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "75c2eebc-a1a0-4032-a034-e38c18e4a887-9262025-83556AM.jpg",
+      "age": 16,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334760,
+          "customer_id": "visitor-120933",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d044ed91-f4b4-49db-b6d4-af30e087e6b6-9262025-83228AM.jpg",
+          "entry_time": "2025-09-26T03:05:50.374Z",
+          "similarity": 0.2597799301147461
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-118951",
+      "person_id": 1947,
+      "person_name": "Person_visitor-131180_1760002272",
+      "timestamp": "2025-09-26T03:04:44.720Z",
+      "group_score": 0.95,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "61ac45cb-696b-4ca7-8cc1-ae44e0ccbaa1-9262025-83452AM.jpg",
+      "age": 41,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334711,
+          "customer_id": "visitor-118951",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1723fc61-e8d7-4ce9-8e3c-cd07c858e2bf-9262025-82800AM.jpg",
+          "entry_time": "2025-09-26T03:04:44.720Z",
+          "similarity": 0.9497480392456055
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110465",
+      "person_id": 1949,
+      "person_name": "Person_visitor-110465_1760002272",
+      "timestamp": "2025-09-26T02:59:22.187Z",
+      "group_score": 0.152,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "bd454cba-56e2-43c4-8fbb-b89ed8ec0f3a-9262025-82931AM.jpg",
+      "age": 54,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334726,
+          "customer_id": "visitor-110465",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/df70d68e-fc9e-4f53-bfe4-6240b2c59164-9262025-82931AM.jpg",
+          "entry_time": "2025-09-26T02:59:22.187Z",
+          "similarity": 0.15213730931282043
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-112870",
+      "person_id": 1900,
+      "person_name": "Person_visitor-133347_1760002265",
+      "timestamp": "2025-09-26T02:57:42.972Z",
+      "group_score": 0.814,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "8656e21c-95f5-419b-81e2-37b6d3a1205f-9262025-82749AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334709,
+          "customer_id": "visitor-112870",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8656e21c-95f5-419b-81e2-37b6d3a1205f-9262025-82749AM.jpg",
+          "entry_time": "2025-09-26T02:57:42.972Z",
+          "similarity": 0.8137152194976807
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110602",
+      "person_id": 1950,
+      "person_name": "Person_visitor-110602_1760002272",
+      "timestamp": "2025-09-26T03:00:38.547Z",
+      "group_score": 0.417,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "c3b8fd92-ea7b-497d-b7e7-406db506a65c-9262025-83310AM.jpg",
+      "age": 25,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334746,
+          "customer_id": "visitor-110602",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2b8446f7-fa5e-436e-aa5a-abd3d0fb753a-9262025-83121AM.jpg",
+          "entry_time": "2025-09-26T03:00:38.547Z",
+          "similarity": 0.416564404964447
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-118307",
+      "person_id": 1951,
+      "person_name": "Person_visitor-118307_1760002272",
+      "timestamp": "2025-09-26T02:59:18.434Z",
+      "group_score": 0.271,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "24aaea9a-f19f-45b8-b522-eee8e2f1684b-9262025-82926AM.jpg",
+      "age": 21,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334722,
+          "customer_id": "visitor-118307",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/41cd1cdc-b221-4003-8b0c-c8dd42f9bd54-9262025-82925AM.jpg",
+          "entry_time": "2025-09-26T02:59:18.434Z",
+          "similarity": 0.2713061273097992
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-116084",
+      "person_id": 1952,
+      "person_name": "Person_visitor-116084_1760002272",
+      "timestamp": "2025-09-26T03:02:04.295Z",
+      "group_score": 0.444,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "4151bc90-b7b9-42ef-ac5d-fc951769971d-9262025-83219AM.jpg",
+      "age": 31,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334761,
+          "customer_id": "visitor-116084",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4151bc90-b7b9-42ef-ac5d-fc951769971d-9262025-83219AM.jpg",
+          "entry_time": "2025-09-26T03:02:04.295Z",
+          "similarity": 0.44411250948905945
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-113576",
+      "person_id": 1949,
+      "person_name": "Person_visitor-110465_1760002272",
+      "timestamp": "2025-09-26T03:01:49.529Z",
+      "group_score": 0.798,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "7338aee9-717b-47d7-9fd8-c2af81043d94-9262025-83159AM.jpg",
+      "age": 56,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334757,
+          "customer_id": "visitor-113576",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7338aee9-717b-47d7-9fd8-c2af81043d94-9262025-83159AM.jpg",
+          "entry_time": "2025-09-26T03:01:49.529Z",
+          "similarity": 0.7976297736167908
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110483",
+      "person_id": 1953,
+      "person_name": "Person_visitor-110483_1760002272",
+      "timestamp": "2025-09-26T02:59:38.532Z",
+      "group_score": 0.211,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "54f776bc-b0ea-4559-86c7-760f3332e18d-9262025-82949AM.jpg",
+      "age": 51,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334730,
+          "customer_id": "visitor-110483",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/54f776bc-b0ea-4559-86c7-760f3332e18d-9262025-82949AM.jpg",
+          "entry_time": "2025-09-26T02:59:38.532Z",
+          "similarity": 0.21079500019550323
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-113978",
+      "person_id": 1952,
+      "person_name": "Person_visitor-116084_1760002272",
+      "timestamp": "2025-09-26T03:02:04.551Z",
+      "group_score": 0.712,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "1d5444ef-b39b-4c34-9d4d-2cb53fbbd7a0-9262025-83218AM.jpg",
+      "age": 27,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334759,
+          "customer_id": "visitor-113978",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1d5444ef-b39b-4c34-9d4d-2cb53fbbd7a0-9262025-83218AM.jpg",
+          "entry_time": "2025-09-26T03:02:04.551Z",
+          "similarity": 0.7118775844573975
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-111985",
+      "person_id": 1915,
+      "person_name": "Person_visitor-110462_1760002267",
+      "timestamp": "2025-09-26T03:01:40.234Z",
+      "group_score": 0.745,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "19a0dbac-e643-4f0a-babd-8821b38ee8a3-9262025-83153AM.jpg",
+      "age": 36,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334752,
+          "customer_id": "visitor-111985",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/19a0dbac-e643-4f0a-babd-8821b38ee8a3-9262025-83153AM.jpg",
+          "entry_time": "2025-09-26T03:01:40.234Z",
+          "similarity": 0.7449137568473816
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-119165",
+      "person_id": 1954,
+      "person_name": "Person_visitor-119165_1760002273",
+      "timestamp": "2025-09-26T03:01:03.788Z",
+      "group_score": 0.287,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "eb51cf2b-8ef6-4ad1-a574-610d46ddfb55-9262025-83117AM.jpg",
+      "age": 29,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334745,
+          "customer_id": "visitor-119165",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/eb51cf2b-8ef6-4ad1-a574-610d46ddfb55-9262025-83117AM.jpg",
+          "entry_time": "2025-09-26T03:01:03.788Z",
+          "similarity": 0.28665274381637573
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-127615",
+      "person_id": 1955,
+      "person_name": "Person_visitor-127615_1760002273",
+      "timestamp": "2025-09-26T03:01:17.491Z",
+      "group_score": 0.285,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "d4dc9636-3d7e-4ae2-9b2e-26b021a61b0e-9262025-83130AM.jpg",
+      "age": 35,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334748,
+          "customer_id": "visitor-127615",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d4dc9636-3d7e-4ae2-9b2e-26b021a61b0e-9262025-83130AM.jpg",
+          "entry_time": "2025-09-26T03:01:17.491Z",
+          "similarity": 0.28464505076408386
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-114572",
+      "person_id": 1956,
+      "person_name": "Person_visitor-114572_1760002273",
+      "timestamp": "2025-09-26T03:01:04.093Z",
+      "group_score": 0.355,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "80814061-5312-486c-9f4b-b8f30621263a-9262025-83122AM.jpg",
+      "age": 37,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334744,
+          "customer_id": "visitor-114572",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3f803ecc-c5ba-4045-8f9b-fbd2a3f6a657-9262025-83117AM.jpg",
+          "entry_time": "2025-09-26T03:01:04.093Z",
+          "similarity": 0.3546689748764038
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-131034",
+      "person_id": 1949,
+      "person_name": "Person_visitor-110465_1760002272",
+      "timestamp": "2025-09-26T03:00:55.768Z",
+      "group_score": 0.716,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "e8ed865d-c263-4dd5-a8ed-952d7584e3ee-9262025-83112AM.jpg",
+      "age": 40,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334738,
+          "customer_id": "visitor-131034",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4c1fe696-a3dd-48b7-8d7e-e0495fccc876-9262025-83022AM.jpg",
+          "entry_time": "2025-09-26T03:00:55.768Z",
+          "similarity": 0.7164865136146545
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117347",
+      "person_id": 1957,
+      "person_name": "Person_visitor-117347_1760002273",
+      "timestamp": "2025-09-26T03:00:37.821Z",
+      "group_score": 0.362,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "1ad064dc-5018-4d4a-b8e2-2885ad8c06a1-9262025-83051AM.jpg",
+      "age": 22,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334739,
+          "customer_id": "visitor-117347",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1ad064dc-5018-4d4a-b8e2-2885ad8c06a1-9262025-83051AM.jpg",
+          "entry_time": "2025-09-26T03:00:37.821Z",
+          "similarity": 0.36224421858787537
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117353",
+      "person_id": 1957,
+      "person_name": "Person_visitor-117347_1760002273",
+      "timestamp": "2025-09-26T03:00:40.203Z",
+      "group_score": 0.581,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "160179c1-e57c-4274-8908-04392ba84d3f-9262025-83054AM.jpg",
+      "age": 24,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334741,
+          "customer_id": "visitor-117353",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/160179c1-e57c-4274-8908-04392ba84d3f-9262025-83054AM.jpg",
+          "entry_time": "2025-09-26T03:00:40.203Z",
+          "similarity": 0.581125020980835
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-124407",
+      "person_id": 1957,
+      "person_name": "Person_visitor-117347_1760002273",
+      "timestamp": "2025-09-26T03:00:40.254Z",
+      "group_score": 0.631,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "689de0fe-b3b0-4a83-b5b4-0a3b6e791def-9262025-83053AM.jpg",
+      "age": 36,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334740,
+          "customer_id": "visitor-124407",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/689de0fe-b3b0-4a83-b5b4-0a3b6e791def-9262025-83053AM.jpg",
+          "entry_time": "2025-09-26T03:00:40.254Z",
+          "similarity": 0.6305974125862122
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133607",
+      "person_id": 1958,
+      "person_name": "Person_visitor-133607_1760002273",
+      "timestamp": "2025-09-26T03:00:12.748Z",
+      "group_score": 0.24,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "dd628136-0eb8-4702-8f5d-ae8872e86f9a-9262025-83020AM.jpg",
+      "age": 49,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334736,
+          "customer_id": "visitor-133607",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dd628136-0eb8-4702-8f5d-ae8872e86f9a-9262025-83020AM.jpg",
+          "entry_time": "2025-09-26T03:00:12.748Z",
+          "similarity": 0.240238219499588
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-123579",
+      "person_id": 1959,
+      "person_name": "Person_visitor-123579_1760002273",
+      "timestamp": "2025-09-26T03:00:05.082Z",
+      "group_score": 0.222,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "37167c86-5951-4267-a1c2-0b64907ac0f9-9262025-83017AM.jpg",
+      "age": 34,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334734,
+          "customer_id": "visitor-123579",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/37167c86-5951-4267-a1c2-0b64907ac0f9-9262025-83017AM.jpg",
+          "entry_time": "2025-09-26T03:00:05.082Z",
+          "similarity": 0.221746563911438
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-127187",
+      "person_id": 1940,
+      "person_name": "Person_visitor-110466_1760002271",
+      "timestamp": "2025-09-26T02:59:52.771Z",
+      "group_score": 0.51,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "48d81034-0724-42e7-9302-5f88d728abda-9262025-83001AM.jpg",
+      "age": 63,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334732,
+          "customer_id": "visitor-127187",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/48d81034-0724-42e7-9302-5f88d728abda-9262025-83001AM.jpg",
+          "entry_time": "2025-09-26T02:59:52.771Z",
+          "similarity": 0.5101426839828491
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-113551",
+      "person_id": 1960,
+      "person_name": "Person_visitor-113551_1760002273",
+      "timestamp": "2025-09-26T03:00:03.805Z",
+      "group_score": 0.195,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "b63aad06-2c84-4721-893e-de78964060ad-9262025-83022AM.jpg",
+      "age": 34,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334735,
+          "customer_id": "visitor-113551",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/56a4021e-e2ff-44f9-ae0a-60554bf94880-9262025-83018AM.jpg",
+          "entry_time": "2025-09-26T03:00:03.805Z",
+          "similarity": 0.19507206976413727
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110524",
+      "person_id": 1961,
+      "person_name": "Person_visitor-110524_1760002274",
+      "timestamp": "2025-09-26T02:58:40.369Z",
+      "group_score": 0.258,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "75978d3e-4a5b-4bff-acf4-654cbe26e621-9262025-82850AM.jpg",
+      "age": 42,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334716,
+          "customer_id": "visitor-110524",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/75978d3e-4a5b-4bff-acf4-654cbe26e621-9262025-82850AM.jpg",
+          "entry_time": "2025-09-26T02:58:40.369Z",
+          "similarity": 0.2579365670681
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110519",
+      "person_id": 1962,
+      "person_name": "Person_visitor-110519_1760002274",
+      "timestamp": "2025-09-26T02:59:29.241Z",
+      "group_score": 0.326,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "a7a5b104-05b3-48f7-a201-fb0cb7047dab-9262025-82936AM.jpg",
+      "age": 29,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334728,
+          "customer_id": "visitor-110519",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a7a5b104-05b3-48f7-a201-fb0cb7047dab-9262025-82936AM.jpg",
+          "entry_time": "2025-09-26T02:59:29.241Z",
+          "similarity": 0.32642653584480286
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110555",
+      "person_id": 1963,
+      "person_name": "Person_visitor-110555_1760002274",
+      "timestamp": "2025-09-26T02:59:35.752Z",
+      "group_score": 0.216,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "5ec03430-1e69-44d8-91fa-3ff3755b9369-9262025-82948AM.jpg",
+      "age": 36,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334731,
+          "customer_id": "visitor-110555",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5ec03430-1e69-44d8-91fa-3ff3755b9369-9262025-82948AM.jpg",
+          "entry_time": "2025-09-26T02:59:35.752Z",
+          "similarity": 0.21550971269607544
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-130112",
+      "person_id": 1962,
+      "person_name": "Person_visitor-110519_1760002274",
+      "timestamp": "2025-09-26T02:59:30.569Z",
+      "group_score": 0.659,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "631b387c-801b-43ac-9074-2cc6d8d295d8-9262025-82938AM.jpg",
+      "age": 41,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334727,
+          "customer_id": "visitor-130112",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/631b387c-801b-43ac-9074-2cc6d8d295d8-9262025-82938AM.jpg",
+          "entry_time": "2025-09-26T02:59:30.569Z",
+          "similarity": 0.6587474346160889
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110625",
+      "person_id": 1964,
+      "person_name": "Person_visitor-110625_1760002274",
+      "timestamp": "2025-09-26T02:59:20.030Z",
+      "group_score": 0.26,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "9a7c3d64-a0d3-470a-a663-75fd27f0d29e-9262025-82929AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334724,
+          "customer_id": "visitor-110625",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9a7c3d64-a0d3-470a-a663-75fd27f0d29e-9262025-82929AM.jpg",
+          "entry_time": "2025-09-26T02:59:20.030Z",
+          "similarity": 0.25953906774520874
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-121616",
+      "person_id": 1965,
+      "person_name": "Person_visitor-121616_1760002274",
+      "timestamp": "2025-09-26T02:58:54.194Z",
+      "group_score": 0.199,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "6e974336-342b-4330-86ec-a93e59e72e20-9262025-82901AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334718,
+          "customer_id": "visitor-121616",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6e974336-342b-4330-86ec-a93e59e72e20-9262025-82901AM.jpg",
+          "entry_time": "2025-09-26T02:58:54.194Z",
+          "similarity": 0.19864943623542786
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110549",
+      "person_id": 1965,
+      "person_name": "Person_visitor-121616_1760002274",
+      "timestamp": "2025-09-26T02:58:53.192Z",
+      "group_score": 0.531,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "890eab5e-abb2-4e40-af25-7e0a32be9c6a-9262025-82903AM.jpg",
+      "age": 42,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334721,
+          "customer_id": "visitor-110549",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/890eab5e-abb2-4e40-af25-7e0a32be9c6a-9262025-82903AM.jpg",
+          "entry_time": "2025-09-26T02:58:53.192Z",
+          "similarity": 0.5309739112854004
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110553",
+      "person_id": 1966,
+      "person_name": "Person_visitor-110553_1760002274",
+      "timestamp": "2025-09-26T02:58:18.049Z",
+      "group_score": 0.224,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "7b174647-a16e-42a0-9fc2-cf6e935060c3-9262025-82825AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334715,
+          "customer_id": "visitor-110553",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7b174647-a16e-42a0-9fc2-cf6e935060c3-9262025-82825AM.jpg",
+          "entry_time": "2025-09-26T02:58:18.049Z",
+          "similarity": 0.22445560991764069
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-117217",
+      "person_id": 1966,
+      "person_name": "Person_visitor-110553_1760002274",
+      "timestamp": "2025-09-26T02:58:18.501Z",
+      "group_score": 0.858,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "cf4bcc6a-7a90-4430-b7fb-378c52bd371b-9262025-82824AM.jpg",
+      "age": 40,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334713,
+          "customer_id": "visitor-117217",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/cf4bcc6a-7a90-4430-b7fb-378c52bd371b-9262025-82824AM.jpg",
+          "entry_time": "2025-09-26T02:58:18.501Z",
+          "similarity": 0.858212411403656
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-127007",
+      "person_id": 1967,
+      "person_name": "Person_visitor-127007_1760002274",
+      "timestamp": "2025-09-26T02:58:16.914Z",
+      "group_score": 0.297,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "706757ac-95ee-425d-b838-4ca776080261-9262025-82823AM.jpg",
+      "age": 26,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334714,
+          "customer_id": "visitor-127007",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/706757ac-95ee-425d-b838-4ca776080261-9262025-82823AM.jpg",
+          "entry_time": "2025-09-26T02:58:16.914Z",
+          "similarity": 0.29708075523376465
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-128681",
+      "person_id": 1906,
+      "person_name": "Person_visitor-130471_1760002266",
+      "timestamp": "2025-09-26T02:57:14.082Z",
+      "group_score": 0.703,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "88b852d3-6d6d-4eca-bf41-04fa480ed743-9262025-82724AM.jpg",
+      "age": 46,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334708,
+          "customer_id": "visitor-128681",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/88b852d3-6d6d-4eca-bf41-04fa480ed743-9262025-82724AM.jpg",
+          "entry_time": "2025-09-26T02:57:14.082Z",
+          "similarity": 0.7033755779266357
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-115362",
+      "person_id": 1968,
+      "person_name": "Person_visitor-115362_1760002274",
+      "timestamp": "2025-09-26T02:56:23.263Z",
+      "group_score": 0.234,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "0396aace-86cf-4585-aa6a-83cad43cf62f-9262025-82630AM.jpg",
+      "age": 30,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334698,
+          "customer_id": "visitor-115362",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ca8d6daa-f2e3-4b83-84ec-a06b67b03f65-9262025-82544AM.jpg",
+          "entry_time": "2025-09-26T02:56:23.263Z",
+          "similarity": 0.23383645713329315
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-127079",
+      "person_id": 1969,
+      "person_name": "Person_visitor-127079_1760002275",
+      "timestamp": "2025-09-26T02:56:12.489Z",
+      "group_score": 0.23,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "e24a0ce5-e5e0-4b33-b528-2511650e3766-9262025-82619AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334703,
+          "customer_id": "visitor-127079",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e24a0ce5-e5e0-4b33-b528-2511650e3766-9262025-82619AM.jpg",
+          "entry_time": "2025-09-26T02:56:12.489Z",
+          "similarity": 0.2302522212266922
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-131071",
+      "person_id": 1970,
+      "person_name": "Person_visitor-131071_1760002275",
+      "timestamp": "2025-09-26T02:55:53.758Z",
+      "group_score": 0.266,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "65d8f031-d9dd-4524-bafd-d088b5890ff8-9262025-82559AM.jpg",
+      "age": 57,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334699,
+          "customer_id": "visitor-131071",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/65d8f031-d9dd-4524-bafd-d088b5890ff8-9262025-82559AM.jpg",
+          "entry_time": "2025-09-26T02:55:53.758Z",
+          "similarity": 0.2657252848148346
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-122503",
+      "person_id": 1971,
+      "person_name": "Person_visitor-122503_1760002275",
+      "timestamp": "2025-09-26T02:50:03.613Z",
+      "group_score": 0.275,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "10f89edf-921f-4142-8405-12ca036f2851-9262025-82013AM.jpg",
+      "age": 28,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334694,
+          "customer_id": "visitor-122503",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/54835d7a-6907-4412-920e-aef8457b092f-9262025-82018AM.jpg",
+          "entry_time": "2025-09-26T02:50:03.613Z",
+          "similarity": 0.2746213674545288
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-133738",
+      "person_id": 1972,
+      "person_name": "Person_visitor-133738_1760002275",
+      "timestamp": "2025-09-26T02:34:56.142Z",
+      "group_score": 0.253,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "3665a0e1-d043-45de-b68f-6d8a55fe7c45-9262025-80511AM.jpg",
+      "age": 66,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334682,
+          "customer_id": "visitor-133738",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3665a0e1-d043-45de-b68f-6d8a55fe7c45-9262025-80511AM.jpg",
+          "entry_time": "2025-09-26T02:34:56.142Z",
+          "similarity": 0.25320953130722046
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-114335",
+      "person_id": 1973,
+      "person_name": "Person_visitor-114335_1760002275",
+      "timestamp": "2025-09-26T02:32:16.424Z",
+      "group_score": 0.24,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "2c8290bb-312e-4301-871d-de1ef0accc07-9262025-80227AM.jpg",
+      "age": 50,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334674,
+          "customer_id": "visitor-114335",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2c8290bb-312e-4301-871d-de1ef0accc07-9262025-80227AM.jpg",
+          "entry_time": "2025-09-26T02:32:16.424Z",
+          "similarity": 0.23988483846187592
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-122517",
+      "person_id": 1975,
+      "person_name": "Person_visitor-122517_1760002275",
+      "timestamp": "2025-09-26T02:32:17.117Z",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "f8073333-cc78-4c44-bc6e-9afbd53a33ba-9262025-80228AM.jpg",
+      "age": 58,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334675,
+          "customer_id": "visitor-122517",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f8073333-cc78-4c44-bc6e-9afbd53a33ba-9262025-80228AM.jpg",
+          "entry_time": "2025-09-26T02:32:17.117Z",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110477",
+      "person_id": 1974,
+      "person_name": "Person_visitor-110477_1760002275",
+      "timestamp": "2025-09-26T02:46:48.444Z",
+      "group_score": 0.233,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "982175a9-2cdd-458d-ba93-b359d4075e62-9262025-81653AM.jpg",
+      "age": 21,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334693,
+          "customer_id": "visitor-110477",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/982175a9-2cdd-458d-ba93-b359d4075e62-9262025-81653AM.jpg",
+          "entry_time": "2025-09-26T02:46:48.444Z",
+          "similarity": 0.23327091336250305
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110902",
+      "person_id": 1976,
+      "person_name": "Person_visitor-110902_1760002275",
+      "timestamp": "2025-09-26T02:39:02.897Z",
+      "group_score": 0.285,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "e3636097-8504-4e83-8820-22f13fe84590-9262025-80911AM.jpg",
+      "age": 41,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334689,
+          "customer_id": "visitor-110902",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e3636097-8504-4e83-8820-22f13fe84590-9262025-80911AM.jpg",
+          "entry_time": "2025-09-26T02:39:02.897Z",
+          "similarity": 0.28544139862060547
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-112836",
+      "person_id": 1977,
+      "person_name": "Person_visitor-112836_1760002275",
+      "timestamp": "2025-09-26T02:31:38.746Z",
+      "group_score": 0.281,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "599eac1e-a7ad-439f-bc79-efa8b0206450-9262025-80148AM.jpg",
+      "age": 41,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334672,
+          "customer_id": "visitor-112836",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c33cfe0c-c3e6-4c87-940b-7b31107a4b5a-9262025-80149AM.jpg",
+          "entry_time": "2025-09-26T02:31:38.746Z",
+          "similarity": 0.2806053161621094
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-119077",
+      "person_id": 1919,
+      "person_name": "Person_visitor-110505_1760002268",
+      "timestamp": "2025-09-26T02:31:24.728Z",
+      "group_score": 0.703,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "4d7186ff-41bc-4fc1-93c6-457e91cbd795-9262025-80131AM.jpg",
+      "age": 49,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334673,
+          "customer_id": "visitor-119077",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4d7186ff-41bc-4fc1-93c6-457e91cbd795-9262025-80131AM.jpg",
+          "entry_time": "2025-09-26T02:31:24.728Z",
+          "similarity": 0.7026382684707642
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-110458",
+      "person_id": 1909,
+      "person_name": "Person_visitor-133804_1760002267",
+      "timestamp": "2025-09-26T02:34:18.851Z",
+      "group_score": 0.594,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "1ed97f38-1e99-4f01-a944-ab287bc62deb-9262025-80440AM.jpg",
+      "age": 15,
+      "gender": "FEMALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334678,
+          "customer_id": "visitor-110458",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a37c9d13-7a38-4c74-8837-1c1390d5d7c6-9262025-80436AM.jpg",
+          "entry_time": "2025-09-26T02:34:18.851Z",
+          "similarity": 0.594007670879364
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-123291",
+      "person_id": 1919,
+      "person_name": "Person_visitor-110505_1760002268",
+      "timestamp": "2025-09-26T02:31:25.320Z",
+      "group_score": 0.797,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "9ccede04-d38f-4a84-89f0-15fc1849ebc1-9262025-80131AM.jpg",
+      "age": 51,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334671,
+          "customer_id": "visitor-123291",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9ccede04-d38f-4a84-89f0-15fc1849ebc1-9262025-80131AM.jpg",
+          "entry_time": "2025-09-26T02:31:25.320Z",
+          "similarity": 0.797257661819458
+        }
+      ]
+    },
+    {
+      "group_id": "visitor-119010",
+      "person_id": 1978,
+      "person_name": "Person_visitor-119010_1760002275",
+      "timestamp": "2025-09-26T02:31:25.320Z",
+      "group_score": 0.295,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "EM-DEPT",
+      "fileName": "c299e2e9-c705-44b5-a75e-ec598d97858f-9262025-80132AM.jpg",
+      "age": 43,
+      "gender": "MALE",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334670,
+          "customer_id": "visitor-119010",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c299e2e9-c705-44b5-a75e-ec598d97858f-9262025-80132AM.jpg",
+          "entry_time": "2025-09-26T02:31:25.320Z",
+          "similarity": 0.2949621379375458
+        }
+      ]
+    }
+  ]
+}

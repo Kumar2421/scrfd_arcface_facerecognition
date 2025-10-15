@@ -1,0 +1,5310 @@
+{
+  "job_id": "c3c97198-4f94-48dd-9ada-3dffa3fe9d08",
+  "status": "finished",
+  "timestamp": "2025-10-13T12:32:07.278729Z",
+  "total_processed": 230,
+  "total_groups": 230,
+  "results": {
+    "processed": 230,
+    "recognized": 36,
+    "new_persons": 194,
+    "no_faces": 20,
+    "low_quality": 0,
+    "download_failed": 0,
+    "duplicate_faces": 0,
+    "low_similarity": 0
+  },
+  "message": "Processing completed. Created 230 groups from 230 images",
+  "groups": [
+    {
+      "group_id": "customer_3",
+      "person_id": 3441,
+      "person_name": "Person_customer_3_1760358697",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_3",
+          "customer_id": "customer_3",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1f0b7099-91bb-4996-abdb-c09d069cf6e6-1022025-80610AM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_1",
+      "person_id": 3443,
+      "person_name": "Person_customer_1_1760358697",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_1",
+          "customer_id": "customer_1",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4c984314-9716-4e5d-a621-67cc49d73c74-1032025-100402AM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_0",
+      "person_id": 3442,
+      "person_name": "Person_customer_0_1760358697",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_0",
+          "customer_id": "customer_0",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/191371ed-a3ab-4246-a26e-895c847a0fda-1032025-100451AM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_4",
+      "person_id": 3444,
+      "person_name": "Person_customer_4_1760358698",
+      "timestamp": "",
+      "group_score": 0.216,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_4",
+          "customer_id": "customer_4",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ba7e0da2-5d11-4db5-9ab8-a1c306fb5fda-1012025-14858PM.jpg",
+          "entry_time": "",
+          "similarity": 0.21581919491291046
+        }
+      ]
+    },
+    {
+      "group_id": "customer_6",
+      "person_id": 3446,
+      "person_name": "Person_customer_6_1760358698",
+      "timestamp": "",
+      "group_score": -0.018,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_6",
+          "customer_id": "customer_6",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e6b16e1d-9746-468b-ab0d-82b9f8b7184e-1012025-52248PM.jpg",
+          "entry_time": "",
+          "similarity": -0.01763942465186119
+        }
+      ]
+    },
+    {
+      "group_id": "customer_7",
+      "person_id": 3447,
+      "person_name": "Person_customer_7_1760358698",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_7",
+          "customer_id": "customer_7",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b119205a-2b1f-4495-b576-03590c3641c1-1012025-92856AM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_5",
+      "person_id": 3445,
+      "person_name": "Person_customer_5_1760358698",
+      "timestamp": "",
+      "group_score": 0.056,
+      "camera": "GT-LIMELITE-CHENNAI-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_5",
+          "customer_id": "customer_5",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d0da8f8d-47c4-4f2e-85e9-872adabad7d8-1012025-95429AM.jpg",
+          "entry_time": "",
+          "similarity": 0.05560673028230667
+        }
+      ]
+    },
+    {
+      "group_id": "customer_9",
+      "person_id": 3448,
+      "person_name": "Person_customer_9_1760358698",
+      "timestamp": "",
+      "group_score": 0.356,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_9",
+          "customer_id": "customer_9",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/85950d5c-e492-4b8e-be6c-674904a0eb18-1012025-62356PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3555745482444763
+        }
+      ]
+    },
+    {
+      "group_id": "customer_10",
+      "person_id": 3449,
+      "person_name": "Person_customer_10_1760358699",
+      "timestamp": "",
+      "group_score": 0.101,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_10",
+          "customer_id": "customer_10",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/53e5f51b-b178-4acb-b947-bffcd53cb673-1012025-110351AM.jpg",
+          "entry_time": "",
+          "similarity": 0.10052762925624847
+        }
+      ]
+    },
+    {
+      "group_id": "customer_11",
+      "person_id": 3450,
+      "person_name": "Person_customer_11_1760358699",
+      "timestamp": "",
+      "group_score": 0.122,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_11",
+          "customer_id": "customer_11",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c98ae67a-a36a-4d34-ae48-72cfc8c354a3-1012025-120028PM.jpg",
+          "entry_time": "",
+          "similarity": 0.12235529720783234
+        }
+      ]
+    },
+    {
+      "group_id": "customer_12",
+      "person_id": 3451,
+      "person_name": "Person_customer_12_1760358699",
+      "timestamp": "",
+      "group_score": 0.135,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_12",
+          "customer_id": "customer_12",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/38a59734-ed7d-4f26-a5d7-baa0fa910dee-1012025-51804PM.jpg",
+          "entry_time": "",
+          "similarity": 0.13514964282512665
+        }
+      ]
+    },
+    {
+      "group_id": "customer_15",
+      "person_id": 3444,
+      "person_name": "Person_customer_4_1760358698",
+      "timestamp": "",
+      "group_score": 0.639,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_15",
+          "customer_id": "customer_15",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/860f7888-c618-4dfb-85c0-b0a8e4c49286-1012025-103253AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6392064690589905
+        }
+      ]
+    },
+    {
+      "group_id": "customer_14",
+      "person_id": 3452,
+      "person_name": "Person_customer_14_1760358699",
+      "timestamp": "",
+      "group_score": 0.172,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_14",
+          "customer_id": "customer_14",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b3e06c99-b1be-45cc-a25c-c160d5280e87-1012025-12438PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1716691255569458
+        }
+      ]
+    },
+    {
+      "group_id": "customer_16",
+      "person_id": 3453,
+      "person_name": "Person_customer_16_1760358699",
+      "timestamp": "",
+      "group_score": 0.069,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_16",
+          "customer_id": "customer_16",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4ed87578-bd8d-45bf-bb9c-b18daae4d09b-1012025-100546AM.jpg",
+          "entry_time": "",
+          "similarity": 0.06880532205104828
+        }
+      ]
+    },
+    {
+      "group_id": "customer_13",
+      "person_id": 3454,
+      "person_name": "Person_customer_13_1760358699",
+      "timestamp": "",
+      "group_score": 0.112,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_13",
+          "customer_id": "customer_13",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2af182ae-9daf-4849-a8b0-90b481b652f8-1012025-53026PM.jpg",
+          "entry_time": "",
+          "similarity": 0.11166473478078842
+        }
+      ]
+    },
+    {
+      "group_id": "customer_17",
+      "person_id": 3455,
+      "person_name": "Person_customer_17_1760358699",
+      "timestamp": "",
+      "group_score": 0.249,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_17",
+          "customer_id": "customer_17",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/38a3f370-4cb4-47e9-9553-ae3605b5d254-1012025-60944PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24859628081321716
+        }
+      ]
+    },
+    {
+      "group_id": "customer_18",
+      "person_id": 3444,
+      "person_name": "Person_customer_4_1760358698",
+      "timestamp": "",
+      "group_score": 0.572,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_18",
+          "customer_id": "customer_18",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e5a0fc9d-98a7-484a-9aba-ff093aa55742-1012025-110925AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5719351768493652
+        }
+      ]
+    },
+    {
+      "group_id": "customer_19",
+      "person_id": 3456,
+      "person_name": "Person_customer_19_1760358699",
+      "timestamp": "",
+      "group_score": 0.2,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_19",
+          "customer_id": "customer_19",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dbaf8c1e-37e6-4286-8362-e4783bfff00c-1012025-112930AM.jpg",
+          "entry_time": "",
+          "similarity": 0.20013777911663055
+        }
+      ]
+    },
+    {
+      "group_id": "customer_20",
+      "person_id": 3457,
+      "person_name": "Person_customer_20_1760358699",
+      "timestamp": "",
+      "group_score": 0.244,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_20",
+          "customer_id": "customer_20",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/78d28080-9153-41bb-95c7-458b1136fc5a-1012025-93243AM.jpg",
+          "entry_time": "",
+          "similarity": 0.24357351660728455
+        }
+      ]
+    },
+    {
+      "group_id": "customer_21",
+      "person_id": 3458,
+      "person_name": "Person_customer_21_1760358700",
+      "timestamp": "",
+      "group_score": 0.055,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_21",
+          "customer_id": "customer_21",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f97e54a7-9268-4750-be26-adefb2668989-1012025-52919PM.jpg",
+          "entry_time": "",
+          "similarity": 0.05520255118608475
+        }
+      ]
+    },
+    {
+      "group_id": "customer_23",
+      "person_id": 3459,
+      "person_name": "Person_customer_23_1760358700",
+      "timestamp": "",
+      "group_score": 0.101,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_23",
+          "customer_id": "customer_23",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e3b555f8-62ab-4d0d-97c5-6f91bbb050ed-1012025-22442PM.jpg",
+          "entry_time": "",
+          "similarity": 0.10121895372867584
+        }
+      ]
+    },
+    {
+      "group_id": "customer_24",
+      "person_id": 3460,
+      "person_name": "Person_customer_24_1760358700",
+      "timestamp": "",
+      "group_score": 0.15,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_24",
+          "customer_id": "customer_24",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0fe16fea-7b46-4807-b8e5-de343d768858-1012025-61642PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1502753049135208
+        }
+      ]
+    },
+    {
+      "group_id": "customer_22",
+      "person_id": 3461,
+      "person_name": "Person_customer_22_1760358700",
+      "timestamp": "",
+      "group_score": 0.149,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_22",
+          "customer_id": "customer_22",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/13a2d24d-f266-4a20-9272-e7d54a3da199-1012025-85935AM.jpg",
+          "entry_time": "",
+          "similarity": 0.14949265122413635
+        }
+      ]
+    },
+    {
+      "group_id": "customer_25",
+      "person_id": 3462,
+      "person_name": "Person_customer_25_1760358700",
+      "timestamp": "",
+      "group_score": 0.455,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_25",
+          "customer_id": "customer_25",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4d8a8a0e-d717-414a-b7af-0be1684b475f-1012025-22238PM.jpg",
+          "entry_time": "",
+          "similarity": 0.45454204082489014
+        }
+      ]
+    },
+    {
+      "group_id": "customer_26",
+      "person_id": 3463,
+      "person_name": "Person_customer_26_1760358700",
+      "timestamp": "",
+      "group_score": 0.128,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_26",
+          "customer_id": "customer_26",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1cf00874-4e16-4608-8f25-c24385ba6eb2-1012025-25850PM.jpg",
+          "entry_time": "",
+          "similarity": 0.12800869345664978
+        }
+      ]
+    },
+    {
+      "group_id": "customer_28",
+      "person_id": 3464,
+      "person_name": "Person_customer_28_1760358701",
+      "timestamp": "",
+      "group_score": 0.443,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_28",
+          "customer_id": "customer_28",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/cfd64ffd-ff55-4e77-94ed-9c1adb17a1b0-1012025-121035PM.jpg",
+          "entry_time": "",
+          "similarity": 0.44330263137817383
+        }
+      ]
+    },
+    {
+      "group_id": "customer_29",
+      "person_id": 3465,
+      "person_name": "Person_customer_29_1760358701",
+      "timestamp": "",
+      "group_score": 0.177,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_29",
+          "customer_id": "customer_29",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3f705593-e585-416a-8ef0-c6412e559be7-1012025-55613PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1772996187210083
+        }
+      ]
+    },
+    {
+      "group_id": "customer_31",
+      "person_id": 3466,
+      "person_name": "Person_customer_31_1760358701",
+      "timestamp": "",
+      "group_score": 0.175,
+      "camera": "hik-mia-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_31",
+          "customer_id": "customer_31",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2f367f0f-3a48-4545-8ac1-f67d817437b3-1012025-111521AM.jpg",
+          "entry_time": "",
+          "similarity": 0.17493057250976562
+        }
+      ]
+    },
+    {
+      "group_id": "customer_30",
+      "person_id": 3467,
+      "person_name": "Person_customer_30_1760358701",
+      "timestamp": "",
+      "group_score": 0.205,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_30",
+          "customer_id": "customer_30",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9234be29-f1d5-4a5d-85b3-df33a6aa4842-1012025-55614PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20543259382247925
+        }
+      ]
+    },
+    {
+      "group_id": "customer_33",
+      "person_id": 3468,
+      "person_name": "Person_customer_33_1760358701",
+      "timestamp": "",
+      "group_score": 0.114,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_33",
+          "customer_id": "customer_33",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6d2aed30-c8b4-4eb5-b11d-b73bb8d86e86-1012025-62002PM.jpg",
+          "entry_time": "",
+          "similarity": 0.11367398500442505
+        }
+      ]
+    },
+    {
+      "group_id": "customer_35",
+      "person_id": 3469,
+      "person_name": "Person_customer_35_1760358701",
+      "timestamp": "",
+      "group_score": 0.156,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_35",
+          "customer_id": "customer_35",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/84c109ef-2b4c-4f0a-9472-35349f2914ba-1012025-55153PM.jpg",
+          "entry_time": "",
+          "similarity": 0.15583102405071259
+        }
+      ]
+    },
+    {
+      "group_id": "customer_34",
+      "person_id": 3470,
+      "person_name": "Person_customer_34_1760358701",
+      "timestamp": "",
+      "group_score": 0.148,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_34",
+          "customer_id": "customer_34",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/88c6f616-943a-422d-b287-5eb688724dc9-1012025-93751AM.jpg",
+          "entry_time": "",
+          "similarity": 0.14781855046749115
+        }
+      ]
+    },
+    {
+      "group_id": "customer_36",
+      "person_id": 3471,
+      "person_name": "Person_customer_36_1760358701",
+      "timestamp": "",
+      "group_score": 0.148,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_36",
+          "customer_id": "customer_36",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/092b0c89-dc2f-465a-9403-b6150710f1a8-1012025-61856PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1479164958000183
+        }
+      ]
+    },
+    {
+      "group_id": "customer_37",
+      "person_id": 3472,
+      "person_name": "Person_customer_37_1760358701",
+      "timestamp": "",
+      "group_score": 0.201,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_37",
+          "customer_id": "customer_37",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dca23b0c-6968-4198-9224-8e4bb0748157-1012025-93335AM.jpg",
+          "entry_time": "",
+          "similarity": 0.20070770382881165
+        }
+      ]
+    },
+    {
+      "group_id": "customer_39",
+      "person_id": 3474,
+      "person_name": "Person_customer_39_1760358701",
+      "timestamp": "",
+      "group_score": 0.357,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_39",
+          "customer_id": "customer_39",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2d1b809d-5f73-455c-928a-ec173be35823-1012025-35320PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3569876551628113
+        }
+      ]
+    },
+    {
+      "group_id": "customer_38",
+      "person_id": 3473,
+      "person_name": "Person_customer_38_1760358701",
+      "timestamp": "",
+      "group_score": 0.27,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_38",
+          "customer_id": "customer_38",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ea4a8234-1e10-451a-8952-ce6679ad7c70-1012025-20300PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2697257399559021
+        }
+      ]
+    },
+    {
+      "group_id": "customer_40",
+      "person_id": 3475,
+      "person_name": "Person_customer_40_1760358702",
+      "timestamp": "",
+      "group_score": 0.249,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_40",
+          "customer_id": "customer_40",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/758ae84d-9c34-48e8-9175-b1123bbd7f41-1012025-40417PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2486792802810669
+        }
+      ]
+    },
+    {
+      "group_id": "customer_41",
+      "person_id": 3476,
+      "person_name": "Person_customer_41_1760358702",
+      "timestamp": "",
+      "group_score": 0.209,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_41",
+          "customer_id": "customer_41",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4b9bbb91-ead1-4658-b86b-ae3153e02032-1012025-93416AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2087620198726654
+        }
+      ]
+    },
+    {
+      "group_id": "customer_42",
+      "person_id": 3477,
+      "person_name": "Person_customer_42_1760358702",
+      "timestamp": "",
+      "group_score": 0.235,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_42",
+          "customer_id": "customer_42",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b36ceb9f-a81a-4d6c-b7a1-795a1025b228-1012025-60612PM.jpg",
+          "entry_time": "",
+          "similarity": 0.23477625846862793
+        }
+      ]
+    },
+    {
+      "group_id": "customer_45",
+      "person_id": 3478,
+      "person_name": "Person_customer_45_1760358702",
+      "timestamp": "",
+      "group_score": 0.131,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_45",
+          "customer_id": "customer_45",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d0625c82-e93c-4ef6-9f26-49ca6062675e-1012025-60944PM.jpg",
+          "entry_time": "",
+          "similarity": 0.13123808801174164
+        }
+      ]
+    },
+    {
+      "group_id": "customer_43",
+      "person_id": 3452,
+      "person_name": "Person_customer_14_1760358699",
+      "timestamp": "",
+      "group_score": 0.609,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_43",
+          "customer_id": "customer_43",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d184217f-73f7-465c-83dd-a878aaf36591-1012025-43516PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6094350814819336
+        }
+      ]
+    },
+    {
+      "group_id": "customer_44",
+      "person_id": 3479,
+      "person_name": "Person_customer_44_1760358702",
+      "timestamp": "",
+      "group_score": 0.148,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_44",
+          "customer_id": "customer_44",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f64b4e1e-bd23-4a63-9a76-2e61241e650c-1012025-125511PM.jpg",
+          "entry_time": "",
+          "similarity": 0.14776253700256348
+        }
+      ]
+    },
+    {
+      "group_id": "customer_46",
+      "person_id": 3480,
+      "person_name": "Person_customer_46_1760358702",
+      "timestamp": "",
+      "group_score": 0.462,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_46",
+          "customer_id": "customer_46",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5cba971f-ae03-487a-9117-41c57d1c279b-1012025-25040PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4620445966720581
+        }
+      ]
+    },
+    {
+      "group_id": "customer_47",
+      "person_id": 3481,
+      "person_name": "Person_customer_47_1760358702",
+      "timestamp": "",
+      "group_score": 0.216,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_47",
+          "customer_id": "customer_47",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/faf29ee6-8d99-4b77-9395-eccb925e6cef-1012025-40850PM.jpg",
+          "entry_time": "",
+          "similarity": 0.21624019742012024
+        }
+      ]
+    },
+    {
+      "group_id": "customer_48",
+      "person_id": 3482,
+      "person_name": "Person_customer_48_1760358702",
+      "timestamp": "",
+      "group_score": 0.182,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_48",
+          "customer_id": "customer_48",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/aa18ec3d-9eba-4226-8d7a-e35809e65864-1012025-10636PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18205708265304565
+        }
+      ]
+    },
+    {
+      "group_id": "customer_49",
+      "person_id": 3453,
+      "person_name": "Person_customer_16_1760358699",
+      "timestamp": "",
+      "group_score": 0.586,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_49",
+          "customer_id": "customer_49",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2e714ab3-428f-48db-b39d-b1e45c1a1521-1012025-105921AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5857514142990112
+        }
+      ]
+    },
+    {
+      "group_id": "customer_50",
+      "person_id": 3483,
+      "person_name": "Person_customer_50_1760358703",
+      "timestamp": "",
+      "group_score": 0.23,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_50",
+          "customer_id": "customer_50",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7339e02f-9960-411e-a023-ac129f8e0deb-1012025-42816PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22991728782653809
+        }
+      ]
+    },
+    {
+      "group_id": "customer_51",
+      "person_id": 3484,
+      "person_name": "Person_customer_51_1760358703",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_51",
+          "customer_id": "customer_51",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8c8b587d-a5fa-4a1d-befc-78619d632132-1012025-94943AM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_53",
+      "person_id": 3485,
+      "person_name": "Person_customer_53_1760358703",
+      "timestamp": "",
+      "group_score": 0.147,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_53",
+          "customer_id": "customer_53",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/5bc8632b-ecfb-4bca-9e52-265ebff85ca4-1012025-53844PM.jpg",
+          "entry_time": "",
+          "similarity": 0.14655235409736633
+        }
+      ]
+    },
+    {
+      "group_id": "customer_52",
+      "person_id": 3486,
+      "person_name": "Person_customer_52_1760358703",
+      "timestamp": "",
+      "group_score": 0.186,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_52",
+          "customer_id": "customer_52",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/400606b4-0dd2-47c2-ab99-576a0f0331df-1012025-53851PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18597182631492615
+        }
+      ]
+    },
+    {
+      "group_id": "customer_55",
+      "person_id": 3487,
+      "person_name": "Person_customer_55_1760358703",
+      "timestamp": "",
+      "group_score": 0.31,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_55",
+          "customer_id": "customer_55",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/11cc4881-d6e2-49fa-ac20-53e58072b515-1012025-60824PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3102293610572815
+        }
+      ]
+    },
+    {
+      "group_id": "customer_57",
+      "person_id": 3488,
+      "person_name": "Person_customer_57_1760358703",
+      "timestamp": "",
+      "group_score": 0.501,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_57",
+          "customer_id": "customer_57",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a48dc6af-dac6-42d5-a525-2679d0ea963d-1012025-60738PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5011646151542664
+        }
+      ]
+    },
+    {
+      "group_id": "customer_54",
+      "person_id": 3489,
+      "person_name": "Person_customer_54_1760358703",
+      "timestamp": "",
+      "group_score": 0.205,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_54",
+          "customer_id": "customer_54",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/851e3049-6b3a-4080-a4a3-31c13b5729f1-1012025-53915PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2045249044895172
+        }
+      ]
+    },
+    {
+      "group_id": "customer_56",
+      "person_id": 3490,
+      "person_name": "Person_customer_56_1760358703",
+      "timestamp": "",
+      "group_score": 0.189,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_56",
+          "customer_id": "customer_56",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ec46ac18-ef9d-492e-b982-9103cfb90f37-1012025-10500PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18879953026771545
+        }
+      ]
+    },
+    {
+      "group_id": "customer_58",
+      "person_id": 3491,
+      "person_name": "Person_customer_58_1760358703",
+      "timestamp": "",
+      "group_score": 0.183,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_58",
+          "customer_id": "customer_58",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9a2b4e11-5707-4332-b411-2a687797441a-1012025-42955PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18311738967895508
+        }
+      ]
+    },
+    {
+      "group_id": "customer_59",
+      "person_id": 3492,
+      "person_name": "Person_customer_59_1760358703",
+      "timestamp": "",
+      "group_score": 0.404,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_59",
+          "customer_id": "customer_59",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/52fb26f6-2845-4dfd-968c-2d32dd05b027-1012025-121016PM.jpg",
+          "entry_time": "",
+          "similarity": 0.40402838587760925
+        }
+      ]
+    },
+    {
+      "group_id": "customer_61",
+      "person_id": 3493,
+      "person_name": "Person_customer_61_1760358704",
+      "timestamp": "",
+      "group_score": 0.183,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_61",
+          "customer_id": "customer_61",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ae36cd43-ac65-41ab-940c-27d4e2eab687-1012025-60507PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18276724219322205
+        }
+      ]
+    },
+    {
+      "group_id": "customer_62",
+      "person_id": 3494,
+      "person_name": "Person_customer_62_1760358704",
+      "timestamp": "",
+      "group_score": 0.181,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_62",
+          "customer_id": "customer_62",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3f5c2e7c-e448-4815-a231-6e69bafeba0d-1012025-90202AM.jpg",
+          "entry_time": "",
+          "similarity": 0.1805916428565979
+        }
+      ]
+    },
+    {
+      "group_id": "customer_63",
+      "person_id": 3495,
+      "person_name": "Person_customer_63_1760358704",
+      "timestamp": "",
+      "group_score": 0.255,
+      "camera": "hik-mia-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_63",
+          "customer_id": "customer_63",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9a363322-eeb8-4140-a4b3-28c4f366051b-1012025-60625PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2554159164428711
+        }
+      ]
+    },
+    {
+      "group_id": "customer_64",
+      "person_id": 3495,
+      "person_name": "Person_customer_63_1760358704",
+      "timestamp": "",
+      "group_score": 0.778,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_64",
+          "customer_id": "customer_64",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e5544efe-e248-456d-9a3b-568126a87b23-1012025-60543PM.jpg",
+          "entry_time": "",
+          "similarity": 0.7784674167633057
+        }
+      ]
+    },
+    {
+      "group_id": "customer_66",
+      "person_id": 3496,
+      "person_name": "Person_customer_66_1760358704",
+      "timestamp": "",
+      "group_score": 0.23,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_66",
+          "customer_id": "customer_66",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c5510f4d-36ff-45ef-9164-680098479e2c-1012025-85130AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2298009842634201
+        }
+      ]
+    },
+    {
+      "group_id": "customer_65",
+      "person_id": 3497,
+      "person_name": "Person_customer_65_1760358704",
+      "timestamp": "",
+      "group_score": 0.203,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_65",
+          "customer_id": "customer_65",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/eccfeba1-d161-49de-9dc4-7f8a0687972c-1012025-53911PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20295855402946472
+        }
+      ]
+    },
+    {
+      "group_id": "customer_67",
+      "person_id": 3498,
+      "person_name": "Person_customer_67_1760358704",
+      "timestamp": "",
+      "group_score": 0.21,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_67",
+          "customer_id": "customer_67",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/806621cf-9313-4f22-9570-be3b02494332-1012025-60331PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20974889397621155
+        }
+      ]
+    },
+    {
+      "group_id": "customer_68",
+      "person_id": 3499,
+      "person_name": "Person_customer_68_1760358704",
+      "timestamp": "",
+      "group_score": 0.534,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_68",
+          "customer_id": "customer_68",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/72c456fc-3f49-44d3-8ecc-ebac535719c0-1012025-31031PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5343033671379089
+        }
+      ]
+    },
+    {
+      "group_id": "customer_69",
+      "person_id": 3500,
+      "person_name": "Person_customer_69_1760358704",
+      "timestamp": "",
+      "group_score": 0.223,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_69",
+          "customer_id": "customer_69",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4a5655f0-aea4-4987-b0b7-92b0c543e756-1012025-115940AM.jpg",
+          "entry_time": "",
+          "similarity": 0.22256457805633545
+        }
+      ]
+    },
+    {
+      "group_id": "customer_71",
+      "person_id": 3501,
+      "person_name": "Person_customer_71_1760358704",
+      "timestamp": "",
+      "group_score": 0.215,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_71",
+          "customer_id": "customer_71",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/aca673c5-cda9-4e1d-8375-3e17492319e5-1012025-55838PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2145635038614273
+        }
+      ]
+    },
+    {
+      "group_id": "customer_72",
+      "person_id": 3502,
+      "person_name": "Person_customer_72_1760358704",
+      "timestamp": "",
+      "group_score": 0.121,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_72",
+          "customer_id": "customer_72",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9cc396c8-f562-4bba-81c7-4ec4d266cfa7-1012025-44152PM.jpg",
+          "entry_time": "",
+          "similarity": 0.12119629979133606
+        }
+      ]
+    },
+    {
+      "group_id": "customer_70",
+      "person_id": 3503,
+      "person_name": "Person_customer_70_1760358704",
+      "timestamp": "",
+      "group_score": 0.145,
+      "camera": "hik-mia-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_70",
+          "customer_id": "customer_70",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/eb5fb207-50c2-4d86-b284-cf08007e3f1c-1012025-60111PM.jpg",
+          "entry_time": "",
+          "similarity": 0.14524789154529572
+        }
+      ]
+    },
+    {
+      "group_id": "customer_73",
+      "person_id": 3453,
+      "person_name": "Person_customer_16_1760358699",
+      "timestamp": "",
+      "group_score": 0.565,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_73",
+          "customer_id": "customer_73",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c8c23881-7a5b-4d7a-bcd8-8d7f7423c150-1012025-103217AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5648485422134399
+        }
+      ]
+    },
+    {
+      "group_id": "customer_74",
+      "person_id": 3492,
+      "person_name": "Person_customer_59_1760358703",
+      "timestamp": "",
+      "group_score": 0.706,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_74",
+          "customer_id": "customer_74",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ee6406d4-2d5e-4d16-bebe-4deb296aa58d-1012025-114501AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7059643268585205
+        }
+      ]
+    },
+    {
+      "group_id": "customer_75",
+      "person_id": 3504,
+      "person_name": "Person_customer_75_1760358705",
+      "timestamp": "",
+      "group_score": 0.175,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_75",
+          "customer_id": "customer_75",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f2f65ba6-2239-481a-a456-6469c0af6bb4-1012025-20631PM.jpg",
+          "entry_time": "",
+          "similarity": 0.17534933984279633
+        }
+      ]
+    },
+    {
+      "group_id": "customer_76",
+      "person_id": 3505,
+      "person_name": "Person_customer_76_1760358705",
+      "timestamp": "",
+      "group_score": 0.243,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_76",
+          "customer_id": "customer_76",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/db36ebbd-b2e7-46aa-9eab-51b2d17d9197-1012025-55612PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2432062029838562
+        }
+      ]
+    },
+    {
+      "group_id": "customer_77",
+      "person_id": 3506,
+      "person_name": "Person_customer_77_1760358705",
+      "timestamp": "",
+      "group_score": 0.307,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_77",
+          "customer_id": "customer_77",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/668d4b33-d163-4f1e-9175-700a4cacc2af-1012025-55105PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3074769079685211
+        }
+      ]
+    },
+    {
+      "group_id": "customer_78",
+      "person_id": 3507,
+      "person_name": "Person_customer_78_1760358705",
+      "timestamp": "",
+      "group_score": 0.239,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_78",
+          "customer_id": "customer_78",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2a0ebdc4-5dde-48a0-92a3-0e2260677f76-1012025-55708PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2389039844274521
+        }
+      ]
+    },
+    {
+      "group_id": "customer_79",
+      "person_id": 3508,
+      "person_name": "Person_customer_79_1760358705",
+      "timestamp": "",
+      "group_score": 0.235,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_79",
+          "customer_id": "customer_79",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0a9a340d-bc31-4300-b96d-dd1c4a0f6aae-1012025-14314PM.jpg",
+          "entry_time": "",
+          "similarity": 0.23493808507919312
+        }
+      ]
+    },
+    {
+      "group_id": "customer_80",
+      "person_id": 3465,
+      "person_name": "Person_customer_29_1760358701",
+      "timestamp": "",
+      "group_score": 0.676,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_80",
+          "customer_id": "customer_80",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2af64c59-7413-448f-8f37-6733afab354f-1012025-55615PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6755507588386536
+        }
+      ]
+    },
+    {
+      "group_id": "customer_81",
+      "person_id": 3465,
+      "person_name": "Person_customer_29_1760358701",
+      "timestamp": "",
+      "group_score": 0.78,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_81",
+          "customer_id": "customer_81",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e284693f-a4a2-4ae9-b929-8d3a33a349d0-1012025-55612PM.jpg",
+          "entry_time": "",
+          "similarity": 0.7803589701652527
+        }
+      ]
+    },
+    {
+      "group_id": "customer_82",
+      "person_id": 3509,
+      "person_name": "Person_customer_82_1760358706",
+      "timestamp": "",
+      "group_score": 0.305,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_82",
+          "customer_id": "customer_82",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d824d4ad-b899-4b8d-834c-b847a39f1f36-1012025-50302PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3045782446861267
+        }
+      ]
+    },
+    {
+      "group_id": "customer_86",
+      "person_id": 3510,
+      "person_name": "Person_customer_86_1760358706",
+      "timestamp": "",
+      "group_score": 0.321,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_86",
+          "customer_id": "customer_86",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a7ad0da1-17a9-45b6-89e5-216710c776c0-1012025-55007PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3208935260772705
+        }
+      ]
+    },
+    {
+      "group_id": "customer_85",
+      "person_id": 3512,
+      "person_name": "Person_customer_85_1760358706",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_85",
+          "customer_id": "customer_85",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/fcbb649e-2888-490a-b0df-10a174127f11-1012025-55140PM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_84",
+      "person_id": 3511,
+      "person_name": "Person_customer_84_1760358706",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_84",
+          "customer_id": "customer_84",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/cd090be2-17b9-4660-b005-430df6e50170-1012025-102923AM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_83",
+      "person_id": 3513,
+      "person_name": "Person_customer_83_1760358706",
+      "timestamp": "",
+      "group_score": 0.178,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_83",
+          "customer_id": "customer_83",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f4bfb581-6523-472e-9f05-9881d79039d1-1012025-21333PM.jpg",
+          "entry_time": "",
+          "similarity": 0.17763930559158325
+        }
+      ]
+    },
+    {
+      "group_id": "customer_87",
+      "person_id": 3514,
+      "person_name": "Person_customer_87_1760358706",
+      "timestamp": "",
+      "group_score": 0.188,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_87",
+          "customer_id": "customer_87",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1e3fee36-0a86-41c7-990a-32aeea525f21-1012025-53839PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18847477436065674
+        }
+      ]
+    },
+    {
+      "group_id": "customer_90",
+      "person_id": 3473,
+      "person_name": "Person_customer_38_1760358701",
+      "timestamp": "",
+      "group_score": 0.553,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_90",
+          "customer_id": "customer_90",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4fa6cf9c-a9d8-4149-be78-4c3b3d8819ab-1012025-43705PM.jpg",
+          "entry_time": "",
+          "similarity": 0.553207278251648
+        }
+      ]
+    },
+    {
+      "group_id": "customer_91",
+      "person_id": 3515,
+      "person_name": "Person_customer_91_1760358706",
+      "timestamp": "",
+      "group_score": 0.235,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_91",
+          "customer_id": "customer_91",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/93472889-131e-4906-9631-6c2840bbf30b-1012025-30002PM.jpg",
+          "entry_time": "",
+          "similarity": 0.23516568541526794
+        }
+      ]
+    },
+    {
+      "group_id": "customer_88",
+      "person_id": 3516,
+      "person_name": "Person_customer_88_1760358707",
+      "timestamp": "",
+      "group_score": 0.204,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_88",
+          "customer_id": "customer_88",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/25a38485-28da-4a7c-b4f2-b530c86bab74-1012025-11532PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2039315104484558
+        }
+      ]
+    },
+    {
+      "group_id": "customer_89",
+      "person_id": 3517,
+      "person_name": "Person_customer_89_1760358707",
+      "timestamp": "",
+      "group_score": 0.139,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_89",
+          "customer_id": "customer_89",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/afff67d2-90cc-430a-9cf9-dd025de107bc-1012025-11628PM.jpg",
+          "entry_time": "",
+          "similarity": 0.13945329189300537
+        }
+      ]
+    },
+    {
+      "group_id": "customer_92",
+      "person_id": 3518,
+      "person_name": "Person_customer_92_1760358707",
+      "timestamp": "",
+      "group_score": 0.414,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_92",
+          "customer_id": "customer_92",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/504e54ad-a117-4c7a-8318-f0ac6cc3e067-1012025-95702AM.jpg",
+          "entry_time": "",
+          "similarity": 0.41384217143058777
+        }
+      ]
+    },
+    {
+      "group_id": "customer_93",
+      "person_id": 3519,
+      "person_name": "Person_customer_93_1760358707",
+      "timestamp": "",
+      "group_score": 0.239,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_93",
+          "customer_id": "customer_93",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1486bce5-6d73-4a5e-ab1f-ae92bb6b35b2-1012025-95755AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2387242615222931
+        }
+      ]
+    },
+    {
+      "group_id": "customer_96",
+      "person_id": 3520,
+      "person_name": "Person_customer_96_1760358707",
+      "timestamp": "",
+      "group_score": 0.164,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_96",
+          "customer_id": "customer_96",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2217c535-09b7-426b-acf3-edbe23ac66f9-1012025-120404PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1644110232591629
+        }
+      ]
+    },
+    {
+      "group_id": "customer_95",
+      "person_id": 3521,
+      "person_name": "Person_customer_95_1760358707",
+      "timestamp": "",
+      "group_score": 0.359,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_95",
+          "customer_id": "customer_95",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f25d9267-e551-452e-992e-d31e8fe10ea7-1012025-103134AM.jpg",
+          "entry_time": "",
+          "similarity": 0.359140008687973
+        }
+      ]
+    },
+    {
+      "group_id": "customer_97",
+      "person_id": 3492,
+      "person_name": "Person_customer_59_1760358703",
+      "timestamp": "",
+      "group_score": 0.658,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_97",
+          "customer_id": "customer_97",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6a390b2d-0c9e-4932-bfca-a88cf416dc8c-1012025-103415AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6584411859512329
+        }
+      ]
+    },
+    {
+      "group_id": "customer_98",
+      "person_id": 3522,
+      "person_name": "Person_customer_98_1760358708",
+      "timestamp": "",
+      "group_score": 0.193,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_98",
+          "customer_id": "customer_98",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/69f202e9-df58-4a82-a5ea-f29e9160a649-1012025-83100AM.jpg",
+          "entry_time": "",
+          "similarity": 0.19283893704414368
+        }
+      ]
+    },
+    {
+      "group_id": "customer_99",
+      "person_id": 3523,
+      "person_name": "Person_customer_99_1760358708",
+      "timestamp": "",
+      "group_score": 0.216,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_99",
+          "customer_id": "customer_99",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0f442269-058a-428e-a73f-84aa0bd98f29-1012025-113538AM.jpg",
+          "entry_time": "",
+          "similarity": 0.21599546074867249
+        }
+      ]
+    },
+    {
+      "group_id": "customer_100",
+      "person_id": 3524,
+      "person_name": "Person_customer_100_1760358708",
+      "timestamp": "",
+      "group_score": 0.226,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_100",
+          "customer_id": "customer_100",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b230d2fe-ef06-460b-84de-1e2527fca8cb-1012025-53753PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22625938057899475
+        }
+      ]
+    },
+    {
+      "group_id": "customer_101",
+      "person_id": 3525,
+      "person_name": "Person_customer_101_1760358708",
+      "timestamp": "",
+      "group_score": 0.298,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_101",
+          "customer_id": "customer_101",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9d13d336-f442-45dc-8088-7ab04fbfccca-1012025-90036AM.jpg",
+          "entry_time": "",
+          "similarity": 0.29806289076805115
+        }
+      ]
+    },
+    {
+      "group_id": "customer_103",
+      "person_id": 3526,
+      "person_name": "Person_customer_103_1760358710",
+      "timestamp": "",
+      "group_score": 0.297,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_103",
+          "customer_id": "customer_103",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c19b317d-bde7-4fce-8932-4984c163d51b-1012025-53732PM.jpg",
+          "entry_time": "",
+          "similarity": 0.29720717668533325
+        }
+      ]
+    },
+    {
+      "group_id": "customer_105",
+      "person_id": 3527,
+      "person_name": "Person_customer_105_1760358710",
+      "timestamp": "",
+      "group_score": 0.391,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_105",
+          "customer_id": "customer_105",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/146aef43-6ed5-4589-b3b7-e2dded0504a6-1012025-44152PM.jpg",
+          "entry_time": "",
+          "similarity": 0.39112627506256104
+        }
+      ]
+    },
+    {
+      "group_id": "customer_106",
+      "person_id": 3529,
+      "person_name": "Person_customer_106_1760358710",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "GT-LIMELITE-CHENNAI-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_106",
+          "customer_id": "customer_106",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7f1ae300-7c78-4d4b-b9c0-26263f1b0174-1012025-45108PM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_104",
+      "person_id": 3528,
+      "person_name": "Person_customer_104_1760358710",
+      "timestamp": "",
+      "group_score": 0.245,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_104",
+          "customer_id": "customer_104",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/11bfd3b8-7ab1-421e-888f-ce972f1cf5a9-1012025-53732PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24541440606117249
+        }
+      ]
+    },
+    {
+      "group_id": "customer_107",
+      "person_id": 3530,
+      "person_name": "Person_customer_107_1760358710",
+      "timestamp": "",
+      "group_score": 0.283,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_107",
+          "customer_id": "customer_107",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/12e38fe2-cb7c-4392-bef3-32a0e821acf6-1012025-113346AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2834329307079315
+        }
+      ]
+    },
+    {
+      "group_id": "customer_108",
+      "person_id": 3514,
+      "person_name": "Person_customer_87_1760358706",
+      "timestamp": "",
+      "group_score": 0.6,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_108",
+          "customer_id": "customer_108",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/bab50d38-0744-4e81-abbf-2676935572b6-1012025-53551PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5999768376350403
+        }
+      ]
+    },
+    {
+      "group_id": "customer_109",
+      "person_id": 3531,
+      "person_name": "Person_customer_109_1760358711",
+      "timestamp": "",
+      "group_score": 0.187,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_109",
+          "customer_id": "customer_109",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/16d2422c-5680-48b9-a441-74d4774810ad-1012025-22926PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1865745186805725
+        }
+      ]
+    },
+    {
+      "group_id": "customer_110",
+      "person_id": 3532,
+      "person_name": "Person_customer_110_1760358711",
+      "timestamp": "",
+      "group_score": 0.179,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_110",
+          "customer_id": "customer_110",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b8b054e8-ee14-4348-bf98-225c9729d4bd-1012025-112652AM.jpg",
+          "entry_time": "",
+          "similarity": 0.1787119358778
+        }
+      ]
+    },
+    {
+      "group_id": "customer_111",
+      "person_id": 3533,
+      "person_name": "Person_customer_111_1760358711",
+      "timestamp": "",
+      "group_score": 0.162,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_111",
+          "customer_id": "customer_111",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3db7ba5c-b2c4-46b5-a7bc-79c10da0a410-1012025-53053PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1619996428489685
+        }
+      ]
+    },
+    {
+      "group_id": "customer_113",
+      "person_id": 3534,
+      "person_name": "Person_customer_113_1760358711",
+      "timestamp": "",
+      "group_score": 0.312,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_113",
+          "customer_id": "customer_113",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/903edcba-0bb2-403d-af57-150a3ef27d3d-1012025-52952PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3118136525154114
+        }
+      ]
+    },
+    {
+      "group_id": "customer_112",
+      "person_id": 3454,
+      "person_name": "Person_customer_13_1760358699",
+      "timestamp": "",
+      "group_score": 0.65,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_112",
+          "customer_id": "customer_112",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/bb8b91f3-e7c9-45cf-8bb2-a51b1b370bef-1012025-52951PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6495022773742676
+        }
+      ]
+    },
+    {
+      "group_id": "customer_114",
+      "person_id": 3535,
+      "person_name": "Person_customer_114_1760358711",
+      "timestamp": "",
+      "group_score": 0.394,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_114",
+          "customer_id": "customer_114",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8d9443ab-5eaa-4dfe-b8ee-3cded1e19d29-1012025-53210PM.jpg",
+          "entry_time": "",
+          "similarity": 0.39352816343307495
+        }
+      ]
+    },
+    {
+      "group_id": "customer_117",
+      "person_id": 3536,
+      "person_name": "Person_customer_117_1760358711",
+      "timestamp": "",
+      "group_score": 0.219,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_117",
+          "customer_id": "customer_117",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/bde11b43-df04-45ef-a676-7ed46776e7e4-1012025-52957PM.jpg",
+          "entry_time": "",
+          "similarity": 0.21864674985408783
+        }
+      ]
+    },
+    {
+      "group_id": "customer_119",
+      "person_id": 3537,
+      "person_name": "Person_customer_119_1760358711",
+      "timestamp": "",
+      "group_score": 0.199,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_119",
+          "customer_id": "customer_119",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e3d29191-3012-4358-aee6-ca4d38bd18cd-1012025-52521PM.jpg",
+          "entry_time": "",
+          "similarity": 0.19858720898628235
+        }
+      ]
+    },
+    {
+      "group_id": "customer_116",
+      "person_id": 3538,
+      "person_name": "Person_customer_116_1760358711",
+      "timestamp": "",
+      "group_score": 0.516,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_116",
+          "customer_id": "customer_116",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/51b3b9bc-46dd-42e6-98da-f7a110017226-1012025-24602PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5163811445236206
+        }
+      ]
+    },
+    {
+      "group_id": "customer_118",
+      "person_id": 3538,
+      "person_name": "Person_customer_116_1760358711",
+      "timestamp": "",
+      "group_score": 0.634,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_118",
+          "customer_id": "customer_118",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/63e9e337-a15c-43e4-a63d-349acdb7f363-1012025-23642PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6337674260139465
+        }
+      ]
+    },
+    {
+      "group_id": "customer_122",
+      "person_id": 3539,
+      "person_name": "Person_customer_122_1760358712",
+      "timestamp": "",
+      "group_score": 0.247,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_122",
+          "customer_id": "customer_122",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f69a5dea-0ab5-45aa-8429-b1bb3a79ba1e-1012025-30057PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24682089686393738
+        }
+      ]
+    },
+    {
+      "group_id": "customer_123",
+      "person_id": 3540,
+      "person_name": "Person_customer_123_1760358712",
+      "timestamp": "",
+      "group_score": 0.182,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_123",
+          "customer_id": "customer_123",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ae2f4682-f3fe-418c-9f9d-36350bf5dfbb-1012025-40001PM.jpg",
+          "entry_time": "",
+          "similarity": 0.18243378400802612
+        }
+      ]
+    },
+    {
+      "group_id": "customer_120",
+      "person_id": 3541,
+      "person_name": "Person_customer_120_1760358712",
+      "timestamp": "",
+      "group_score": 0.308,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_120",
+          "customer_id": "customer_120",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/673f6b13-7c64-4ffa-b60a-58beb371c1f4-1012025-121036PM.jpg",
+          "entry_time": "",
+          "similarity": 0.30765438079833984
+        }
+      ]
+    },
+    {
+      "group_id": "customer_126",
+      "person_id": 3542,
+      "person_name": "Person_customer_126_1760358712",
+      "timestamp": "",
+      "group_score": 0.218,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_126",
+          "customer_id": "customer_126",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d50a72cb-acef-42a4-bed0-e4950ba2b53c-1012025-51713PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2178836613893509
+        }
+      ]
+    },
+    {
+      "group_id": "customer_125",
+      "person_id": 3543,
+      "person_name": "Person_customer_125_1760358713",
+      "timestamp": "",
+      "group_score": 0.425,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_125",
+          "customer_id": "customer_125",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b7cedc59-d6ca-41c7-8da9-d88c87dde4d5-1012025-52301PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4248063862323761
+        }
+      ]
+    },
+    {
+      "group_id": "customer_127",
+      "person_id": 3544,
+      "person_name": "Person_customer_127_1760358713",
+      "timestamp": "",
+      "group_score": 0.295,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_127",
+          "customer_id": "customer_127",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/87b92948-89bc-4460-b838-008cd2e3b2d6-1012025-83224AM.jpg",
+          "entry_time": "",
+          "similarity": 0.29512763023376465
+        }
+      ]
+    },
+    {
+      "group_id": "customer_128",
+      "person_id": 3544,
+      "person_name": "Person_customer_127_1760358713",
+      "timestamp": "",
+      "group_score": 0.731,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_128",
+          "customer_id": "customer_128",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ac0b7f16-3c0e-47db-a90c-e96592d92bc4-1012025-122341PM.jpg",
+          "entry_time": "",
+          "similarity": 0.7307307720184326
+        }
+      ]
+    },
+    {
+      "group_id": "customer_129",
+      "person_id": 3545,
+      "person_name": "Person_customer_129_1760358713",
+      "timestamp": "",
+      "group_score": 0.2,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_129",
+          "customer_id": "customer_129",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b2cb55a8-e741-4544-afb8-b50fc8cb14ad-1012025-40235PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20030182600021362
+        }
+      ]
+    },
+    {
+      "group_id": "customer_131",
+      "person_id": 3523,
+      "person_name": "Person_customer_99_1760358708",
+      "timestamp": "",
+      "group_score": 0.754,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_131",
+          "customer_id": "customer_131",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7405a3d8-c65b-4179-a812-0a18e791f8d0-1012025-102521AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7536956667900085
+        }
+      ]
+    },
+    {
+      "group_id": "customer_132",
+      "person_id": 3546,
+      "person_name": "Person_customer_132_1760358713",
+      "timestamp": "",
+      "group_score": 0.26,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_132",
+          "customer_id": "customer_132",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/48acc968-dbf3-4ee2-abfe-1384410a9fb4-1012025-40305PM.jpg",
+          "entry_time": "",
+          "similarity": 0.259793758392334
+        }
+      ]
+    },
+    {
+      "group_id": "customer_130",
+      "person_id": 3547,
+      "person_name": "Person_customer_130_1760358713",
+      "timestamp": "",
+      "group_score": 0.306,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_130",
+          "customer_id": "customer_130",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/22cd031f-8d49-4a06-8b7c-47aec60936fc-1012025-40340PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3057042956352234
+        }
+      ]
+    },
+    {
+      "group_id": "customer_133",
+      "person_id": 3548,
+      "person_name": "Person_customer_133_1760358713",
+      "timestamp": "",
+      "group_score": 0.195,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_133",
+          "customer_id": "customer_133",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/80c5f667-7acb-4812-b3e3-9f8ee942081b-1012025-51805PM.jpg",
+          "entry_time": "",
+          "similarity": 0.19520145654678345
+        }
+      ]
+    },
+    {
+      "group_id": "customer_134",
+      "person_id": 3549,
+      "person_name": "Person_customer_134_1760358713",
+      "timestamp": "",
+      "group_score": 0.247,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_134",
+          "customer_id": "customer_134",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9172f978-5f79-436a-a9c8-8e74dfedc9bb-1012025-34710PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2474091649055481
+        }
+      ]
+    },
+    {
+      "group_id": "customer_137",
+      "person_id": 3551,
+      "person_name": "Person_customer_137_1760358713",
+      "timestamp": "",
+      "group_score": 0.276,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_137",
+          "customer_id": "customer_137",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4ef810fb-d763-4d59-a353-d12d2a111280-1012025-51755PM.jpg",
+          "entry_time": "",
+          "similarity": 0.27603375911712646
+        }
+      ]
+    },
+    {
+      "group_id": "customer_135",
+      "person_id": 3550,
+      "person_name": "Person_customer_135_1760358713",
+      "timestamp": "",
+      "group_score": 0.216,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_135",
+          "customer_id": "customer_135",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/aaa1e2ec-cad3-4ae5-9737-3fe1915119e0-1012025-51756PM.jpg",
+          "entry_time": "",
+          "similarity": 0.21558502316474915
+        }
+      ]
+    },
+    {
+      "group_id": "customer_136",
+      "person_id": 3551,
+      "person_name": "Person_customer_137_1760358713",
+      "timestamp": "",
+      "group_score": 0.63,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_136",
+          "customer_id": "customer_136",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/031c136f-c4f4-446a-9591-20a493f0709d-1012025-51756PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6302629113197327
+        }
+      ]
+    },
+    {
+      "group_id": "customer_138",
+      "person_id": 3552,
+      "person_name": "Person_customer_138_1760358714",
+      "timestamp": "",
+      "group_score": 0.226,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_138",
+          "customer_id": "customer_138",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/954f6ba4-cd2f-4080-85bc-374d8ff69ae6-1012025-105521AM.jpg",
+          "entry_time": "",
+          "similarity": 0.22632858157157898
+        }
+      ]
+    },
+    {
+      "group_id": "customer_139",
+      "person_id": 3553,
+      "person_name": "Person_customer_139_1760358714",
+      "timestamp": "",
+      "group_score": 0.119,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_139",
+          "customer_id": "customer_139",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d6a36a88-85d3-4bb8-b0ec-c835d66b1fad-1012025-51555PM.jpg",
+          "entry_time": "",
+          "similarity": 0.11858654022216797
+        }
+      ]
+    },
+    {
+      "group_id": "customer_140",
+      "person_id": 3554,
+      "person_name": "Person_customer_140_1760358714",
+      "timestamp": "",
+      "group_score": 0.46,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_140",
+          "customer_id": "customer_140",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/61bf98c1-4abd-4d87-9f5f-fa3448342042-1012025-105839AM.jpg",
+          "entry_time": "",
+          "similarity": 0.4604235887527466
+        }
+      ]
+    },
+    {
+      "group_id": "customer_141",
+      "person_id": 3555,
+      "person_name": "Person_customer_141_1760358714",
+      "timestamp": "",
+      "group_score": 0.4,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_141",
+          "customer_id": "customer_141",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dd3c3fb6-0131-4b62-ad96-1cd515c10c10-1012025-51650PM.jpg",
+          "entry_time": "",
+          "similarity": 0.39974430203437805
+        }
+      ]
+    },
+    {
+      "group_id": "customer_144",
+      "person_id": 3556,
+      "person_name": "Person_customer_144_1760358714",
+      "timestamp": "",
+      "group_score": 0.455,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_144",
+          "customer_id": "customer_144",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6eecfd57-ea8b-4c3a-b48e-fbb39b7fc7ad-1012025-33306PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4551820755004883
+        }
+      ]
+    },
+    {
+      "group_id": "customer_143",
+      "person_id": 3556,
+      "person_name": "Person_customer_144_1760358714",
+      "timestamp": "",
+      "group_score": 0.698,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_143",
+          "customer_id": "customer_143",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ee6ababb-4344-4448-8111-c9ff6a7094e9-1012025-110537AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6976301670074463
+        }
+      ]
+    },
+    {
+      "group_id": "customer_145",
+      "person_id": 3557,
+      "person_name": "Person_customer_145_1760358714",
+      "timestamp": "",
+      "group_score": 0.215,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_145",
+          "customer_id": "customer_145",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/197e6afc-faf3-4478-96d5-be3a62cea408-1012025-43300PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2152172476053238
+        }
+      ]
+    },
+    {
+      "group_id": "customer_146",
+      "person_id": 3558,
+      "person_name": "Person_customer_146_1760358714",
+      "timestamp": "",
+      "group_score": 0.208,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_146",
+          "customer_id": "customer_146",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2ce11785-3994-4d4e-bf83-e0c4b8eec964-1012025-124422PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2080531120300293
+        }
+      ]
+    },
+    {
+      "group_id": "customer_147",
+      "person_id": 3559,
+      "person_name": "Person_customer_147_1760358714",
+      "timestamp": "",
+      "group_score": 0.257,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_147",
+          "customer_id": "customer_147",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0556d47b-615f-4486-87fe-04e6ec45bc4c-1012025-10421PM.jpg",
+          "entry_time": "",
+          "similarity": 0.25742241740226746
+        }
+      ]
+    },
+    {
+      "group_id": "customer_148",
+      "person_id": 3554,
+      "person_name": "Person_customer_140_1760358714",
+      "timestamp": "",
+      "group_score": 0.581,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_148",
+          "customer_id": "customer_148",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/fb218a6e-0a2e-47a7-bffb-7fe70e089d9e-1012025-105025AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5805940628051758
+        }
+      ]
+    },
+    {
+      "group_id": "customer_149",
+      "person_id": 3517,
+      "person_name": "Person_customer_89_1760358707",
+      "timestamp": "",
+      "group_score": 0.728,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_149",
+          "customer_id": "customer_149",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f7255d4a-cb76-4e00-a5a3-664f50588140-1012025-11617PM.jpg",
+          "entry_time": "",
+          "similarity": 0.7281871438026428
+        }
+      ]
+    },
+    {
+      "group_id": "customer_150",
+      "person_id": 3560,
+      "person_name": "Person_customer_150_1760358715",
+      "timestamp": "",
+      "group_score": 0.299,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_150",
+          "customer_id": "customer_150",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4a948418-badb-48b4-8a4e-227e152b9e80-1012025-43255PM.jpg",
+          "entry_time": "",
+          "similarity": 0.29898154735565186
+        }
+      ]
+    },
+    {
+      "group_id": "customer_152",
+      "person_id": 3561,
+      "person_name": "Person_customer_152_1760358715",
+      "timestamp": "",
+      "group_score": 0.197,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_152",
+          "customer_id": "customer_152",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/65e2afe6-e2ea-482b-b77c-361e38d51e55-1012025-50216PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1974012553691864
+        }
+      ]
+    },
+    {
+      "group_id": "customer_151",
+      "person_id": 3562,
+      "person_name": "Person_customer_151_1760358715",
+      "timestamp": "",
+      "group_score": 0.52,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_151",
+          "customer_id": "customer_151",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8e691550-602c-4ccc-985a-7516b1f7bdf4-1012025-103134AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5198956727981567
+        }
+      ]
+    },
+    {
+      "group_id": "customer_153",
+      "person_id": 3563,
+      "person_name": "Person_customer_153_1760358715",
+      "timestamp": "",
+      "group_score": 0.273,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_153",
+          "customer_id": "customer_153",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/42ec2543-56c0-4884-b7ca-d0a21a761496-1012025-51442PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2729690968990326
+        }
+      ]
+    },
+    {
+      "group_id": "customer_154",
+      "person_id": 3564,
+      "person_name": "Person_customer_154_1760358715",
+      "timestamp": "",
+      "group_score": 0.275,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_154",
+          "customer_id": "customer_154",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/122be198-24cd-4aa7-a92c-fde44249d4cc-1012025-40538PM.jpg",
+          "entry_time": "",
+          "similarity": 0.27543625235557556
+        }
+      ]
+    },
+    {
+      "group_id": "customer_156",
+      "person_id": 3565,
+      "person_name": "Person_customer_156_1760358715",
+      "timestamp": "",
+      "group_score": 0.217,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_156",
+          "customer_id": "customer_156",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/774cbb0f-3efb-4205-a7a1-91ed009fbbea-1012025-90604AM.jpg",
+          "entry_time": "",
+          "similarity": 0.21671253442764282
+        }
+      ]
+    },
+    {
+      "group_id": "customer_155",
+      "person_id": 3567,
+      "person_name": "Person_customer_155_1760358715",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_155",
+          "customer_id": "customer_155",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f66a6c6a-f926-43a3-91af-058cdf2fdce2-1012025-123600PM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_157",
+      "person_id": 3566,
+      "person_name": "Person_customer_157_1760358715",
+      "timestamp": "",
+      "group_score": 0.183,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_157",
+          "customer_id": "customer_157",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c993f85b-8130-4e58-a62e-91b9e6b0b459-1012025-82426AM.jpg",
+          "entry_time": "",
+          "similarity": 0.18312782049179077
+        }
+      ]
+    },
+    {
+      "group_id": "customer_158",
+      "person_id": 3557,
+      "person_name": "Person_customer_145_1760358714",
+      "timestamp": "",
+      "group_score": 0.758,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_158",
+          "customer_id": "customer_158",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9082edaf-9fa1-4671-afdc-498d95a874ef-1012025-51350PM.jpg",
+          "entry_time": "",
+          "similarity": 0.7580231428146362
+        }
+      ]
+    },
+    {
+      "group_id": "customer_159",
+      "person_id": 3568,
+      "person_name": "Person_customer_159_1760358715",
+      "timestamp": "",
+      "group_score": 0.185,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_159",
+          "customer_id": "customer_159",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f5d0940d-70a6-4bb7-8f46-cff51131782c-1012025-21009PM.jpg",
+          "entry_time": "",
+          "similarity": 0.185065358877182
+        }
+      ]
+    },
+    {
+      "group_id": "customer_160",
+      "person_id": 3569,
+      "person_name": "Person_customer_160_1760358716",
+      "timestamp": "",
+      "group_score": 0.319,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_160",
+          "customer_id": "customer_160",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1e345393-f817-4c95-ae9c-db02be9a4d81-1012025-51319PM.jpg",
+          "entry_time": "",
+          "similarity": 0.31869739294052124
+        }
+      ]
+    },
+    {
+      "group_id": "customer_161",
+      "person_id": 3568,
+      "person_name": "Person_customer_159_1760358715",
+      "timestamp": "",
+      "group_score": 0.604,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_161",
+          "customer_id": "customer_161",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/432a897c-cc57-4bee-978d-00656d1a38f5-1012025-122138PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6039659380912781
+        }
+      ]
+    },
+    {
+      "group_id": "customer_162",
+      "person_id": 3538,
+      "person_name": "Person_customer_116_1760358711",
+      "timestamp": "",
+      "group_score": 0.555,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_162",
+          "customer_id": "customer_162",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b0c5359e-791a-4364-901a-17d8393ff681-1012025-110523AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5554571747779846
+        }
+      ]
+    },
+    {
+      "group_id": "customer_163",
+      "person_id": 3570,
+      "person_name": "Person_customer_163_1760358716",
+      "timestamp": "",
+      "group_score": 0.259,
+      "camera": "GT-LIMELITE-CHENNAI-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_163",
+          "customer_id": "customer_163",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7e22f920-15db-477f-9c3f-db0cd9e798fb-1012025-51150PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2591325044631958
+        }
+      ]
+    },
+    {
+      "group_id": "customer_164",
+      "person_id": 3571,
+      "person_name": "Person_customer_164_1760358716",
+      "timestamp": "",
+      "group_score": 0.282,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_164",
+          "customer_id": "customer_164",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/88e49470-33d9-4565-879c-10d08d869180-1012025-50040PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2820016145706177
+        }
+      ]
+    },
+    {
+      "group_id": "customer_165",
+      "person_id": 3572,
+      "person_name": "Person_customer_165_1760358716",
+      "timestamp": "",
+      "group_score": 0.248,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_165",
+          "customer_id": "customer_165",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/76fc43bc-469e-4400-b506-15714244304e-1012025-123025PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24761444330215454
+        }
+      ]
+    },
+    {
+      "group_id": "customer_166",
+      "person_id": 3573,
+      "person_name": "Person_customer_166_1760358716",
+      "timestamp": "",
+      "group_score": 0.492,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_166",
+          "customer_id": "customer_166",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/740a73db-1fc4-4ce2-b12d-256b09b59212-1012025-100723AM.jpg",
+          "entry_time": "",
+          "similarity": 0.49168482422828674
+        }
+      ]
+    },
+    {
+      "group_id": "customer_170",
+      "person_id": 3574,
+      "person_name": "Person_customer_170_1760358716",
+      "timestamp": "",
+      "group_score": 0.272,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_170",
+          "customer_id": "customer_170",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9598d9fc-913a-4a21-926e-3436ff9be386-1012025-50429PM.jpg",
+          "entry_time": "",
+          "similarity": 0.27205121517181396
+        }
+      ]
+    },
+    {
+      "group_id": "customer_167",
+      "person_id": 3575,
+      "person_name": "Person_customer_167_1760358716",
+      "timestamp": "",
+      "group_score": 0.415,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_167",
+          "customer_id": "customer_167",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c4db1ef9-73fe-445e-9db1-53bb928d7138-1012025-125740PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4149043560028076
+        }
+      ]
+    },
+    {
+      "group_id": "customer_171",
+      "person_id": 3576,
+      "person_name": "Person_customer_171_1760358717",
+      "timestamp": "",
+      "group_score": 0.271,
+      "camera": "JO-CBE-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_171",
+          "customer_id": "customer_171",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dec6bec2-f540-4caf-b95d-7030046a1d78-1012025-101745AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2714119553565979
+        }
+      ]
+    },
+    {
+      "group_id": "customer_172",
+      "person_id": 3577,
+      "person_name": "Person_customer_172_1760358717",
+      "timestamp": "",
+      "group_score": 0.303,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_172",
+          "customer_id": "customer_172",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/bd26f051-311b-4643-8fea-445c8641a628-1012025-50424PM.jpg",
+          "entry_time": "",
+          "similarity": 0.30314695835113525
+        }
+      ]
+    },
+    {
+      "group_id": "customer_169",
+      "person_id": 3578,
+      "person_name": "Person_customer_169_1760358717",
+      "timestamp": "",
+      "group_score": 0.208,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_169",
+          "customer_id": "customer_169",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6a8331f8-20c7-4533-816d-d654a9266dde-1012025-12216PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20845714211463928
+        }
+      ]
+    },
+    {
+      "group_id": "customer_168",
+      "person_id": 3579,
+      "person_name": "Person_customer_168_1760358717",
+      "timestamp": "",
+      "group_score": 0.239,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_168",
+          "customer_id": "customer_168",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c613c665-1108-4957-a155-6f600e0cbd06-1012025-82219AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2385290414094925
+        }
+      ]
+    },
+    {
+      "group_id": "customer_173",
+      "person_id": 3580,
+      "person_name": "Person_customer_173_1760358717",
+      "timestamp": "",
+      "group_score": 0.19,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_173",
+          "customer_id": "customer_173",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e51b568a-814e-4a3d-a354-d3f5fda5f26c-1012025-12227PM.jpg",
+          "entry_time": "",
+          "similarity": 0.19038337469100952
+        }
+      ]
+    },
+    {
+      "group_id": "customer_175",
+      "person_id": 3581,
+      "person_name": "Person_customer_175_1760358717",
+      "timestamp": "",
+      "group_score": 0.302,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_175",
+          "customer_id": "customer_175",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/15e8d437-01a2-4ca6-8edf-d8ebd30ce420-1012025-20300PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3023375868797302
+        }
+      ]
+    },
+    {
+      "group_id": "customer_174",
+      "person_id": 3582,
+      "person_name": "Person_customer_174_1760358717",
+      "timestamp": "",
+      "group_score": 0.207,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_174",
+          "customer_id": "customer_174",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6653b07c-bfcd-4700-b11e-5fa75e789c94-1012025-40629PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20686526596546173
+        }
+      ]
+    },
+    {
+      "group_id": "customer_176",
+      "person_id": 3583,
+      "person_name": "Person_customer_176_1760358717",
+      "timestamp": "",
+      "group_score": 0.512,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_176",
+          "customer_id": "customer_176",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/04d5ae96-100b-47d7-bb2d-df6b82539827-1012025-34351PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5122882723808289
+        }
+      ]
+    },
+    {
+      "group_id": "customer_178",
+      "person_id": 3584,
+      "person_name": "Person_customer_178_1760358717",
+      "timestamp": "",
+      "group_score": 0.202,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_178",
+          "customer_id": "customer_178",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8022e369-bc5a-4a32-bbdb-11ce37aefb5b-1012025-50042PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20245486497879028
+        }
+      ]
+    },
+    {
+      "group_id": "customer_177",
+      "person_id": 3585,
+      "person_name": "Person_customer_177_1760358717",
+      "timestamp": "",
+      "group_score": 0.472,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_177",
+          "customer_id": "customer_177",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/99108011-ec63-478e-8898-029f66858156-1012025-50043PM.jpg",
+          "entry_time": "",
+          "similarity": 0.47239238023757935
+        }
+      ]
+    },
+    {
+      "group_id": "customer_182",
+      "person_id": 3586,
+      "person_name": "Person_customer_182_1760358718",
+      "timestamp": "",
+      "group_score": 0.459,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_182",
+          "customer_id": "customer_182",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d2b8b4cc-4c9c-48e6-aa9e-b40d02be2b58-1012025-101038AM.jpg",
+          "entry_time": "",
+          "similarity": 0.45863860845565796
+        }
+      ]
+    },
+    {
+      "group_id": "customer_179",
+      "person_id": 3527,
+      "person_name": "Person_customer_105_1760358710",
+      "timestamp": "",
+      "group_score": 0.669,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_179",
+          "customer_id": "customer_179",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2da8b294-ff92-43c8-bd1f-925a2d8b8b15-1012025-41817PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6693333387374878
+        }
+      ]
+    },
+    {
+      "group_id": "customer_180",
+      "person_id": 3587,
+      "person_name": "Person_customer_180_1760358718",
+      "timestamp": "",
+      "group_score": 0.215,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_180",
+          "customer_id": "customer_180",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9c81ee64-7691-4b12-bc84-cd1c2a94ce88-1012025-101448AM.jpg",
+          "entry_time": "",
+          "similarity": 0.21508555114269257
+        }
+      ]
+    },
+    {
+      "group_id": "customer_181",
+      "person_id": 3588,
+      "person_name": "Person_customer_181_1760358718",
+      "timestamp": "",
+      "group_score": 0.489,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_181",
+          "customer_id": "customer_181",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d2c353c4-affc-4b5d-a6c9-b40e79849232-1012025-81434AM.jpg",
+          "entry_time": "",
+          "similarity": 0.4893937408924103
+        }
+      ]
+    },
+    {
+      "group_id": "customer_184",
+      "person_id": 3589,
+      "person_name": "Person_customer_184_1760358718",
+      "timestamp": "",
+      "group_score": 0.264,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_184",
+          "customer_id": "customer_184",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d1e82894-91c1-44ef-9fb2-a5e5158680ab-1012025-110845AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2644352614879608
+        }
+      ]
+    },
+    {
+      "group_id": "customer_183",
+      "person_id": 3590,
+      "person_name": "Person_customer_183_1760358718",
+      "timestamp": "",
+      "group_score": 0.416,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_183",
+          "customer_id": "customer_183",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8238137c-7407-48b0-9db3-152724a4c297-1012025-34643PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4163557291030884
+        }
+      ]
+    },
+    {
+      "group_id": "customer_186",
+      "person_id": 3591,
+      "person_name": "Person_customer_186_1760358718",
+      "timestamp": "",
+      "group_score": 0.243,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_186",
+          "customer_id": "customer_186",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/797b6e28-19c4-4b01-8199-f352a020a0ce-1012025-11018PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24306416511535645
+        }
+      ]
+    },
+    {
+      "group_id": "customer_185",
+      "person_id": 3592,
+      "person_name": "Person_customer_185_1760358719",
+      "timestamp": "",
+      "group_score": 0.184,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_185",
+          "customer_id": "customer_185",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/912e5af3-ce8e-46cb-a05d-0d71d7dd4467-1012025-45631PM.jpg",
+          "entry_time": "",
+          "similarity": 0.1835319697856903
+        }
+      ]
+    },
+    {
+      "group_id": "customer_188",
+      "person_id": 3593,
+      "person_name": "Person_customer_188_1760358719",
+      "timestamp": "",
+      "group_score": 0.254,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_188",
+          "customer_id": "customer_188",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/91008be5-f366-4bd2-b96a-f85415e1210c-1012025-45408PM.jpg",
+          "entry_time": "",
+          "similarity": 0.25440123677253723
+        }
+      ]
+    },
+    {
+      "group_id": "customer_189",
+      "person_id": 3580,
+      "person_name": "Person_customer_173_1760358717",
+      "timestamp": "",
+      "group_score": 0.559,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_189",
+          "customer_id": "customer_189",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8280b72f-d82e-41d3-b71d-ed938ff683f6-1012025-93551AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5593975782394409
+        }
+      ]
+    },
+    {
+      "group_id": "customer_190",
+      "person_id": 3594,
+      "person_name": "Person_customer_190_1760358719",
+      "timestamp": "",
+      "group_score": 0.256,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_190",
+          "customer_id": "customer_190",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/782b1681-c1f0-497e-a80a-ed87b3fead00-1012025-80932AM.jpg",
+          "entry_time": "",
+          "similarity": 0.2557772994041443
+        }
+      ]
+    },
+    {
+      "group_id": "customer_192",
+      "person_id": 3595,
+      "person_name": "Person_customer_192_1760358719",
+      "timestamp": "",
+      "group_score": 0.474,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_192",
+          "customer_id": "customer_192",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/645c76f2-2043-4588-8920-4a3b948ca24e-1012025-45351PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4740876257419586
+        }
+      ]
+    },
+    {
+      "group_id": "customer_191",
+      "person_id": 3596,
+      "person_name": "Person_customer_191_1760358719",
+      "timestamp": "",
+      "group_score": 0.202,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_191",
+          "customer_id": "customer_191",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9ccf42fc-7516-4d8b-8aca-c24bc81c35a8-1012025-45306PM.jpg",
+          "entry_time": "",
+          "similarity": 0.2024141550064087
+        }
+      ]
+    },
+    {
+      "group_id": "customer_193",
+      "person_id": 3597,
+      "person_name": "Person_customer_193_1760358719",
+      "timestamp": "",
+      "group_score": 0.291,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_193",
+          "customer_id": "customer_193",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/811245ab-a5ed-4817-9b9a-c71f38459fa8-1012025-31312PM.jpg",
+          "entry_time": "",
+          "similarity": 0.29051464796066284
+        }
+      ]
+    },
+    {
+      "group_id": "customer_194",
+      "person_id": 3598,
+      "person_name": "Person_customer_194_1760358719",
+      "timestamp": "",
+      "group_score": 0.277,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_194",
+          "customer_id": "customer_194",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/29b0b1b4-a71e-43c6-82ee-dd4c766abf05-1012025-83914AM.jpg",
+          "entry_time": "",
+          "similarity": 0.27664703130722046
+        }
+      ]
+    },
+    {
+      "group_id": "customer_196",
+      "person_id": 3599,
+      "person_name": "Person_customer_196_1760358719",
+      "timestamp": "",
+      "group_score": 0.518,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_196",
+          "customer_id": "customer_196",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6146e26f-9cc9-4161-9cf0-4a3184dbe47c-1012025-112515AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5177112221717834
+        }
+      ]
+    },
+    {
+      "group_id": "customer_195",
+      "person_id": 3600,
+      "person_name": "Person_customer_195_1760358720",
+      "timestamp": "",
+      "group_score": 0.374,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_195",
+          "customer_id": "customer_195",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a6eaa258-c590-4a9c-b27b-b11205125341-1012025-81208AM.jpg",
+          "entry_time": "",
+          "similarity": 0.37414824962615967
+        }
+      ]
+    },
+    {
+      "group_id": "customer_197",
+      "person_id": 3601,
+      "person_name": "Person_customer_197_1760358720",
+      "timestamp": "",
+      "group_score": 0.223,
+      "camera": "GT-KL-SASTHANGALAM-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_197",
+          "customer_id": "customer_197",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d355a27d-767f-4fc4-868f-7618145151cb-1012025-45010PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22310057282447815
+        }
+      ]
+    },
+    {
+      "group_id": "customer_199",
+      "person_id": 3602,
+      "person_name": "Person_customer_199_1760358720",
+      "timestamp": "",
+      "group_score": 0.205,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_199",
+          "customer_id": "customer_199",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7feb925c-5990-40fb-b39d-e003b43beba5-1012025-44953PM.jpg",
+          "entry_time": "",
+          "similarity": 0.20461535453796387
+        }
+      ]
+    },
+    {
+      "group_id": "customer_198",
+      "person_id": 3603,
+      "person_name": "Person_customer_198_1760358720",
+      "timestamp": "",
+      "group_score": 0.483,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_198",
+          "customer_id": "customer_198",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ea595b1d-8f56-4888-87e6-d07d87a54892-1012025-113936AM.jpg",
+          "entry_time": "",
+          "similarity": 0.4833064377307892
+        }
+      ]
+    },
+    {
+      "group_id": "customer_203",
+      "person_id": 3588,
+      "person_name": "Person_customer_181_1760358718",
+      "timestamp": "",
+      "group_score": 0.607,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_203",
+          "customer_id": "customer_203",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2c03949c-a0ce-4e56-ad8b-73685f29f548-1012025-90218AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6065630912780762
+        }
+      ]
+    },
+    {
+      "group_id": "customer_202",
+      "person_id": 3604,
+      "person_name": "Person_customer_202_1760358720",
+      "timestamp": "",
+      "group_score": 0.221,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_202",
+          "customer_id": "customer_202",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/db6e8355-1d0b-4c82-9840-92c72819aee5-1012025-31052PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22069817781448364
+        }
+      ]
+    },
+    {
+      "group_id": "customer_200",
+      "person_id": 3605,
+      "person_name": "Person_customer_200_1760358720",
+      "timestamp": "",
+      "group_score": 0.221,
+      "camera": "GT-CBE-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_200",
+          "customer_id": "customer_200",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7138a7dc-a060-4e4d-8812-ea0547f0cc15-1012025-31016PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22061721980571747
+        }
+      ]
+    },
+    {
+      "group_id": "customer_204",
+      "person_id": 3606,
+      "person_name": "Person_customer_204_1760358721",
+      "timestamp": "",
+      "group_score": 0.526,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_204",
+          "customer_id": "customer_204",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/74543b4d-2444-4a21-a108-37ec04e57b5e-1012025-43108PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5255880355834961
+        }
+      ]
+    },
+    {
+      "group_id": "customer_207",
+      "person_id": 3607,
+      "person_name": "Person_customer_207_1760358721",
+      "timestamp": "",
+      "group_score": 0.225,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_207",
+          "customer_id": "customer_207",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0c526296-a7b7-4b25-a713-43ad98fbec8b-1012025-23641PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22515052556991577
+        }
+      ]
+    },
+    {
+      "group_id": "customer_205",
+      "person_id": 3608,
+      "person_name": "Person_customer_205_1760358721",
+      "timestamp": "",
+      "group_score": 0.227,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_205",
+          "customer_id": "customer_205",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/9cdb5e40-7031-4107-bdee-0ef283fd7d55-1012025-42838PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22676631808280945
+        }
+      ]
+    },
+    {
+      "group_id": "customer_208",
+      "person_id": 3609,
+      "person_name": "Person_customer_208_1760358722",
+      "timestamp": "",
+      "group_score": 0.272,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_208",
+          "customer_id": "customer_208",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c391e85c-cc72-4c26-9437-e4e1f74c0193-1012025-104531AM.jpg",
+          "entry_time": "",
+          "similarity": 0.27229151129722595
+        }
+      ]
+    },
+    {
+      "group_id": "customer_209",
+      "person_id": 3610,
+      "person_name": "Person_customer_209_1760358722",
+      "timestamp": "",
+      "group_score": 0.225,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_209",
+          "customer_id": "customer_209",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ba2ba153-5ace-4285-9ced-8b869045f4fb-1012025-81402AM.jpg",
+          "entry_time": "",
+          "similarity": 0.22540464997291565
+        }
+      ]
+    },
+    {
+      "group_id": "customer_211",
+      "person_id": 3610,
+      "person_name": "Person_customer_209_1760358722",
+      "timestamp": "",
+      "group_score": 0.788,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_211",
+          "customer_id": "customer_211",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c5187471-1945-49ad-9544-df7fad9410f0-1012025-81232AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7877274751663208
+        }
+      ]
+    },
+    {
+      "group_id": "customer_210",
+      "person_id": 3611,
+      "person_name": "Person_customer_210_1760358722",
+      "timestamp": "",
+      "group_score": 0.263,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_210",
+          "customer_id": "customer_210",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c9e50602-acfb-44c1-8db1-c9790b39191b-1012025-101520AM.jpg",
+          "entry_time": "",
+          "similarity": 0.26308196783065796
+        }
+      ]
+    },
+    {
+      "group_id": "customer_212",
+      "person_id": 3612,
+      "person_name": "Person_customer_212_1760358722",
+      "timestamp": "",
+      "group_score": 0.544,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_212",
+          "customer_id": "customer_212",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1af8711c-9e65-43ea-a1bb-b8466adbc1ca-1012025-44432PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5437535047531128
+        }
+      ]
+    },
+    {
+      "group_id": "customer_213",
+      "person_id": 3613,
+      "person_name": "Person_customer_213_1760358722",
+      "timestamp": "",
+      "group_score": 0.338,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_213",
+          "customer_id": "customer_213",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3c9aa415-6011-417a-8f18-4fcef5cdeccb-1012025-43321PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3382706642150879
+        }
+      ]
+    },
+    {
+      "group_id": "customer_216",
+      "person_id": 3614,
+      "person_name": "Person_customer_216_1760358723",
+      "timestamp": "",
+      "group_score": 0.258,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_216",
+          "customer_id": "customer_216",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/72f63675-de7d-4e48-a27f-73e088b74473-1012025-92258AM.jpg",
+          "entry_time": "",
+          "similarity": 0.25756359100341797
+        }
+      ]
+    },
+    {
+      "group_id": "customer_219",
+      "person_id": 3615,
+      "person_name": "Person_customer_219_1760358723",
+      "timestamp": "",
+      "group_score": 0.368,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_219",
+          "customer_id": "customer_219",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/797da72b-8755-40cc-bda8-d133d2a3e460-1012025-75817AM.jpg",
+          "entry_time": "",
+          "similarity": 0.3684026300907135
+        }
+      ]
+    },
+    {
+      "group_id": "customer_218",
+      "person_id": 3617,
+      "person_name": "Person_customer_218_1760358723",
+      "timestamp": "",
+      "group_score": 0.245,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_218",
+          "customer_id": "customer_218",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dc2b36bd-9d6d-457f-83ec-b80e8c590a20-1012025-80844AM.jpg",
+          "entry_time": "",
+          "similarity": 0.24533462524414062
+        }
+      ]
+    },
+    {
+      "group_id": "customer_217",
+      "person_id": 3616,
+      "person_name": "Person_customer_217_1760358723",
+      "timestamp": "",
+      "group_score": 0.246,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_217",
+          "customer_id": "customer_217",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/48d5f076-fe73-4b57-825e-9a67693acae5-1012025-80844AM.jpg",
+          "entry_time": "",
+          "similarity": 0.24627749621868134
+        }
+      ]
+    },
+    {
+      "group_id": "customer_220",
+      "person_id": 3615,
+      "person_name": "Person_customer_219_1760358723",
+      "timestamp": "",
+      "group_score": 0.625,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_220",
+          "customer_id": "customer_220",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/64eb7b0f-767e-4ed5-9bd8-17f06a9f3e8a-1012025-80227AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6246172189712524
+        }
+      ]
+    },
+    {
+      "group_id": "customer_223",
+      "person_id": 3618,
+      "person_name": "Person_customer_223_1760358723",
+      "timestamp": "",
+      "group_score": 0.249,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_223",
+          "customer_id": "customer_223",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/91ff8ae4-7588-4304-b666-6ddc3d213e10-1012025-94541AM.jpg",
+          "entry_time": "",
+          "similarity": 0.24940520524978638
+        }
+      ]
+    },
+    {
+      "group_id": "customer_221",
+      "person_id": 3619,
+      "person_name": "Person_customer_221_1760358723",
+      "timestamp": "",
+      "group_score": 0.306,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_221",
+          "customer_id": "customer_221",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2762172d-47d3-462b-9174-de11783ef7c5-1012025-43321PM.jpg",
+          "entry_time": "",
+          "similarity": 0.30574798583984375
+        }
+      ]
+    },
+    {
+      "group_id": "customer_224",
+      "person_id": 3618,
+      "person_name": "Person_customer_223_1760358723",
+      "timestamp": "",
+      "group_score": 0.68,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_224",
+          "customer_id": "customer_224",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/68f09f95-f5f8-4a9d-b195-46e18d6d7f35-1012025-75041AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6804927587509155
+        }
+      ]
+    },
+    {
+      "group_id": "customer_222",
+      "person_id": 3617,
+      "person_name": "Person_customer_218_1760358723",
+      "timestamp": "",
+      "group_score": 0.804,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_222",
+          "customer_id": "customer_222",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/dac98da9-44d8-423e-8af4-a9228ceb94fc-1012025-100439AM.jpg",
+          "entry_time": "",
+          "similarity": 0.80363929271698
+        }
+      ]
+    },
+    {
+      "group_id": "customer_225",
+      "person_id": 3618,
+      "person_name": "Person_customer_223_1760358723",
+      "timestamp": "",
+      "group_score": 0.676,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_225",
+          "customer_id": "customer_225",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6cbeb842-48ef-43eb-9b8e-a0f570e13928-1012025-80356AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6761318445205688
+        }
+      ]
+    },
+    {
+      "group_id": "customer_226",
+      "person_id": 3620,
+      "person_name": "Person_customer_226_1760358724",
+      "timestamp": "",
+      "group_score": 0.452,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_226",
+          "customer_id": "customer_226",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/80f2979d-7112-46fd-9d26-4ac8185ed804-1012025-21414PM.jpg",
+          "entry_time": "",
+          "similarity": 0.4518543481826782
+        }
+      ]
+    },
+    {
+      "group_id": "customer_227",
+      "person_id": 3621,
+      "person_name": "Person_customer_227_1760358724",
+      "timestamp": "",
+      "group_score": 0.313,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_227",
+          "customer_id": "customer_227",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/806ef844-2500-45cc-af67-a9fdc570ea2b-1012025-43849PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3132001757621765
+        }
+      ]
+    },
+    {
+      "group_id": "customer_229",
+      "person_id": 3622,
+      "person_name": "Person_customer_229_1760358724",
+      "timestamp": "",
+      "group_score": 0.279,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_229",
+          "customer_id": "customer_229",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a9097b79-ae30-4a5a-9a69-b0385986dcc0-1012025-122717PM.jpg",
+          "entry_time": "",
+          "similarity": 0.278958261013031
+        }
+      ]
+    },
+    {
+      "group_id": "customer_228",
+      "person_id": 3623,
+      "person_name": "Person_customer_228_1760358724",
+      "timestamp": "",
+      "group_score": 1.0,
+      "camera": "GT-LIMELITE-CHENNAI-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_228",
+          "customer_id": "customer_228",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/99e3a013-8c5f-40a8-a5d0-f6e79f7ce95d-1012025-43624PM.jpg",
+          "entry_time": "",
+          "similarity": 1.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_233",
+      "person_id": 3624,
+      "person_name": "Person_customer_233_1760358725",
+      "timestamp": "",
+      "group_score": 0.245,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_233",
+          "customer_id": "customer_233",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0887ec81-e87a-4fb6-93b0-a371a7a82f77-1012025-31005PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24515873193740845
+        }
+      ]
+    },
+    {
+      "group_id": "customer_231",
+      "person_id": 3625,
+      "person_name": "Person_customer_231_1760358725",
+      "timestamp": "",
+      "group_score": 0.389,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_231",
+          "customer_id": "customer_231",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a69c1aa6-603b-4692-ae5a-785b8cc888b9-1012025-120151PM.jpg",
+          "entry_time": "",
+          "similarity": 0.389087438583374
+        }
+      ]
+    },
+    {
+      "group_id": "customer_234",
+      "person_id": 3626,
+      "person_name": "Person_customer_234_1760358725",
+      "timestamp": "",
+      "group_score": 0.244,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_234",
+          "customer_id": "customer_234",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c97d2357-610a-47fc-a769-2c18f9d8153f-1012025-43704PM.jpg",
+          "entry_time": "",
+          "similarity": 0.24420985579490662
+        }
+      ]
+    },
+    {
+      "group_id": "customer_237",
+      "person_id": 3627,
+      "person_name": "Person_customer_237_1760358725",
+      "timestamp": "",
+      "group_score": 0.472,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_237",
+          "customer_id": "customer_237",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/230b932f-7065-4fd7-be48-699d1fd5c759-1012025-92823AM.jpg",
+          "entry_time": "",
+          "similarity": 0.47219300270080566
+        }
+      ]
+    },
+    {
+      "group_id": "customer_236",
+      "person_id": 3551,
+      "person_name": "Person_customer_137_1760358713",
+      "timestamp": "",
+      "group_score": 0.587,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_236",
+          "customer_id": "customer_236",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7d098668-ad3e-40d8-bade-4deeca7e6eb4-1012025-125640PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5873799324035645
+        }
+      ]
+    },
+    {
+      "group_id": "customer_235",
+      "person_id": 3551,
+      "person_name": "Person_customer_137_1760358713",
+      "timestamp": "",
+      "group_score": 0.624,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_235",
+          "customer_id": "customer_235",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/32bea45d-2224-4501-93f6-1bb8b65117b8-1012025-25111PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6243983507156372
+        }
+      ]
+    },
+    {
+      "group_id": "customer_240",
+      "person_id": 3628,
+      "person_name": "Person_customer_240_1760358726",
+      "timestamp": "",
+      "group_score": 0.254,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_240",
+          "customer_id": "customer_240",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b1fb8410-ac44-4cee-a024-181a82f0e83b-1012025-33829PM.jpg",
+          "entry_time": "",
+          "similarity": 0.254393994808197
+        }
+      ]
+    },
+    {
+      "group_id": "customer_239",
+      "person_id": 3473,
+      "person_name": "Person_customer_38_1760358701",
+      "timestamp": "",
+      "group_score": 0.569,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_239",
+          "customer_id": "customer_239",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/74e9617b-a7f1-4080-b3f8-d925b5e4d732-1012025-43534PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5688132047653198
+        }
+      ]
+    },
+    {
+      "group_id": "customer_243",
+      "person_id": 3629,
+      "person_name": "Person_customer_243_1760358726",
+      "timestamp": "",
+      "group_score": 0.266,
+      "camera": "hik-mia-entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_243",
+          "customer_id": "customer_243",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8a212082-c955-42e8-8619-6101592c3de6-1012025-42052PM.jpg",
+          "entry_time": "",
+          "similarity": 0.265655517578125
+        }
+      ]
+    },
+    {
+      "group_id": "customer_242",
+      "person_id": 3630,
+      "person_name": "Person_customer_242_1760358726",
+      "timestamp": "",
+      "group_score": 0.225,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_242",
+          "customer_id": "customer_242",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/257d8c6f-31b9-4f4c-afe1-f5dd50ff3b8f-1012025-42400PM.jpg",
+          "entry_time": "",
+          "similarity": 0.22512894868850708
+        }
+      ]
+    },
+    {
+      "group_id": "customer_241",
+      "person_id": 3631,
+      "person_name": "Person_customer_241_1760358726",
+      "timestamp": "",
+      "group_score": 0.266,
+      "camera": "GT-ODISHA-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_241",
+          "customer_id": "customer_241",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7dcefe00-28bc-43c0-83f3-da7e4cebd898-1012025-33828PM.jpg",
+          "entry_time": "",
+          "similarity": 0.26632577180862427
+        }
+      ]
+    },
+    {
+      "group_id": "customer_245",
+      "person_id": 3632,
+      "person_name": "Person_customer_245_1760358726",
+      "timestamp": "",
+      "group_score": 0.252,
+      "camera": "NAR-BWING-Entry",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_245",
+          "customer_id": "customer_245",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/830cb284-edee-4c99-8814-298c814bd604-1012025-90948AM.jpg",
+          "entry_time": "",
+          "similarity": 0.252226859331131
+        }
+      ]
+    },
+    {
+      "group_id": "customer_248",
+      "person_id": 3633,
+      "person_name": "Person_customer_248_1760358727",
+      "timestamp": "",
+      "group_score": 0.383,
+      "camera": "GT-LIMELITE-CHENNAI-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_248",
+          "customer_id": "customer_248",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c6961a46-ba33-4c84-97db-d6675a1dea89-1012025-30901PM.jpg",
+          "entry_time": "",
+          "similarity": 0.38270002603530884
+        }
+      ]
+    },
+    {
+      "group_id": "customer_246",
+      "person_id": 3634,
+      "person_name": "Person_customer_246_1760358727",
+      "timestamp": "",
+      "group_score": 0.27,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_246",
+          "customer_id": "customer_246",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b95276b4-98d4-4d86-ae96-eb54116d2d3a-1012025-43324PM.jpg",
+          "entry_time": "",
+          "similarity": 0.27033108472824097
+        }
+      ]
+    },
+    {
+      "group_id": "customer_247",
+      "person_id": 3560,
+      "person_name": "Person_customer_150_1760358715",
+      "timestamp": "",
+      "group_score": 0.635,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_247",
+          "customer_id": "customer_247",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a51a39ab-a5e4-4463-acbd-0dd71e9e09cb-1012025-43325PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6350531578063965
+        }
+      ]
+    },
+    {
+      "group_id": "customer_249",
+      "person_id": 3538,
+      "person_name": "Person_customer_116_1760358711",
+      "timestamp": "",
+      "group_score": 0.616,
+      "camera": "ea-naturals-both",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_249",
+          "customer_id": "customer_249",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/93e49433-48f9-462d-8761-bc59ca451ce8-1012025-105842AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6158756613731384
+        }
+      ]
+    }
+  ]
+}

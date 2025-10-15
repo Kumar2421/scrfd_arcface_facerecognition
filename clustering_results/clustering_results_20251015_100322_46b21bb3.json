@@ -1,0 +1,43 @@
+{
+  "job_id": "46b21bb3-d5af-4065-9fba-03771267c764",
+  "status": "finished",
+  "timestamp": "2025-10-15T04:33:22.979949Z",
+  "total_processed": 1,
+  "total_groups": 1,
+  "results": {
+    "processed": 1,
+    "recognized": 1,
+    "new_persons": 0,
+    "no_faces": 0,
+    "low_quality": 0,
+    "download_failed": 0,
+    "duplicate_faces": 0,
+    "low_similarity": 0
+  },
+  "message": "Processing completed. Created 1 groups from 1 images",
+  "groups": [
+    {
+      "group_id": "visitor-109984",
+      "person_id": 1,
+      "person_name": "Person_visitor-109984_1759915322",
+      "timestamp": "2025-09-26T03:04:40.389Z",
+      "group_score": 0.95,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "clockIn",
+      "branchId": "EM-DEPT",
+      "fileName": "fcdfb304-effe-4e2d-85e2-75ef5cc49814-9262025-83446AM.jpg",
+      "age": 25,
+      "gender": "male",
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": 334765,
+          "customer_id": "visitor-109984",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/fcdfb304-effe-4e2d-85e2-75ef5cc49814-9262025-83446AM.jpg",
+          "entry_time": "2025-09-26T03:04:40.389Z",
+          "similarity": 0.95
+        }
+      ]
+    }
+  ]
+}

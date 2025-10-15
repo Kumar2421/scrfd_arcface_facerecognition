@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 Smart Face Recognition - Person Groups</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            min-width: 150px;
+        }
+
+        .stat-card h3 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .person-groups {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .person-group {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .person-group:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .person-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .person-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 3px solid #667eea;
+        }
+
+        .person-info h3 {
+            color: #333;
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+
+        .person-info p {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .person-stats {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .person-stat {
+            background: #f8f9fa;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .image-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .image-item:hover {
+            transform: scale(1.05);
+        }
+
+        .image-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            display: block;
+            transition: opacity 0.3s ease;
+        }
+
+        .image-loading {
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 0.8em;
+        }
+
+        .image-error {
+            background: #ffebee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c62828;
+            font-size: 0.8em;
+        }
+
+        .image-item img.loading {
+            opacity: 0.5;
+        }
+
+        .image-item img.error {
+            opacity: 0.3;
+        }
+
+        .image-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+            color: white;
+            padding: 10px 8px 8px;
+            font-size: 0.8em;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .image-item:hover .image-overlay {
+            opacity: 1;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        .error {
+            background: #ff6b6b;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .refresh-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .refresh-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .modal-content img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #ccc;
+        }
+
+        .tab-navigation {
+            margin-bottom: 30px;
+        }
+
+        .tab-btn {
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            color: #666;
+            border: 2px solid #dee2e6;
+            padding: 15px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .tab-btn:hover {
+            background: linear-gradient(135deg, #e9ecef, #dee2e6);
+            transform: translateY(-2px);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .tab-content {
+            display: block;
+        }
+
+        .tab-content.hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .person-groups {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌟 Smart Face Recognition</h1>
+            <p>Person Groups & Image Gallery</p>
+        </div>
+
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <h3 id="total-persons">-</h3>
+                <p>Total Persons</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-visits">-</h3>
+                <p>Total Visits</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="total-images">-</h3>
+                <p>Total Images</p>
+            </div>
+            <div class="stat-card" style="background: linear-gradient(135deg, #FF9800, #F57C00);">
+                <h3 id="low-similarity-count">-</h3>
+                <p>Low Confidence</p>
+            </div>
+        </div>
+
+        <!-- JSON Input Section -->
+        <div class="json-input-section"
+            style="background: white; border-radius: 15px; padding: 25px; margin-bottom: 30px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #333; margin-bottom: 20px; text-align: center;">📄 JSON Data Input</h3>
+
+            <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center;">
+                <button class="refresh-btn" onclick="toggleJsonInput()"
+                    style="background: linear-gradient(135deg, #2196F3, #1976D2);">
+                    📝 Input JSON Data
+                </button>
+                <button class="refresh-btn" onclick="loadData()">🔄 Refresh Data</button>
+                <button class="refresh-btn" onclick="processVisits(false)"
+                    style="background: linear-gradient(135deg, #4CAF50, #45a049);">🚀 Process Visits</button>
+                <button class="refresh-btn" onclick="processVisits(true)"
+                    style="background: linear-gradient(135deg, #FF5722, #D32F2F);">🔄 Replace Data</button>
+                <button class="refresh-btn" onclick="processAllVisits()"
+                    style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);">🚀 Process All 149 Visits</button>
+                <button class="refresh-btn" onclick="clearImageCache()"
+                    style="background: linear-gradient(135deg, #FF9800, #F57C00);">🗑️ Clear Cache</button>
+                <button class="refresh-btn" onclick="clearDatabase()"
+                    style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);">🗑️ Clear Database</button>
+            </div>
+
+            <div id="json-input-form" style="display: none;">
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Upload JSON
+                        File:</label>
+                    <input type="file" id="jsonFileInput" accept=".json"
+                        style="width: 100%; padding: 10px; border: 2px dashed #ddd; border-radius: 8px; background: #f9f9f9;">
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Or Paste JSON
+                        Data:</label>
+                    <textarea id="jsonTextInput" placeholder="Paste your JSON data here..."
+                        style="width: 100%; height: 200px; padding: 15px; border: 2px solid #ddd; border-radius: 8px; font-family: monospace; font-size: 12px; resize: vertical;"></textarea>
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Max Visits to
+                        Process:</label>
+                    <input type="number" id="maxVisitsInput" value="149" min="1" max="1000"
+                        style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; background: #f9f9f9;">
+                    <small style="color: #666; font-size: 0.9em;">Set to 149 to process all visits, or enter a smaller
+                        number for testing</small>
+                </div>
+
+                <div style="display: flex; gap: 10px; justify-content: center;">
+                    <button class="refresh-btn" onclick="loadJsonData()"
+                        style="background: linear-gradient(135deg, #FF9800, #F57C00);">
+                        📥 Load JSON Data
+                    </button>
+                    <button class="refresh-btn" onclick="clearJsonInput()"
+                        style="background: linear-gradient(135deg, #f44336, #d32f2f);">
+                        🗑️ Clear
+                    </button>
+                </div>
+
+                <div id="json-status"
+                    style="margin-top: 15px; padding: 10px; border-radius: 8px; text-align: center; display: none;">
+                </div>
+            </div>
+        </div>
+
+        <!-- API Input Section -->
+        <div class="api-input-section"
+            style="background: white; border-radius: 15px; padding: 25px; margin-bottom: 30px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);">
+            <h3 style="color: #333; margin-bottom: 20px; text-align: center;">🌐 API Data Input</h3>
+
+            <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center;">
+                <button class="refresh-btn" onclick="toggleApiInput()"
+                    style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);">
+                    🔗 Configure API
+                </button>
+                <button class="refresh-btn" onclick="testApiConnection()"
+                    style="background: linear-gradient(135deg, #2196F3, #1976D2);">🧪 Test API</button>
+                <button class="refresh-btn" onclick="processVisitsFromApi(false)"
+                    style="background: linear-gradient(135deg, #4CAF50, #45a049);">🚀 Process from API</button>
+                <button class="refresh-btn" onclick="processVisitsFromApi(true)"
+                    style="background: linear-gradient(135deg, #FF5722, #D32F2F);">🔄 Replace with API Data</button>
+                <button class="refresh-btn" onclick="processFaceComparisonsFromApi()"
+                    style="background: linear-gradient(135deg, #9C27B0, #7B1FA2);">🔍 Compare Faces from API</button>
+            </div>
+
+            <div id="api-input-form" style="display: none;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">API
+                            URL:</label>
+                        <input type="url" id="apiUrlInput"
+                            placeholder="https://api.analytics.thefusionapps.com/api/v2/retail/visit"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white; font-family: monospace;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Analytics API
+                            endpoint for fetching visit data</small>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Max
+                            Visits:</label>
+                        <input type="number" id="apiMaxVisitsInput" min="1" max="1000" value="250"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Maximum visits to
+                            process (1-1000)</small>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Date:</label>
+                        <input type="date" id="startDateInput"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Select the date
+                            to fetch visits from</small>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">End Date
+                            (Optional):</label>
+                        <input type="date" id="endDateInput"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Leave empty to
+                            use single date</small>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Start
+                            Time:</label>
+                        <input type="time" id="startTimeInput"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Start time for
+                            filtering (HH:MM:SS)</small>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">End
+                            Time:</label>
+                        <input type="time" id="endTimeInput"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">End time for
+                            filtering (HH:MM:SS)</small>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Page:</label>
+                        <input type="number" id="pageInput" min="0" value="0"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Page number
+                            (0-based)</small>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Limit per
+                            Page:</label>
+                        <input type="number" id="limitInput" min="1" max="1000" value="250"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Records per page
+                            (1-1000)</small>
+                    </div>
+                </div>
+
+                <div
+                    style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #28a745;">
+                    <h4 style="margin: 0 0 10px 0; color: #28a745; font-size: 1em;">🔍 Filter Options</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px;">
+                        <label
+                            style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: #333; padding: 8px; background: white; border-radius: 6px; border: 1px solid #ddd;">
+                            <input type="checkbox" id="allBranchInput" checked style="transform: scale(1.1);">
+                            Include All Branches
+                        </label>
+                        <label
+                            style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: #333; padding: 8px; background: white; border-radius: 6px; border: 1px solid #ddd;">
+                            <input type="checkbox" id="includeVipInput" style="transform: scale(1.1);">
+                            Include VIP Visitors
+                        </label>
+                        <label
+                            style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: #333; padding: 8px; background: white; border-radius: 6px; border: 1px solid #ddd;">
+                            <input type="checkbox" id="includeVendorInput" style="transform: scale(1.1);">
+                            Include Vendors
+                        </label>
+                        <label
+                            style="display: flex; align-items: center; gap: 8px; font-weight: bold; color: #333; padding: 8px; background: white; border-radius: 6px; border: 1px solid #ddd;">
+                            <input type="checkbox" id="includeDeletedInput" style="transform: scale(1.1);">
+                            Include Deleted Records
+                        </label>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">API Key
+                            (Optional):</label>
+                        <input type="text" id="apiKeyInput" placeholder="Enter API key if required"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white; font-family: monospace;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">API key for
+                            additional authentication</small>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 8px; font-weight: bold; color: #333;">Auth Token
+                            (JWT):</label>
+                        <input type="password" id="authTokenInput" placeholder="JWT token will be loaded from config"
+                            style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 8px; background: white; font-family: monospace;">
+                        <small style="color: #666; font-size: 0.9em; display: block; margin-top: 5px;">Bearer token for
+                            API authentication</small>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 10px; justify-content: center;">
+                    <button class="refresh-btn" onclick="saveApiConfig()"
+                        style="background: linear-gradient(135deg, #FF9800, #F57C00);">
+                        💾 Save Config
+                    </button>
+                    <button class="refresh-btn" onclick="loadApiConfig()"
+                        style="background: linear-gradient(135deg, #2196F3, #1976D2);">
+                        📥 Load Config
+                    </button>
+                    <button class="refresh-btn" onclick="clearApiInput()"
+                        style="background: linear-gradient(135deg, #f44336, #d32f2f);">
+                        🗑️ Clear
+                    </button>
+                </div>
+
+                <div id="api-status"
+                    style="margin-top: 15px; padding: 10px; border-radius: 8px; text-align: center; display: none;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tab-navigation" style="margin-bottom: 30px; text-align: center;">
+            <button class="tab-btn active" onclick="switchTab('clustered')" id="tab-clustered">
+                🎯 Clustered Persons
+            </button>
+            <button class="tab-btn" onclick="switchTab('low-similarity')" id="tab-low-similarity">
+                ⚠️ Unusable Images
+            </button>
+            <button class="tab-btn" onclick="switchTab('face-comparison')" id="tab-face-comparison">
+                🔍 Face Comparison
+            </button>
+            <button class="refresh-btn" onclick="mergeDuplicates()"
+                style="background: linear-gradient(135deg, #9C27B0, #7B1FA2); margin-left: 10px;">
+                🔄 Merge Duplicates
+            </button>
+            <button class="refresh-btn" onclick="clearDatabase()"
+                style="background: linear-gradient(135deg, #f44336, #d32f2f); margin-left: 10px;">
+                🗑️ Clear Database
+            </button>
+        </div>
+
+        <div id="loading" class="loading">
+            Loading person groups...
+        </div>
+
+        <div id="error" class="error" style="display: none;">
+            Error loading data. Please try again.
+        </div>
+
+        <div id="processing" class="loading" style="display: none;">
+            Processing visits from JSON file... This may take a few minutes.
+        </div>
+
+        <!-- Clustered Persons Tab -->
+        <div id="clustered-tab" class="tab-content">
+            <div id="person-groups" class="person-groups" style="display: none;">
+                <!-- Person groups will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Low Confidence Images Tab -->
+        <div id="low-similarity-tab" class="tab-content hidden">
+            <div id="low-similarity-images" class="person-groups">
+                <!-- Low confidence images will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Face Comparison Tab -->
+        <div id="face-comparison-tab" class="tab-content hidden">
+            <div id="face-comparison-results" class="person-groups">
+                <!-- Face comparison results will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for image preview -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Preview">
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const personGroups = document.getElementById('person-groups');
+
+            loading.style.display = 'block';
+            error.style.display = 'none';
+            personGroups.style.display = 'none';
+
+            try {
+                // Load statistics
+                const statsResponse = await fetch('/api/stats');
+                const stats = await statsResponse.json();
+
+                document.getElementById('total-persons').textContent = stats.total_persons;
+                document.getElementById('total-visits').textContent = stats.total_visits;
+                document.getElementById('total-images').textContent = stats.total_images;
+                document.getElementById('low-similarity-count').textContent = stats.low_similarity_count || 0;
+
+                // Load person groups
+                console.log('=== Loading person groups ===');
+                const groupsResponse = await fetch('/api/person-groups');
+                console.log('Person groups response status:', groupsResponse.status);
+                const groups = await groupsResponse.json();
+                console.log('Person groups loaded:', groups.length, 'groups');
+
+                displayPersonGroups(groups);
+
+                // Load low similarity images
+                console.log('=== Loading low similarity images ===');
+                const lowSimResponse = await fetch('/api/low-similarity-images');
+                console.log('Low similarity response status:', lowSimResponse.status);
+                if (!lowSimResponse.ok) {
+                    throw new Error(`HTTP error! status: ${lowSimResponse.status}`);
+                }
+                const lowSimImages = await lowSimResponse.json();
+
+                console.log('Low similarity images loaded:', lowSimImages);
+                console.log('Type of lowSimImages:', typeof lowSimImages);
+                console.log('Is array:', Array.isArray(lowSimImages));
+                console.log('Number of low similarity images:', lowSimImages?.length);
+
+                // Ensure we have an array
+                const imagesArray = Array.isArray(lowSimImages) ? lowSimImages : [];
+                console.log('Images array length:', imagesArray.length);
+
+                if (imagesArray.length > 0) {
+                    console.log('Sample low similarity image:', imagesArray[0]);
+                }
+
+                displayLowSimilarityImages(imagesArray);
+
+                loading.style.display = 'none';
+                personGroups.style.display = 'grid';
+
+            } catch (err) {
+                console.error('Error loading data:', err);
+                loading.style.display = 'none';
+                error.style.display = 'block';
+            }
+        }
+
+        function displayPersonGroups(groups) {
+            console.log('=== displayPersonGroups called ===');
+            console.log('Groups received:', groups);
+            console.log('Groups length:', groups.length);
+
+            const container = document.getElementById('person-groups');
+            console.log('Person groups container found:', container);
+            container.innerHTML = '';
+
+            if (groups.length === 0) {
+                console.log('No person groups found');
+                container.innerHTML = '<div class="loading">No person groups found. Click "Process Visits" to start face recognition!</div>';
+                return;
+            }
+
+            // Filter out low confidence images from clustered groups
+            const filteredGroups = groups.map(group => {
+                if (group.images && group.images.length > 0) {
+                    // Filter out images with very low similarity (unusable)
+                    group.images = group.images.filter(img =>
+                        img.similarity && img.similarity > 0.3  // Only show images with similarity > 30%
+                    );
+                }
+                return group;
+            }).filter(group => group.images && group.images.length > 0);
+
+            if (filteredGroups.length === 0) {
+                container.innerHTML = '<div class="loading">No valid person groups found after filtering low confidence images.</div>';
+                return;
+            }
+
+            // Show loading state
+            container.innerHTML = '<div class="loading">Loading person groups and images...</div>';
+
+            // Preload images and then display groups
+            preloadImagesAndDisplay(filteredGroups, container);
+        }
+
+        async function preloadImagesAndDisplay(groups, container) {
+            const imagePromises = [];
+            const imageUrls = new Set();
+
+            // Collect all unique image URLs
+            groups.forEach(group => {
+                if (group.images && group.images.length > 0) {
+                    group.images.forEach(img => {
+                        const imagePath = getImagePath(img.image_path);
+                        if (imagePath && !imageUrls.has(imagePath)) {
+                            imageUrls.add(imagePath);
+                            imagePromises.push(preloadImage(imagePath));
+                        }
+                    });
+                }
+            });
+
+            // Preload images with timeout
+            try {
+                await Promise.allSettled(imagePromises.map(promise =>
+                    Promise.race([promise, new Promise((_, reject) =>
+                        setTimeout(() => reject(new Error('Timeout')), 5000)
+                    )])
+                ));
+            } catch (error) {
+                console.log('Some images failed to preload:', error);
+            }
+
+            // Clear loading and display groups
+            container.innerHTML = '';
+            groups.forEach(group => {
+                const groupElement = createPersonGroupElement(group);
+                container.appendChild(groupElement);
+            });
+        }
+
+        function preloadImage(src) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => resolve(img);
+                img.onerror = () => reject(new Error(`Failed to load image: ${src}`));
+                img.src = src;
+            });
+        }
+
+        async function processVisits(clearExisting = false) {
+            const processing = document.getElementById('processing');
+            const error = document.getElementById('error');
+            const personGroups = document.getElementById('person-groups');
+
+            // Show confirmation for clearing existing data
+            if (clearExisting) {
+                const confirmed = confirm('⚠️ This will clear all existing data and replace it with new data. Are you sure?');
+                if (!confirmed) {
+                    return;
+                }
+            }
+
+            processing.style.display = 'block';
+            error.style.display = 'none';
+            personGroups.style.display = 'none';
+
+            // Update processing message
+            const processingMsg = clearExisting ?
+                'Replacing existing data with new JSON data... This may take a few minutes.' :
+                'Processing visits from JSON file... This may take a few minutes.';
+            processing.textContent = processingMsg;
+
+            try {
+                // Get max visits from input
+                const maxVisitsInput = document.getElementById('maxVisitsInput');
+                const maxVisits = maxVisitsInput ? parseInt(maxVisitsInput.value) : 149;
+
+                // Check if we have JSON data from the web interface
+                let requestBody = {};
+                if (window.currentJsonData) {
+                    requestBody = {
+                        json_data: window.currentJsonData,
+                        max_visits: maxVisits,
+                        save_images: true,
+                        clear_existing: clearExisting
+                    };
+                }
+
+                const response = await fetch('/api/process-visits', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const results = await response.json();
+                console.log('Processing results:', results);
+
+                // Show success message
+                const successMsg = clearExisting ?
+                    '✅ Data replaced successfully!' :
+                    '✅ Data processed successfully!';
+                alert(successMsg);
+
+                // Reload data after processing
+                await loadData();
+
+            } catch (err) {
+                console.error('Error processing visits:', err);
+                processing.style.display = 'none';
+                error.style.display = 'block';
+                error.textContent = `Error processing visits: ${err.message}`;
+            }
+        }
+
+        function createPersonGroupElement(group) {
+            const div = document.createElement('div');
+            div.className = 'person-group';
+
+            const firstImage = group.images.length > 0 ? getImagePath(group.images[0].image_path) : '/static/no-image.png';
+
+            div.innerHTML = `
+                <div class="person-header">
+                    <img src="${firstImage}" alt="${group.name}" class="person-avatar" 
+                         onload="this.classList.remove('loading')" 
+                         onerror="this.src='/static/no-image.png'; this.classList.remove('loading')"
+                         class="loading">
+                    <div class="person-info">
+                        <h3>${group.name}</h3>
+                        <p>Person ID: ${group.person_id}</p>
+                        <div class="person-stats">
+                            <span class="person-stat">${group.visit_count} visits</span>
+                            <span class="person-stat">${group.images.length} images</span>
+                            <span class="person-stat">Quality: ${(group.avg_quality * 100).toFixed(1)}%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="images-grid">
+                    ${group.images.map(img => `
+                        <div class="image-item" onclick="openModal('${getImagePath(img.image_path)}')">
+                            <img src="${getImagePath(img.image_path)}" alt="Visit ${img.visit_id}" 
+                                 onload="this.classList.remove('loading')" 
+                                 onerror="this.src='/static/no-image.png'; this.classList.remove('loading')"
+                                 class="loading">
+                            <div class="image-overlay">
+                                <div>Visit: ${img.visit_id}</div>
+                                <div>${img.entry_time ? new Date(img.entry_time).toLocaleDateString() : 'No date'}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            return div;
+        }
+
+        function getImagePath(imagePath) {
+            // If it's a URL, return as is
+            if (imagePath && imagePath.startsWith('http')) {
+                return imagePath;
+            }
+            // If it's a local file path, serve it through the API
+            if (imagePath && !imagePath.startsWith('/')) {
+                return `/api/image/${encodeURIComponent(imagePath)}`;
+            }
+            // Default to no-image
+            return '/static/no-image.png';
+        }
+
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+
+            // Add loading state to modal image
+            modalImg.classList.add('loading');
+            modalImg.onload = () => {
+                modalImg.classList.remove('loading');
+            };
+            modalImg.onerror = () => {
+                modalImg.classList.remove('loading');
+                modalImg.src = '/static/no-image.png';
+            };
+
+            modalImg.src = imageSrc;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function (event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // JSON Input Functions
+        function toggleJsonInput() {
+            const form = document.getElementById('json-input-form');
+            const isVisible = form.style.display !== 'none';
+            form.style.display = isVisible ? 'none' : 'block';
+        }
+
+        function clearJsonInput() {
+            document.getElementById('jsonFileInput').value = '';
+            document.getElementById('jsonTextInput').value = '';
+            document.getElementById('json-status').style.display = 'none';
+        }
+
+        async function loadJsonData() {
+            const fileInput = document.getElementById('jsonFileInput');
+            const textInput = document.getElementById('jsonTextInput');
+            const status = document.getElementById('json-status');
+
+            let jsonData = null;
+
+            // Check if file is uploaded
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                try {
+                    const text = await file.text();
+                    jsonData = JSON.parse(text);
+                    status.style.display = 'block';
+                    status.style.background = '#d4edda';
+                    status.style.color = '#155724';
+                    status.textContent = `✅ JSON file loaded successfully! Found ${jsonData.visits ? jsonData.visits.length : 0} visits.`;
+                } catch (error) {
+                    status.style.display = 'block';
+                    status.style.background = '#f8d7da';
+                    status.style.color = '#721c24';
+                    status.textContent = `❌ Error parsing JSON file: ${error.message}`;
+                    return;
+                }
+            }
+            // Check if text is pasted
+            else if (textInput.value.trim()) {
+                try {
+                    jsonData = JSON.parse(textInput.value);
+                    status.style.display = 'block';
+                    status.style.background = '#d4edda';
+                    status.style.color = '#155724';
+                    status.textContent = `✅ JSON data loaded successfully! Found ${jsonData.visits ? jsonData.visits.length : 0} visits.`;
+                } catch (error) {
+                    status.style.display = 'block';
+                    status.style.background = '#f8d7da';
+                    status.style.color = '#721c24';
+                    status.textContent = `❌ Error parsing JSON data: ${error.message}`;
+                    return;
+                }
+            }
+            else {
+                status.style.display = 'block';
+                status.style.background = '#fff3cd';
+                status.style.color = '#856404';
+                status.textContent = '⚠️ Please upload a JSON file or paste JSON data.';
+                return;
+            }
+
+            // Store JSON data for processing
+            window.currentJsonData = jsonData;
+
+            // Update max visits input to match JSON data
+            const maxVisitsInput = document.getElementById('maxVisitsInput');
+            if (maxVisitsInput && jsonData.visits) {
+                maxVisitsInput.value = jsonData.visits.length;
+                maxVisitsInput.max = jsonData.visits.length;
+            }
+        }
+
+        async function clearImageCache() {
+            try {
+                const response = await fetch('/api/clear-cache', {
+                    method: 'POST'
+                });
+
+                if (response.ok) {
+                    alert('✅ Image cache cleared successfully!');
+                    // Reload data to refresh images
+                    await loadData();
+                } else {
+                    alert('❌ Failed to clear cache');
+                }
+            } catch (error) {
+                console.error('Error clearing cache:', error);
+                alert('❌ Error clearing cache: ' + error.message);
+            }
+        }
+
+        async function processAllVisits() {
+            const confirmed = confirm('⚠️ This will process all 149 visits from the JSON file. This may take several minutes. Continue?');
+            if (!confirmed) {
+                return;
+            }
+
+            // Set max visits to 149
+            const maxVisitsInput = document.getElementById('maxVisitsInput');
+            if (maxVisitsInput) {
+                maxVisitsInput.value = 149;
+            }
+
+            // Process with clear existing to replace all data
+            await processVisits(true);
+        }
+
+        async function clearDatabase() {
+            const confirmed = confirm('⚠️ This will permanently delete all face recognition data from the database. Are you sure?');
+            if (!confirmed) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/clear-database', {
+                    method: 'POST'
+                });
+
+                if (response.ok) {
+                    alert('✅ Database cleared successfully!');
+                    // Reload data to show empty state
+                    await loadData();
+                } else {
+                    alert('❌ Failed to clear database');
+                }
+            } catch (error) {
+                console.error('Error clearing database:', error);
+                alert('❌ Error clearing database: ' + error.message);
+            }
+        }
+
+        function switchTab(tabName) {
+            console.log('Switching to tab:', tabName);
+
+            // Hide all tab contents
+            document.getElementById('clustered-tab').classList.add('hidden');
+            document.getElementById('low-similarity-tab').classList.add('hidden');
+            document.getElementById('face-comparison-tab').classList.add('hidden');
+
+            // Remove active class from all buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+
+            // Show selected tab and activate button
+            if (tabName === 'clustered') {
+                document.getElementById('clustered-tab').classList.remove('hidden');
+                document.getElementById('tab-clustered').classList.add('active');
+                console.log('Clustered tab activated');
+            } else if (tabName === 'low-similarity') {
+                console.log('=== Switching to low similarity tab ===');
+                document.getElementById('low-similarity-tab').classList.remove('hidden');
+                document.getElementById('tab-low-similarity').classList.add('active');
+                console.log('Low similarity tab activated');
+
+                // Make sure the low similarity images container is visible
+                const lowSimContainer = document.getElementById('low-similarity-images');
+                console.log('Low similarity container found:', lowSimContainer);
+                console.log('Container current display style:', lowSimContainer?.style.display);
+                console.log('Container current visibility:', lowSimContainer?.style.visibility);
+                console.log('Container children count:', lowSimContainer?.children.length);
+
+                if (lowSimContainer) {
+                    // Remove any inline style that might be hiding the container
+                    lowSimContainer.style.display = 'grid';
+                    lowSimContainer.style.visibility = 'visible';
+                    lowSimContainer.style.opacity = '1';
+                    lowSimContainer.classList.remove('hidden');
+                    console.log('Low similarity container made visible. Children count:', lowSimContainer.children.length);
+                    console.log('Container style display after change:', lowSimContainer.style.display);
+                    console.log('Container classes:', lowSimContainer.className);
+                }
+            } else if (tabName === 'face-comparison') {
+                console.log('=== Switching to face comparison tab ===');
+                document.getElementById('face-comparison-tab').classList.remove('hidden');
+                document.getElementById('tab-face-comparison').classList.add('active');
+                console.log('Face comparison tab activated');
+
+                // Make sure the face comparison results container is visible
+                const faceCompContainer = document.getElementById('face-comparison-results');
+                console.log('Face comparison container found:', faceCompContainer);
+                console.log('Container current display style:', faceCompContainer?.style.display);
+                console.log('Container children count:', faceCompContainer?.children.length);
+
+                if (faceCompContainer) {
+                    faceCompContainer.style.display = 'block';
+                    faceCompContainer.style.visibility = 'visible';
+                    faceCompContainer.style.opacity = '1';
+                    faceCompContainer.classList.remove('hidden');
+                    console.log('Face comparison container made visible. Children count:', faceCompContainer.children.length);
+                    console.log('Container style display after change:', faceCompContainer.style.display);
+                }
+            }
+        }
+
+        async function mergeDuplicates() {
+            const button = event.target;
+            const originalText = button.textContent;
+
+            try {
+                button.textContent = '🔄 Merging...';
+                button.disabled = true;
+
+                const response = await fetch('/api/merge-duplicates', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    alert('✅ ' + result.message);
+                    // Reload data to show updated results
+                    loadData();
+                } else {
+                    const error = await response.json();
+                    alert('❌ Error: ' + error.detail);
+                }
+            } catch (error) {
+                alert('❌ Error merging duplicates: ' + error.message);
+            } finally {
+                button.textContent = originalText;
+                button.disabled = false;
+            }
+        }
+
+        async function clearDatabase() {
+            if (!confirm('⚠️ Are you sure you want to clear all data from the database? This action cannot be undone!')) {
+                return;
+            }
+
+            const button = event.target;
+            const originalText = button.textContent;
+
+            try {
+                button.textContent = '🗑️ Clearing...';
+                button.disabled = true;
+
+                const response = await fetch('/api/clear-database', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    alert('✅ ' + result.message);
+                    // Reload data to show empty state
+                    loadData();
+                } else {
+                    const error = await response.json();
+                    alert('❌ Error: ' + error.detail);
+                }
+            } catch (error) {
+                alert('❌ Error clearing database: ' + error.message);
+            } finally {
+                button.textContent = originalText;
+                button.disabled = false;
+            }
+        }
+
+        function displayLowSimilarityImages(images) {
+            console.log('=== displayLowSimilarityImages called ===');
+            console.log('displayLowSimilarityImages called with:', images);
+            console.log('Type of images:', typeof images);
+            console.log('Is array:', Array.isArray(images));
+            console.log('Images length:', images?.length);
+
+            // Ensure images is an array
+            if (!Array.isArray(images)) {
+                console.error('images is not an array:', images);
+                const container = document.getElementById('low-similarity-images');
+                container.innerHTML = '<div class="loading">Error: Invalid data format for low similarity images.</div>';
+                return;
+            }
+
+            console.log('displayLowSimilarityImages called with:', images.length, 'images');
+            const container = document.getElementById('low-similarity-images');
+            console.log('Container found:', container);
+            container.innerHTML = '';
+
+            if (images.length === 0) {
+                container.innerHTML = '<div class="loading">No low confidence images found. All images were successfully clustered!</div>';
+                return;
+            }
+
+            // Filter images to only show those with low similarity (unusable)
+            console.log('All images before filtering:', images.length);
+            console.log('Sample image similarity:', images[0]?.similarity);
+
+            const lowConfidenceImages = images.filter(image => {
+                const shouldInclude = !image.similarity || image.similarity <= 0.3;
+                console.log(`Image ${image.visit_id}: similarity=${image.similarity}, shouldInclude=${shouldInclude}`);
+                return shouldInclude;
+            });
+
+            console.log('Low confidence images after filtering:', lowConfidenceImages.length);
+
+            if (lowConfidenceImages.length === 0) {
+                container.innerHTML = '<div class="loading">No low confidence images found. All images have sufficient similarity for clustering!</div>';
+                return;
+            }
+
+            console.log('Creating elements for', lowConfidenceImages.length, 'low confidence images');
+            lowConfidenceImages.forEach((image, index) => {
+                console.log(`Creating element ${index + 1}:`, image.visit_id);
+                const imageElement = createLowSimilarityImageElement(image);
+                container.appendChild(imageElement);
+                console.log(`Element ${index + 1} added to DOM. Container children count:`, container.children.length);
+            });
+
+            // Make sure the container is visible
+            container.style.display = 'grid';
+            container.style.visibility = 'visible';
+            container.style.opacity = '1';
+            container.classList.remove('hidden');
+            console.log('Low similarity images display completed. Final container children count:', container.children.length);
+            console.log('Container final display style:', container.style.display);
+        }
+
+        function createLowSimilarityImageElement(image) {
+            console.log('Creating low similarity element for:', image.visit_id, 'image_path:', image.image_path);
+            const div = document.createElement('div');
+            div.className = 'person-group';
+            div.style.border = '2px solid #FF9800';
+            div.style.margin = '10px';
+            div.style.padding = '10px';
+            div.style.backgroundColor = '#fff3e0';
+
+            const imagePath = getImagePath(image.image_path);
+            console.log('Generated image path:', imagePath);
+
+            // Create a simple, robust structure
+            div.innerHTML = `
+                <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                    <img src="${imagePath}" 
+                         alt="Low Confidence" 
+                         style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; margin-right: 15px;"
+                         onload="console.log('Image loaded:', this.src)" 
+                         onerror="console.log('Image error:', this.src); this.src='/static/no-image.png'">
+                    <div>
+                        <h3 style="margin: 0; color: #e65100;">⚠️ Low Confidence Match</h3>
+                        <p style="margin: 5px 0;">Visit ID: ${image.visit_id}</p>
+                        <p style="margin: 5px 0;">Customer: ${image.customer_id}</p>
+                        <p style="margin: 5px 0;">Confidence: ${(image.similarity * 100).toFixed(1)}%</p>
+                        <p style="margin: 5px 0;">Best Match: ${image.best_match_name || 'Unknown'}</p>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <img src="${imagePath}" 
+                         alt="Low Confidence Image" 
+                         style="max-width: 200px; max-height: 200px; object-fit: cover; border-radius: 8px; cursor: pointer;"
+                         onclick="openModal('${imagePath}')"
+                         onload="console.log('Main image loaded:', this.src)" 
+                         onerror="console.log('Main image error:', this.src); this.src='/static/no-image.png'">
+                </div>
+            `;
+
+            return div;
+        }
+
+        // API Input Functions
+        function toggleApiInput() {
+            const form = document.getElementById('api-input-form');
+            const isVisible = form.style.display !== 'none';
+            form.style.display = isVisible ? 'none' : 'block';
+        }
+
+        function clearApiInput() {
+            // Reload config from server
+            loadApiConfigFromServer();
+            document.getElementById('api-status').style.display = 'none';
+        }
+
+        function saveApiConfig() {
+            const config = {
+                api_url: document.getElementById('apiUrlInput').value,
+                max_visits: document.getElementById('apiMaxVisitsInput').value,
+                start_date: document.getElementById('startDateInput').value,
+                end_date: document.getElementById('endDateInput').value,
+                start_time: document.getElementById('startTimeInput').value,
+                end_time: document.getElementById('endTimeInput').value,
+                page: document.getElementById('pageInput').value,
+                limit: document.getElementById('limitInput').value,
+                all_branch: document.getElementById('allBranchInput').checked,
+                include_vip: document.getElementById('includeVipInput').checked,
+                include_vendor: document.getElementById('includeVendorInput').checked,
+                include_deleted: document.getElementById('includeDeletedInput').checked,
+                api_key: document.getElementById('apiKeyInput').value,
+                auth_token: document.getElementById('authTokenInput').value
+            };
+
+            localStorage.setItem('apiConfig', JSON.stringify(config));
+
+            const status = document.getElementById('api-status');
+            status.style.display = 'block';
+            status.style.background = '#d4edda';
+            status.style.color = '#155724';
+            status.textContent = '✅ API configuration saved!';
+        }
+
+        function loadApiConfig() {
+            const savedConfig = localStorage.getItem('apiConfig');
+            if (savedConfig) {
+                const config = JSON.parse(savedConfig);
+                document.getElementById('apiUrlInput').value = config.api_url || 'https://api.analytics.thefusionapps.com/api/v2/retail/visit';
+                document.getElementById('apiMaxVisitsInput').value = config.max_visits || '250';
+                document.getElementById('startDateInput').value = config.start_date || '2025-10-13';
+                document.getElementById('endDateInput').value = config.end_date || '2025-10-13';
+                document.getElementById('startTimeInput').value = config.start_time || '00:00:00';
+                document.getElementById('endTimeInput').value = config.end_time || '23:59:59';
+                document.getElementById('pageInput').value = config.page || '0';
+                document.getElementById('limitInput').value = config.limit || '250';
+                document.getElementById('allBranchInput').checked = config.all_branch !== false;
+                document.getElementById('includeVipInput').checked = config.include_vip || false;
+                document.getElementById('includeVendorInput').checked = config.include_vendor || false;
+                document.getElementById('includeDeletedInput').checked = config.include_deleted || false;
+                document.getElementById('apiKeyInput').value = config.api_key || '';
+                document.getElementById('authTokenInput').value = config.auth_token || '';
+
+                const status = document.getElementById('api-status');
+                status.style.display = 'block';
+                status.style.background = '#d4edda';
+                status.style.color = '#155724';
+                status.textContent = '✅ API configuration loaded!';
+            } else {
+                const status = document.getElementById('api-status');
+                status.style.display = 'block';
+                status.style.background = '#fff3cd';
+                status.style.color = '#856404';
+                status.textContent = '⚠️ No saved configuration found.';
+            }
+        }
+
+        async function testApiConnection() {
+            const status = document.getElementById('api-status');
+            status.style.display = 'block';
+            status.style.background = '#fff3cd';
+            status.style.color = '#856404';
+            status.textContent = '🔄 Testing API connection...';
+
+            try {
+                const apiUrl = document.getElementById('apiUrlInput').value;
+                const startDate = document.getElementById('startDateInput').value;
+                const endDate = document.getElementById('endDateInput').value;
+                const page = document.getElementById('pageInput').value;
+                const limit = document.getElementById('limitInput').value;
+                const startTime = document.getElementById('startTimeInput').value;
+                const endTime = document.getElementById('endTimeInput').value;
+                const allBranch = document.getElementById('allBranchInput').checked;
+                const apiKey = document.getElementById('apiKeyInput').value;
+                const authToken = document.getElementById('authTokenInput').value;
+
+                const params = new URLSearchParams({
+                    startDate: startDate,
+                    endDate: endDate,
+                    page: page,
+                    limit: limit,
+                    startTime: startTime,
+                    endTime: endTime,
+                    allBranch: allBranch.toString()
+                });
+
+                const headers = {};
+                if (apiKey) headers['X-API-Key'] = apiKey;
+                if (authToken) headers['Authorization'] = `Bearer ${authToken}`;
+
+                const testUrl = `${apiUrl}?${params.toString()}`;
+                const response = await fetch(testUrl, {
+                    method: 'GET',
+                    headers: headers
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    const visitCount = Array.isArray(data) ? data.length : (data.data ? data.data.length : 0);
+
+                    status.style.background = '#d4edda';
+                    status.style.color = '#155724';
+                    status.textContent = `✅ API connection successful! Found ${visitCount} visits.`;
+                } else {
+                    status.style.background = '#f8d7da';
+                    status.style.color = '#721c24';
+                    status.textContent = `❌ API connection failed: ${response.status} ${response.statusText}`;
+                }
+            } catch (error) {
+                status.style.background = '#f8d7da';
+                status.style.color = '#721c24';
+                status.textContent = `❌ API connection error: ${error.message}`;
+            }
+        }
+
+        async function processFaceComparisonsFromApi() {
+            const processing = document.getElementById('processing');
+            const error = document.getElementById('error');
+            const personGroups = document.getElementById('person-groups');
+
+            processing.style.display = 'block';
+            error.style.display = 'none';
+            personGroups.style.display = 'none';
+
+            // Update processing message
+            processing.textContent = 'Processing face comparisons from API... This may take a few minutes.';
+
+            try {
+                // Get API parameters
+                const apiUrl = document.getElementById('apiUrlInput').value;
+                const startDate = document.getElementById('startDateInput').value;
+                const endDate = document.getElementById('endDateInput').value;
+                const page = parseInt(document.getElementById('pageInput').value);
+                const limit = parseInt(document.getElementById('limitInput').value);
+                const startTime = document.getElementById('startTimeInput').value;
+                const endTime = document.getElementById('endTimeInput').value;
+                const allBranch = document.getElementById('allBranchInput').checked;
+                const maxComparisons = parseInt(document.getElementById('apiMaxVisitsInput').value);
+                const apiKey = document.getElementById('apiKeyInput').value;
+                const authToken = document.getElementById('authTokenInput').value;
+
+                const requestBody = {
+                    api_url: apiUrl,
+                    start_date: startDate,
+                    end_date: endDate,
+                    page: page,
+                    limit: limit,
+                    start_time: startTime,
+                    end_time: endTime,
+                    all_branch: allBranch,
+                    max_comparisons: maxComparisons,
+                    api_key: apiKey,
+                    auth_token: authToken
+                };
+
+                const response = await fetch('/api/process-face-comparisons-from-api', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                const result = await response.json();
+                console.log('=== Face comparison API response ===');
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+                console.log('Result:', result);
+
+                processing.style.display = 'none';
+
+                if (response.ok) {
+                    console.log('Calling displayFaceComparisonResults with result:', result);
+                    displayFaceComparisonResults(result);
+
+                    // Show success message with JSON file info
+                    let message = `Successfully processed ${result.processed || 0} face comparisons from API`;
+                    if (result.json_file && result.json_file.filename) {
+                        message += `\n📄 Results saved to: ${result.json_file.filename}`;
+                    }
+                    showMessage(message, 'success');
+                } else {
+                    console.log('API error:', result);
+                    error.textContent = `Error: ${result.detail || 'Unknown error'}`;
+                    error.style.display = 'block';
+                }
+            } catch (err) {
+                processing.style.display = 'none';
+                error.textContent = `Error: ${err.message}`;
+                error.style.display = 'block';
+            }
+        }
+
+        function showMessage(message, type = 'info') {
+            // Create a temporary message element
+            const messageDiv = document.createElement('div');
+            messageDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 15px 20px;
+                border-radius: 8px;
+                color: white;
+                font-weight: bold;
+                z-index: 10000;
+                max-width: 400px;
+                word-wrap: break-word;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            `;
+
+            // Set background color based on type
+            switch (type) {
+                case 'success':
+                    messageDiv.style.background = 'linear-gradient(135deg, #4CAF50, #45a049)';
+                    break;
+                case 'error':
+                    messageDiv.style.background = 'linear-gradient(135deg, #f44336, #d32f2f)';
+                    break;
+                case 'warning':
+                    messageDiv.style.background = 'linear-gradient(135deg, #FF9800, #F57C00)';
+                    break;
+                default:
+                    messageDiv.style.background = 'linear-gradient(135deg, #2196F3, #1976D2)';
+            }
+
+            messageDiv.textContent = message;
+            document.body.appendChild(messageDiv);
+
+            // Auto remove after 5 seconds
+            setTimeout(() => {
+                if (messageDiv.parentNode) {
+                    messageDiv.parentNode.removeChild(messageDiv);
+                }
+            }, 5000);
+        }
+
+        function displayFaceComparisonResults(results) {
+            console.log('=== displayFaceComparisonResults called ===');
+            console.log('Results received:', results);
+            console.log('Results type:', typeof results);
+            console.log('Results.results:', results.results);
+            console.log('Results.results length:', results.results?.length);
+
+            const faceComparisonResults = document.getElementById('face-comparison-results');
+            console.log('Face comparison container found:', faceComparisonResults);
+            faceComparisonResults.innerHTML = '';
+
+            if (!results.results || results.results.length === 0) {
+                console.log('No face comparison results found');
+                faceComparisonResults.innerHTML = '<div class="loading">No face comparison results found.</div>';
+                faceComparisonResults.style.display = 'block';
+                return;
+            }
+
+            // Create summary section
+            const summary = document.createElement('div');
+            summary.style.cssText = `
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                text-align: center;
+            `;
+
+            summary.innerHTML = `
+                <h2 style="margin: 0 0 10px 0;">🔍 Face Comparison Results</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 15px;">
+                    <div style="background: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px;">
+                        <div style="font-size: 24px; font-weight: bold;">${results.total_comparisons || 0}</div>
+                        <div>Total Comparisons</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px;">
+                        <div style="font-size: 24px; font-weight: bold; color: #4CAF50;">${results.same_person || 0}</div>
+                        <div>Same Person</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px;">
+                        <div style="font-size: 24px; font-weight: bold; color: #FF5722;">${results.different_person || 0}</div>
+                        <div>Different Person</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px;">
+                        <div style="font-size: 24px; font-weight: bold; color: #FFC107;">${results.errors || 0}</div>
+                        <div>Errors</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px;">
+                        <div style="font-size: 24px; font-weight: bold; color: #2196F3;">${(results.accuracy_vs_api || 0).toFixed(1)}%</div>
+                        <div>API Accuracy</div>
+                    </div>
+                </div>
+                ${results.json_file && results.json_file.filename ? `
+                <div style="background: rgba(255,255,255,0.3); padding: 15px; border-radius: 8px; margin-top: 15px; text-align: center;">
+                    <div style="font-size: 16px; font-weight: bold; margin-bottom: 5px;">📄 Results Saved to JSON File</div>
+                    <div style="font-size: 14px; opacity: 0.9;">File: ${results.json_file.filename}</div>
+                    <div style="font-size: 12px; opacity: 0.8;">Size: ${(results.json_file.size / 1024).toFixed(1)} KB</div>
+                </div>
+                ` : ''}
+            `;
+
+            faceComparisonResults.appendChild(summary);
+
+            // Display individual comparison results
+            results.results.forEach((comparison, index) => {
+                const comparisonDiv = document.createElement('div');
+                comparisonDiv.style.cssText = `
+                    background: white;
+                    border: 2px solid ${comparison.match_status === 'SAME' ? '#4CAF50' : comparison.match_status === 'DIFFERENT' ? '#FF5722' : '#FFC107'};
+                    border-radius: 10px;
+                    margin: 15px 0;
+                    padding: 20px;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                `;
+
+                const statusIcon = comparison.match_status === 'SAME' ? '✅' :
+                    comparison.match_status === 'DIFFERENT' ? '❌' : '⚠️';
+                const statusColor = comparison.match_status === 'SAME' ? '#4CAF50' :
+                    comparison.match_status === 'DIFFERENT' ? '#FF5722' : '#FFC107';
+
+                comparisonDiv.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <h3 style="margin: 0; color: ${statusColor};">${statusIcon} ${comparison.match_status}</h3>
+                        <div style="text-align: right; font-size: 12px; color: #666;">
+                            <div>ID: ${comparison.comparison_id}</div>
+                            <div>Branch: ${comparison.branch_id || 'N/A'}</div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 15px;">
+                        <div style="text-align: center;">
+                            <h4 style="margin: 0 0 10px 0; color: #333;">Image 1</h4>
+                            <img src="${comparison.image1_url}" 
+                                 alt="Image 1" 
+                                 style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; border: 2px solid #ddd;"
+                                 onerror="this.src='/static/no-image.png'">
+                        </div>
+                        <div style="text-align: center;">
+                            <h4 style="margin: 0 0 10px 0; color: #333;">Image 2</h4>
+                            <img src="${comparison.image2_url}" 
+                                 alt="Image 2" 
+                                 style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px; border: 2px solid #ddd;"
+                                 onerror="this.src='/static/no-image.png'">
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                        <div style="background: #f5f5f5; padding: 10px; border-radius: 5px;">
+                            <strong>Confidence:</strong> ${(comparison.confidence * 100).toFixed(2)}%
+                        </div>
+                        <div style="background: #f5f5f5; padding: 10px; border-radius: 5px;">
+                            <strong>Match:</strong> ${comparison.match_status === 'SAME' ? '✅' : '❌'}
+                        </div>
+                    </div>
+                    
+                    ${comparison.error ? `<div style="background: #ffebee; color: #c62828; padding: 10px; border-radius: 5px; margin-top: 10px;"><strong>Error:</strong> ${comparison.error}</div>` : ''}
+                `;
+
+                faceComparisonResults.appendChild(comparisonDiv);
+            });
+
+            faceComparisonResults.style.display = 'block';
+            faceComparisonResults.style.visibility = 'visible';
+            faceComparisonResults.style.opacity = '1';
+            faceComparisonResults.classList.remove('hidden');
+
+            console.log('Face comparison results displayed. Container children count:', faceComparisonResults.children.length);
+            console.log('Container final display style:', faceComparisonResults.style.display);
+
+            // Switch to face comparison tab
+            switchTab('face-comparison');
+        }
+
+        async function processVisitsFromApi(clearExisting = false) {
+            const processing = document.getElementById('processing');
+            const error = document.getElementById('error');
+            const personGroups = document.getElementById('person-groups');
+
+            // Show confirmation for clearing existing data
+            if (clearExisting) {
+                const confirmed = confirm('⚠️ This will clear all existing data and replace it with new data from API. Are you sure?');
+                if (!confirmed) {
+                    return;
+                }
+            }
+
+            processing.style.display = 'block';
+            error.style.display = 'none';
+            personGroups.style.display = 'none';
+
+            // Update processing message
+            const processingMsg = clearExisting ?
+                'Replacing existing data with new API data... This may take a few minutes.' :
+                'Processing visits from API... This may take a few minutes.';
+            processing.textContent = processingMsg;
+
+            try {
+                // Get API parameters
+                const apiUrl = document.getElementById('apiUrlInput').value;
+                const startDate = document.getElementById('startDateInput').value;
+                const endDate = document.getElementById('endDateInput').value;
+                const page = parseInt(document.getElementById('pageInput').value);
+                const limit = parseInt(document.getElementById('limitInput').value);
+                const startTime = document.getElementById('startTimeInput').value;
+                const endTime = document.getElementById('endTimeInput').value;
+                const allBranch = document.getElementById('allBranchInput').checked;
+                const maxVisits = parseInt(document.getElementById('apiMaxVisitsInput').value);
+                const apiKey = document.getElementById('apiKeyInput').value;
+                const authToken = document.getElementById('authTokenInput').value;
+
+                const requestBody = {
+                    api_url: apiUrl,
+                    start_date: startDate,
+                    end_date: endDate,
+                    page: page,
+                    limit: limit,
+                    start_time: startTime,
+                    end_time: endTime,
+                    all_branch: allBranch,
+                    include_vip: document.getElementById('includeVipInput').checked,
+                    include_vendor: document.getElementById('includeVendorInput').checked,
+                    include_deleted: document.getElementById('includeDeletedInput').checked,
+                    max_visits: maxVisits,
+                    save_images: true,
+                    clear_existing: clearExisting,
+                    api_key: apiKey,
+                    auth_token: authToken
+                };
+
+                const response = await fetch('/api/process-visits-from-api', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const results = await response.json();
+                console.log('API processing results:', results);
+
+                // Show success message
+                const successMsg = clearExisting ?
+                    '✅ Data replaced successfully with API data!' :
+                    '✅ Data processed successfully from API!';
+                alert(successMsg);
+
+                // Reload data after processing
+                await loadData();
+
+            } catch (err) {
+                console.error('Error processing visits from API:', err);
+                processing.style.display = 'none';
+                error.style.display = 'block';
+                error.textContent = `Error processing visits from API: ${err.message}`;
+            }
+        }
+
+        // Load API configuration on page load
+        async function loadApiConfigFromServer() {
+            try {
+                const response = await fetch('/api/config');
+                if (response.ok) {
+                    const config = await response.json();
+
+                    // Update form fields with server config
+                    document.getElementById('apiUrlInput').value = config.api_url || 'https://api.analytics.thefusionapps.com/api/v2/retail/visit';
+                    document.getElementById('apiMaxVisitsInput').value = config.default_max_visits || 250;
+                    document.getElementById('startDateInput').value = config.default_start_date || '2025-10-13';
+                    document.getElementById('endDateInput').value = config.default_end_date || '2025-10-13';
+                    document.getElementById('startTimeInput').value = config.default_start_time || '00:00:00';
+                    document.getElementById('endTimeInput').value = config.default_end_time || '23:59:59';
+                    document.getElementById('pageInput').value = config.default_page || 0;
+                    document.getElementById('limitInput').value = config.default_limit || 250;
+                    document.getElementById('allBranchInput').checked = config.default_all_branch !== false;
+                    document.getElementById('apiKeyInput').value = config.api_key || '';
+                    document.getElementById('authTokenInput').value = config.auth_token || '';
+                }
+            } catch (error) {
+                console.log('Could not load API config from server:', error);
+            }
+        }
+
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            loadApiConfigFromServer();
+            loadData();
+        });
+    </script>
+</body>
+
+</html>

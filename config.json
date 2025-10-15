@@ -1,0 +1,102 @@
+{
+    "system": {
+        "database_path": "face_database.db",
+        "model_name": "buffalo_l",
+        "gpu_id": 0,
+        "image_cache_dir": "image_cache"
+    },
+    "face_detection": {
+        "detection_size": [
+            640,
+            640
+        ],
+        "confidence_threshold": 0.6,
+        "quality_threshold": 0.25,
+        "min_quality_threshold": 0.05,
+        "pose_angle_threshold": 35.0,
+        "yaw_threshold": 35.0,
+        "pitch_threshold": 35.0
+    },
+    "face_recognition": {
+        "similarity_threshold": 0.35,
+        "grouping_threshold_file": 0.45,
+        "grouping_threshold_json": 0.55,
+        "duplicate_similarity_threshold": 0.95,
+        "merge_duplicate_threshold": 0.8
+    },
+    "face_comparison": {
+        "similarity_threshold": 0.2,
+        "confidence_threshold": 0.3
+    },
+    "face_quality": {
+        "weights": {
+            "detection_score": 0.4,
+            "size_score": 0.2,
+            "blur_score": 0.2,
+            "pose_score": 0.1,
+            "lighting_score": 0.1
+        },
+        "size_normalization": 10000,
+        "min_overall_score": 0.1
+    },
+    "side_face_detection": {
+        "aspect_ratio_thresholds": {
+            "extreme_profile": 0.2,
+            "very_strong_profile": 0.3,
+            "strong_profile": 0.5,
+            "very_wide": 2.5,
+            "wide": 2.0,
+            "moderately_wide": 1.6
+        },
+        "area_thresholds": {
+            "extremely_small": 1200,
+            "very_small": 1800,
+            "small": 2500,
+            "very_large": 400000,
+            "large": 300000
+        },
+        "compactness_thresholds": {
+            "very_low": 0.10,
+            "low": 0.6
+        },
+        "confidence_thresholds": {
+            "very_low": 0.15,
+            "low": 0.7
+        },
+        "decision_threshold": 4,
+        "edge_position_threshold": 30
+    },
+    "image_processing": {
+        "web_max_size": [
+            300,
+            300
+        ],
+        "jpeg_quality": 85,
+        "download_timeout": 30,
+        "max_workers": 4
+    },
+    "web_interface": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "cache_control_max_age": 3600
+    },
+    "processing": {
+        "max_visits_fallback": 149,
+        "max_visits_default": 500,
+        "save_images_default": true,
+        "clear_existing_default": false
+    },
+    "http_headers": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+        "accept_language": "en-US,en;q=0.9",
+        "cache_control": "no-cache"
+    },
+    "vector_database": {
+        "type": "qdrant",
+        "mode": "memory",
+        "collection_name": "face_embeddings",
+        "vector_size": 512,
+        "distance_metric": "Cosine"
+    }
+}

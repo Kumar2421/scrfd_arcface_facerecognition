@@ -1,0 +1,21 @@
+# API Configuration File
+# Store your API credentials here
+
+# API URL - Updated to new analytics endpoint
+API_URL=https://api.analytics.thefusionapps.com/api/v2/retail/visit
+
+# Authentication Token (JWT)
+AUTH_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRGF0YSI6eyJpZCI6MTAsInVzZXJOYW1lIjoiRnVzaW9uIFN1cHBvcnQiLCJ0ZW5hbnRJZCI6MTAsInJvbGUiOiJ0ZW5hbnQiLCJzbHVnIjoiYW5hbHl0aWNzIn0sImJyYW5jaERhdGEiOnsiaWQiOjI3LCJicmFuY2hJZCI6IkNCRS1UUlMifSwiaWF0IjoxNzYwNDI3NTk1LCJleHAiOjE3NjA1MTM5OTV9.kK5qZIO02oeHMMWf4vuI8nRo31k_CNnBGpfDYus6x-A
+
+# API Key (if needed)
+API_KEY=
+
+# Default Parameters - Updated for new API
+DEFAULT_START_DATE=2025-10-13
+DEFAULT_END_DATE=2025-10-13
+DEFAULT_START_TIME=00:00:00
+DEFAULT_END_TIME=23:59:59
+DEFAULT_PAGE=0
+DEFAULT_LIMIT=50
+DEFAULT_ALL_BRANCH=true
+DEFAULT_MAX_VISITS=250

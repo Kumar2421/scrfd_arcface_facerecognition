@@ -1,0 +1,1147 @@
+{
+  "job_id": "11144335-35df-4500-a558-1906405f3c4a",
+  "status": "finished",
+  "timestamp": "2025-10-14T06:56:39.067944Z",
+  "total_processed": 49,
+  "total_groups": 49,
+  "results": {
+    "processed": 49,
+    "recognized": 27,
+    "new_persons": 22,
+    "no_faces": 1,
+    "low_quality": 0,
+    "download_failed": 0,
+    "duplicate_faces": 0,
+    "low_similarity": 0
+  },
+  "message": "Processing completed. Created 49 groups from 49 images",
+  "groups": [
+    {
+      "group_id": "customer_1",
+      "person_id": 15,
+      "person_name": "Person_visitor-121628_1760424745",
+      "timestamp": "",
+      "group_score": 0.558,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_1",
+          "customer_id": "customer_1",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/248578a8-ec61-472a-a893-4b6f045f86f4-10142025-13844AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5581270847853406
+        }
+      ]
+    },
+    {
+      "group_id": "customer_3",
+      "person_id": 75,
+      "person_name": "Person_customer_3_1760424995",
+      "timestamp": "",
+      "group_score": 0.386,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_3",
+          "customer_id": "customer_3",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/71099c55-c2cc-4407-be44-6382db775105-10142025-45417AM.jpg",
+          "entry_time": "",
+          "similarity": 0.3860073750119732
+        }
+      ]
+    },
+    {
+      "group_id": "customer_0",
+      "person_id": 76,
+      "person_name": "Person_customer_0_1760424995",
+      "timestamp": "",
+      "group_score": 0.487,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_0",
+          "customer_id": "customer_0",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7e7c76bb-36e8-48d5-8f97-368b73c02400-10132025-80141AM.jpg",
+          "entry_time": "",
+          "similarity": 0.48678508931970704
+        }
+      ]
+    },
+    {
+      "group_id": "customer_2",
+      "person_id": 15,
+      "person_name": "Person_visitor-121628_1760424745",
+      "timestamp": "",
+      "group_score": 0.609,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_2",
+          "customer_id": "customer_2",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c9cea936-7232-4d48-b6ec-f9c107ae948a-10142025-13845AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6088787320436024
+        }
+      ]
+    },
+    {
+      "group_id": "customer_5",
+      "person_id": 75,
+      "person_name": "Person_customer_3_1760424995",
+      "timestamp": "",
+      "group_score": 0.575,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_5",
+          "customer_id": "customer_5",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6d43528c-12d8-4241-a225-ad47a5a4bc5b-10142025-45019AM.jpg",
+          "entry_time": "",
+          "similarity": 0.57455387754068
+        }
+      ]
+    },
+    {
+      "group_id": "customer_4",
+      "person_id": 77,
+      "person_name": "Person_customer_4_1760424995",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_4",
+          "customer_id": "customer_4",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0947db05-f2f9-4d0e-9512-1fc3407ec67f-10142025-45131AM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_6",
+      "person_id": 78,
+      "person_name": "Person_customer_6_1760424995",
+      "timestamp": "",
+      "group_score": 0.402,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_6",
+          "customer_id": "customer_6",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1e798179-8fbd-41a0-8c25-d16213c14ac6-10142025-44906AM.jpg",
+          "entry_time": "",
+          "similarity": 0.401616362261919
+        }
+      ]
+    },
+    {
+      "group_id": "customer_7",
+      "person_id": 79,
+      "person_name": "Person_customer_7_1760424996",
+      "timestamp": "",
+      "group_score": 0.437,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_7",
+          "customer_id": "customer_7",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e3a32dae-fef9-441f-a89a-a7794ddc28a9-10142025-44844AM.jpg",
+          "entry_time": "",
+          "similarity": 0.43728716513090776
+        }
+      ]
+    },
+    {
+      "group_id": "customer_8",
+      "person_id": 80,
+      "person_name": "Person_customer_8_1760424996",
+      "timestamp": "",
+      "group_score": 0.412,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_8",
+          "customer_id": "customer_8",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/de9fb019-c24d-430c-b636-5e3fdc621784-10142025-15749AM.jpg",
+          "entry_time": "",
+          "similarity": 0.41249719178454214
+        }
+      ]
+    },
+    {
+      "group_id": "customer_9",
+      "person_id": 81,
+      "person_name": "Person_customer_9_1760424996",
+      "timestamp": "",
+      "group_score": 0.39,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_9",
+          "customer_id": "customer_9",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f9e839a4-6ca9-45c2-9589-749a11b8629f-10132025-85157AM.jpg",
+          "entry_time": "",
+          "similarity": 0.38981457305225564
+        }
+      ]
+    },
+    {
+      "group_id": "customer_10",
+      "person_id": 76,
+      "person_name": "Person_customer_0_1760424995",
+      "timestamp": "",
+      "group_score": 0.66,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_10",
+          "customer_id": "customer_10",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/4180eec1-e84e-4900-844f-3ccb77ca8d09-10132025-125701PM.jpg",
+          "entry_time": "",
+          "similarity": 0.6597510370407553
+        }
+      ]
+    },
+    {
+      "group_id": "customer_11",
+      "person_id": 76,
+      "person_name": "Person_customer_0_1760424995",
+      "timestamp": "",
+      "group_score": 0.621,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_11",
+          "customer_id": "customer_11",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e84b3814-3c3b-4d6d-ac6c-c82e50268b9d-10132025-93703AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6209885124269638
+        }
+      ]
+    },
+    {
+      "group_id": "customer_14",
+      "person_id": 16,
+      "person_name": "Person_visitor-110462_1760424745",
+      "timestamp": "",
+      "group_score": 0.584,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_14",
+          "customer_id": "customer_14",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/af4c17f6-d793-41c0-9eba-bf76f2b9af09-10132025-101153AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5840987851042245
+        }
+      ]
+    },
+    {
+      "group_id": "customer_12",
+      "person_id": 82,
+      "person_name": "Person_customer_12_1760424996",
+      "timestamp": "",
+      "group_score": 0.539,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_12",
+          "customer_id": "customer_12",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/8d48c667-af7d-43f6-b149-a5bb9d9c5d8c-10132025-81049AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5388714826896173
+        }
+      ]
+    },
+    {
+      "group_id": "customer_15",
+      "person_id": 83,
+      "person_name": "Person_customer_15_1760424996",
+      "timestamp": "",
+      "group_score": 0.539,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_15",
+          "customer_id": "customer_15",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/35701913-2ca8-4cf6-85c5-1a4f141b270c-10132025-101047AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5388392128466073
+        }
+      ]
+    },
+    {
+      "group_id": "customer_16",
+      "person_id": 83,
+      "person_name": "Person_customer_15_1760424996",
+      "timestamp": "",
+      "group_score": 0.606,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_16",
+          "customer_id": "customer_16",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/1e81c83c-11c3-422c-a5eb-625ebd41d735-10132025-101244AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6056196539731036
+        }
+      ]
+    },
+    {
+      "group_id": "customer_17",
+      "person_id": 16,
+      "person_name": "Person_visitor-110462_1760424745",
+      "timestamp": "",
+      "group_score": 0.649,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_17",
+          "customer_id": "customer_17",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/318f61fc-dba9-426f-a9d5-fe930b46eff5-10132025-100243AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6485285694686198
+        }
+      ]
+    },
+    {
+      "group_id": "customer_18",
+      "person_id": 84,
+      "person_name": "Person_customer_18_1760424996",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_18",
+          "customer_id": "customer_18",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6f22cc76-7f3e-4809-b27b-2fc8c274f80e-10132025-110700PM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_20",
+      "person_id": 83,
+      "person_name": "Person_customer_15_1760424996",
+      "timestamp": "",
+      "group_score": 0.628,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_20",
+          "customer_id": "customer_20",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/fd7b3ae0-e9bc-49ac-9f92-3fb2905c27be-10132025-101301AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6275249647721606
+        }
+      ]
+    },
+    {
+      "group_id": "customer_19",
+      "person_id": 44,
+      "person_name": "Person_visitor-131180_1760424749",
+      "timestamp": "",
+      "group_score": 0.7,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_19",
+          "customer_id": "customer_19",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d5cb4362-4a8d-41a9-a24e-b8de9b19040e-10132025-83109AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7003056227335398
+        }
+      ]
+    },
+    {
+      "group_id": "customer_22",
+      "person_id": 5,
+      "person_name": "Person_visitor-133347_1760424744",
+      "timestamp": "",
+      "group_score": 0.744,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_22",
+          "customer_id": "customer_22",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/e924e570-a399-4649-a06c-2963c92142a4-10132025-90529AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7444601846901242
+        }
+      ]
+    },
+    {
+      "group_id": "customer_21",
+      "person_id": 85,
+      "person_name": "Person_customer_21_1760424997",
+      "timestamp": "",
+      "group_score": 0.474,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_21",
+          "customer_id": "customer_21",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ca19e4fa-46d8-40ac-94dd-7fad6194179b-10132025-83107AM.jpg",
+          "entry_time": "",
+          "similarity": 0.474495548019
+        }
+      ]
+    },
+    {
+      "group_id": "customer_23",
+      "person_id": 44,
+      "person_name": "Person_visitor-131180_1760424749",
+      "timestamp": "",
+      "group_score": 0.735,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_23",
+          "customer_id": "customer_23",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/b3ff5a8a-2750-423e-85ac-c3aeb89d4e06-10132025-82652AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7351925302031201
+        }
+      ]
+    },
+    {
+      "group_id": "customer_24",
+      "person_id": 5,
+      "person_name": "Person_visitor-133347_1760424744",
+      "timestamp": "",
+      "group_score": 0.622,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_24",
+          "customer_id": "customer_24",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6d890918-7c0f-49de-9c39-960850bec4df-10132025-82648AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6218833479673292
+        }
+      ]
+    },
+    {
+      "group_id": "customer_25",
+      "person_id": 23,
+      "person_name": "Person_visitor-117712_1760424746",
+      "timestamp": "",
+      "group_score": 0.686,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_25",
+          "customer_id": "customer_25",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/58f1389b-ef56-40bf-9ace-7955811c81fa-10132025-91620AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6863401531749407
+        }
+      ]
+    },
+    {
+      "group_id": "customer_26",
+      "person_id": 23,
+      "person_name": "Person_visitor-117712_1760424746",
+      "timestamp": "",
+      "group_score": 0.614,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_26",
+          "customer_id": "customer_26",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/f6e5c6e0-5c15-4774-9a1f-99ea5dee4709-10132025-90848AM.jpg",
+          "entry_time": "",
+          "similarity": 0.614450123270009
+        }
+      ]
+    },
+    {
+      "group_id": "customer_27",
+      "person_id": 86,
+      "person_name": "Person_customer_27_1760424997",
+      "timestamp": "",
+      "group_score": 0.39,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_27",
+          "customer_id": "customer_27",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/76fb6431-4dc2-460d-ada7-b4de8aacd658-10132025-21643PM.jpg",
+          "entry_time": "",
+          "similarity": 0.3901944050504614
+        }
+      ]
+    },
+    {
+      "group_id": "customer_28",
+      "person_id": 23,
+      "person_name": "Person_visitor-117712_1760424746",
+      "timestamp": "",
+      "group_score": 0.584,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_28",
+          "customer_id": "customer_28",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2da78ee8-7bc5-4899-9370-bc03fa156bd9-10132025-51335PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5835356405128629
+        }
+      ]
+    },
+    {
+      "group_id": "customer_30",
+      "person_id": 16,
+      "person_name": "Person_visitor-110462_1760424745",
+      "timestamp": "",
+      "group_score": 0.67,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_30",
+          "customer_id": "customer_30",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/88e914b6-3b47-45a7-b2d1-66357fb1f1ae-10132025-100243AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6702059143482857
+        }
+      ]
+    },
+    {
+      "group_id": "customer_29",
+      "person_id": 16,
+      "person_name": "Person_visitor-110462_1760424745",
+      "timestamp": "",
+      "group_score": 0.609,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_29",
+          "customer_id": "customer_29",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ef986dec-0fa0-4eeb-89c3-4e3ac357e6b7-10132025-84952AM.jpg",
+          "entry_time": "",
+          "similarity": 0.609051412026463
+        }
+      ]
+    },
+    {
+      "group_id": "customer_31",
+      "person_id": 87,
+      "person_name": "Person_customer_31_1760424997",
+      "timestamp": "",
+      "group_score": 0.356,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_31",
+          "customer_id": "customer_31",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/63b75025-2b2b-480b-862c-9cb841546ead-10132025-83013AM.jpg",
+          "entry_time": "",
+          "similarity": 0.3555085375601148
+        }
+      ]
+    },
+    {
+      "group_id": "customer_32",
+      "person_id": 44,
+      "person_name": "Person_visitor-131180_1760424749",
+      "timestamp": "",
+      "group_score": 0.711,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_32",
+          "customer_id": "customer_32",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/656edbc3-bc0d-4e5b-aad0-5055bc6288df-10132025-44403PM.jpg",
+          "entry_time": "",
+          "similarity": 0.711303082684371
+        }
+      ]
+    },
+    {
+      "group_id": "customer_34",
+      "person_id": 44,
+      "person_name": "Person_visitor-131180_1760424749",
+      "timestamp": "",
+      "group_score": 0.562,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_34",
+          "customer_id": "customer_34",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/2eac7285-d463-4ed6-8a3f-a885d159e109-10132025-110354PM.jpg",
+          "entry_time": "",
+          "similarity": 0.5619773217595678
+        }
+      ]
+    },
+    {
+      "group_id": "customer_33",
+      "person_id": 88,
+      "person_name": "Person_customer_33_1760424997",
+      "timestamp": "",
+      "group_score": 0.542,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_33",
+          "customer_id": "customer_33",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ce755661-ac48-40e0-bd96-1aaedcc733e0-10132025-93740AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5422910540970575
+        }
+      ]
+    },
+    {
+      "group_id": "customer_35",
+      "person_id": 89,
+      "person_name": "Person_customer_35_1760424998",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_35",
+          "customer_id": "customer_35",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/a60329f2-7114-4b0d-aad8-6c03607504e4-10132025-91425PM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_39",
+      "person_id": 5,
+      "person_name": "Person_visitor-133347_1760424744",
+      "timestamp": "",
+      "group_score": 0.769,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_39",
+          "customer_id": "customer_39",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/c03a6802-0d8d-4869-8945-8645d6a2aa8c-10132025-113759AM.jpg",
+          "entry_time": "",
+          "similarity": 0.768888723830813
+        }
+      ]
+    },
+    {
+      "group_id": "customer_38",
+      "person_id": 90,
+      "person_name": "Person_customer_38_1760424998",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_38",
+          "customer_id": "customer_38",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/3097a2f8-57f3-47a3-ab26-4f6b86e46df1-10132025-110130PM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_37",
+      "person_id": 91,
+      "person_name": "Person_customer_37_1760424998",
+      "timestamp": "",
+      "group_score": 0.516,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_37",
+          "customer_id": "customer_37",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/bc46fa18-9663-4237-aa31-0da94b2fdff8-10132025-104541AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5162863180618684
+        }
+      ]
+    },
+    {
+      "group_id": "customer_36",
+      "person_id": 92,
+      "person_name": "Person_customer_36_1760424998",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_36",
+          "customer_id": "customer_36",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/517ee03c-a248-42ea-a6f9-11f095e0f366-10132025-92552PM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_41",
+      "person_id": 93,
+      "person_name": "Person_customer_41_1760424998",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_41",
+          "customer_id": "customer_41",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/12c0b718-007b-47f7-b020-c60c02469142-10132025-105510PM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_42",
+      "person_id": 44,
+      "person_name": "Person_visitor-131180_1760424749",
+      "timestamp": "",
+      "group_score": 0.733,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_42",
+          "customer_id": "customer_42",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/88bde11c-414a-4658-944a-63789098c417-10132025-83834AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7334723864310004
+        }
+      ]
+    },
+    {
+      "group_id": "customer_43",
+      "person_id": 94,
+      "person_name": "Person_customer_43_1760424998",
+      "timestamp": "",
+      "group_score": 0.417,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_43",
+          "customer_id": "customer_43",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6f621889-e047-4d29-811e-3cce298e2b9b-10132025-83826AM.jpg",
+          "entry_time": "",
+          "similarity": 0.4170965323689856
+        }
+      ]
+    },
+    {
+      "group_id": "customer_40",
+      "person_id": 5,
+      "person_name": "Person_visitor-133347_1760424744",
+      "timestamp": "",
+      "group_score": 0.638,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_40",
+          "customer_id": "customer_40",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/7eeebfe7-74bd-44b4-9d35-93cd333b541b-10132025-82647AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6378871579270683
+        }
+      ]
+    },
+    {
+      "group_id": "customer_44",
+      "person_id": 5,
+      "person_name": "Person_visitor-133347_1760424744",
+      "timestamp": "",
+      "group_score": 0.652,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_44",
+          "customer_id": "customer_44",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/68d1f2c6-4710-491d-9fbb-8ae026cbf89c-10132025-80845AM.jpg",
+          "entry_time": "",
+          "similarity": 0.6524830545009933
+        }
+      ]
+    },
+    {
+      "group_id": "customer_45",
+      "person_id": 44,
+      "person_name": "Person_visitor-131180_1760424749",
+      "timestamp": "",
+      "group_score": 0.715,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_45",
+          "customer_id": "customer_45",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/6044304b-0dde-466b-8580-cdcba7438087-10132025-82653AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7145192362182167
+        }
+      ]
+    },
+    {
+      "group_id": "customer_46",
+      "person_id": 37,
+      "person_name": "Person_visitor-110520_1760424748",
+      "timestamp": "",
+      "group_score": 0.788,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_46",
+          "customer_id": "customer_46",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/da67310d-e9c0-4049-9ad8-d76cd8e073f8-10132025-114006AM.jpg",
+          "entry_time": "",
+          "similarity": 0.7875231293857643
+        }
+      ]
+    },
+    {
+      "group_id": "customer_47",
+      "person_id": 95,
+      "person_name": "Person_customer_47_1760424998",
+      "timestamp": "",
+      "group_score": 0.0,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_47",
+          "customer_id": "customer_47",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/0f3c63b7-862b-41b9-a27a-ed83c80b228a-10132025-95758AM.jpg",
+          "entry_time": "",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "group_id": "customer_49",
+      "person_id": 20,
+      "person_name": "Person_visitor-110505_1760424746",
+      "timestamp": "",
+      "group_score": 0.753,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_49",
+          "customer_id": "customer_49",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/d79409f5-d11a-4b6f-bdee-4135b05cb0c6-10132025-42114PM.jpg",
+          "entry_time": "",
+          "similarity": 0.7526426069402262
+        }
+      ]
+    },
+    {
+      "group_id": "customer_48",
+      "person_id": 96,
+      "person_name": "Person_customer_48_1760424999",
+      "timestamp": "",
+      "group_score": 0.532,
+      "camera": "EM-DEPT-ENTRY",
+      "event": "",
+      "branchId": "",
+      "fileName": "",
+      "age": null,
+      "gender": null,
+      "visit_count": 1,
+      "visits": [
+        {
+          "visit_id": "visit_48",
+          "customer_id": "customer_48",
+          "image_url": "https://cdn.analytics.thefusionapps.com/v11/ac5c5da9-c419-43e8-b676-9b69645d296f-10132025-80853AM.jpg",
+          "entry_time": "",
+          "similarity": 0.5318003261207204
+        }
+      ]
+    }
+  ]
+}
